@@ -1,0 +1,45 @@
+header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  border-bottom: 2px solid #2D0480
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  text-decoration: none;
+}
+
+.login,
+.signup {
+  height: 50px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 3px 3px #9E9695;
+  transition: 0.3s;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.signup {
+  background: linear-gradient(to right, #C86DD7, #1A0480 );
+  background-repeat: no-repeat;
+  color: white;
+  margin-left: 50px;
+}
+
+.login {
+  border: solid 2px #2D0480;
+  color: #2D0480;
+}
+
+.login:hover,
+.signup:hover {
+  box-shadow: 1px 2px 2px #9E9695;
+}
