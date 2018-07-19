@@ -28,8 +28,7 @@ header {
 }
 
 .signup {
-  background: linear-gradient(to right, #C86DD7, #1A0480 );
-  background-repeat: no-repeat;
+  background-color: #2D0480;
   color: white;
   margin-left: 50px;
 }
