@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/exordium-logo.png';
 
 export class Header extends Component {
 
@@ -8,10 +9,13 @@ export class Header extends Component {
     return (
       <header>
         <div className="title-logo">
-          <h1 className="web-title">EXORDIUM</h1>
+          <img className="logo" src={logo} alt="exordium logo"/>
         </div>
-        <NavLink to='/login' className='nav' activeClassName='selected'>Log In</NavLink>
-        <NavLink to='/signup' className='nav' activeClassName='selected'>Sign Up</NavLink>
+        <div className="signin-container">
+        
+          <NavLink to='/login' className='nav' activeClassName='selected'><button className="login">LOG IN</button>  </NavLink>
+          <NavLink to='/signup' className='nav' activeClassName='selected'><button className="signup">SIGN UP</button> </NavLink>
+        </div>
       </header>
     )
   }
