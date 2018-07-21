@@ -13,6 +13,14 @@ export class HomePage extends Component {
           <h3 className="main-text">Welcome to the Beginning of a New Kind of Learning </h3>
           <p className="sub-text">Programming challenges you to use both your creativity and logic</p>
         </div>
+        <div className="lessons">
+          <h3 className="lessons-header">Get Started With</h3>
+          <div className="lessons-container">
+            <button className="lesson-link">HTML</button>
+            <button className="lesson-link">CSS</button>
+            <button className="lesson-link">JAVASCRIPT</button>
+          </div>
+        </div>
       </main>
     )
   }
