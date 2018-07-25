@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import selector from '../../assets/css-rule.png'
-import './CssLesson.css';
+import './CSSLessonHome.css';
 
-export class CssLesson extends Component {
+export class CSSLessonHome extends Component {
   
   render() {
     return (
@@ -11,7 +11,7 @@ export class CssLesson extends Component {
           <h1>Welcome to CSS!</h1>
         </header>
         <div className="basics">
-          <h1>Before you start, please read this brief overview of CSS</h1>
+          <h1>Before you start, please read this brief overview</h1>
           <p>In order for CSS to work with your HTML, we need to use selectors</p>
           <p>CSS selectors allow us to "select" an HTML element by its:</p>
             <li>Element Type</li>
@@ -43,4 +43,4 @@ export class CssLesson extends Component {
   }
 }
 
-export default CssLesson;
+export default CSSLessonHome;
