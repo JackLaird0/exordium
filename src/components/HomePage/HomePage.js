@@ -58,7 +58,7 @@ export class HomePage extends Component {
           </div>
         </div>
         <div className="resources">
-          <h3 className="resources-header">-helpful Resources-</h3>
+          <h3 className="resources-header">helpful resources</h3>
           <div className="resources-container">
             <div className="resource">
               <img src={turing} alt="Turing logo" className="resource-logo"/>
