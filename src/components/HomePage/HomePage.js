@@ -21,6 +21,12 @@ export class HomePage extends Component {
             <button className="lesson-link">JAVASCRIPT</button>
           </div>
         </div>
+        <div className="resources">
+          <h3 className="resources-header">Check Out These Resources to Continue your Learning</h3>
+          <div className="resources-container">
+          
+          </div>
+        </div>
       </main>
     )
   }
