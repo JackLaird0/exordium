@@ -1,15 +1,18 @@
 main,
-.hero-image {
+.hero-image,
+.lessons {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
+  background-color: #fafafa;
+  color: #111113;
 }
 
 .hero-image {
   width: 100%;
   height: 600px;
-  background-color: dimgray;
+  background-color: #0000008f;
   justify-content: center;
 }
 
@@ -25,3 +28,115 @@ main,
 .sub-text {
   font-size: 20px;
 }
+
+.lessons {
+  width: 94%;
+  height: 520px;
+}
+
+.lessons-header {
+  font-size: 25px;
+  margin: 29px 0;
+}
+
+.lessons-container,
+.resources-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.language-container {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 15px rgb(105, 105, 105);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.language-container:hover,
+.resource:hover {
+  transform: translateY(-15px);
+  box-shadow: 8px 8px 13px rgb(105, 105, 105);
+}
+
+.lesson-divider {
+  min-height: 2px;
+  width: 90%;
+  background-color: rgba(80, 80, 80, 0.788);
+}
+
+.lesson-description {
+  margin-top: 25px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lesson-logo {
+  height: 80px;
+}
+
+.css-logo {
+  margin-right: 14px;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.resources-header {
+  font-size: 25px;
+  margin: 39px 0 25px 0;
+}
+
+.resources-container {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  width: 94%;
+}
+
+.resource-logo {
+  height: 108px;
+  margin-right: 5px;
+  
+}
+
+.resource-css-logo {
+  height: 80px;
+  margin-right: 5px;
+}
+
+.resource {
+  width: 30%;
+  height: 160px;
+  box-shadow: 10px 10px 15px rgb(105, 105, 105);
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resource-name {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
