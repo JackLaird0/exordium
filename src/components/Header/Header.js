@@ -12,9 +12,6 @@ export class Header extends Component {
           <img className="logo" src={logo} alt="exordium logo"/>
         </div>
         <div className="signin-container">
-        
-          <NavLink to='/login' className='nav' activeClassName='selected'><button className="login">LOG IN</button>  </NavLink>
-          <NavLink to='/signup' className='nav' activeClassName='selected'><button className="signup">SIGN UP</button> </NavLink>
         </div>
       </header>
     )
