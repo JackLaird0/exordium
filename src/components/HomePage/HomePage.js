@@ -10,7 +10,7 @@ export class HomePage extends Component {
     return (
       <main>
         <div className="hero-image">
-          <h3 className="main-text">Welcome to the Beginning of a New Kind of Learning </h3>
+          <h3 className="main-text">welcome to the beginning of a new kind of learning </h3>
           <p className="sub-text">Programming challenges you to use both your creativity and logic</p>
         </div>
         <div className="lessons">
@@ -24,7 +24,10 @@ export class HomePage extends Component {
         <div className="resources">
           <h3 className="resources-header">Check Out These Resources to Continue your Learning</h3>
           <div className="resources-container">
-          
+            <p>Turing</p>
+            <p>MDN</p>
+            <p>FlexBox Froggy</p>
+            <p>CSS Tricks</p>
           </div>
         </div>
       </main>
