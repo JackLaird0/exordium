@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './Login.css';
 
 export class Login extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
+      view: 'hidden',
       name: '',
       username: '',
       password: ''
@@ -13,8 +14,9 @@ export class Login extends Component {
   }
 
   render() {
+    console.log(this.props)
     return (
-      <div className='login-container'>
+      <div className={this.props.loginClass}>
         <form className='sign-up'>
           <input
             type='text'
@@ -43,6 +45,7 @@ export class Login extends Component {
             placeholder='Password'
           />
         </form>
+        <button onClick={this.props.hideLogin}>x</button>
       </div>
     )
   }

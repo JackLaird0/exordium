@@ -10,16 +10,28 @@ import { Route } from 'react-router-dom';
 
 
 class App extends Component {
+  
+  constructor() {
+    super();
+    this.state = {
+      loginClass: 'hidden'
+    }
+  }
 
-  toggleLogin() {
-    console.log('woo')
+  showLogin = () => {
+    this.setState({ loginClass: 'show' })
+  }
+
+  hideLogin = () => {
+    this.setState({ loginClass: 'hidden' })
   }
 
   render() {
+    console.log(this.state.loginClass)
     return (
       <div className="app">
-        <Route path='/' render={() => <Header toggleLogin={this.toggleLogin}/>}/>
-        <Route path='/' render={() => <Login />} />
+        <Route path='/' render={() => <Header showLogin={this.showLogin}/>}/>
+        <Route path='/' render={() => <Login hideLogin={this.hideLogin} loginClass={this.state.loginClass}/>} />
         <Route exact path='/' component={HomePage} />
         <Route exact path='/lessons_css' component={ CSSLessonHome } />
         <Route exact path='/lessons_js' component={ JSLessonHome } />  
