@@ -11,7 +11,7 @@ export class Header extends Component {
           <img className="logo" src={logo} alt="exordium logo"/>
         </div>
         <div className="signin-container">
-          <button className="log-in-button" onClick={this.props.toggleLogin}>Sign Up/Login</button>
+          <button className="log-in-button" onClick={this.props.showLogin}>Sign Up/Login</button>
         </div>
       </header>
     )
