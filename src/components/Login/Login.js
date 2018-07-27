@@ -18,7 +18,12 @@ export class Login extends Component {
     return (
       <div className={this.props.loginClass}>
         <div className='delete-button-container'>
-          <button onClick={this.props.hideLogin}>x</button>
+          <button 
+            className='delete-button' 
+            onClick={this.props.hideLogin}
+          >
+          x
+          </button>
         </div>          
         <form className='sign-up'>
           <h1>Sign Up</h1>
