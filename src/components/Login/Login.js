@@ -17,7 +17,11 @@ export class Login extends Component {
     console.log(this.props)
     return (
       <div className={this.props.loginClass}>
+        <div className='delete-button-container'>
+          <button onClick={this.props.hideLogin}>x</button>
+        </div>          
         <form className='sign-up'>
+          <h1>Sign Up</h1>
           <input
             type='text'
             placeholder='Name'
@@ -34,8 +38,11 @@ export class Login extends Component {
             type='text'
             placeholder='Password'
           />
+          <button>Submit</button>
         </form>
+        <div className='border'></div>
         <form className='login'>
+          <h1>Login</h1>
           <input
             type='text'
             placeholder='Username'
@@ -44,8 +51,8 @@ export class Login extends Component {
             type='text'
             placeholder='Password'
           />
+          <button>Submit</button>          
         </form>
-        <button onClick={this.props.hideLogin}>x</button>
       </div>
     )
   }
