@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './HomePage.css';
+import { NavLink } from 'react-router-dom';
 import html from '../../assets/html-logo.svg.png';
 import css from '../../assets/logo-css.svg';
 import jsLogo from '../../assets/Javascript-shield.png';
@@ -22,6 +23,7 @@ export class HomePage extends Component {
         <div className="lessons">
           <h3 className="lessons-header">get started</h3>
           <div className="lessons-container">
+          <NavLink to="/lessons_html" className="nav">
             <div className="language-container">
               <h3 className="language-title">HTML</h3>
               <div className="lesson-divider"></div>
@@ -33,6 +35,8 @@ export class HomePage extends Component {
                 <p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself </p>
               </div>
             </div>
+          </NavLink>
+          <NavLink to='/lessons_CSS' className="nav">
             <div className="language-container">
               <h3 className="language-title">CSS</h3>
               <div className="lesson-divider"> </div>
@@ -44,6 +48,8 @@ export class HomePage extends Component {
                 <p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself </p>
               </div>
             </div>
+          </NavLink>
+          <NavLink to='/lessons_JS' className="nav">
             <div className="language-container">
               <h3 className="language-title">JAVASCRIPT</h3>
               <div className="lesson-divider"> </div>
@@ -55,6 +61,7 @@ export class HomePage extends Component {
                 <p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself </p>
               </div>
             </div>
+          </NavLink>
           </div>
         </div>
         <div className="resources">
