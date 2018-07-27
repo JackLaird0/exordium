@@ -24,6 +24,7 @@
 .border {
   height: 90%;
   width: 1px;
+  margin-top: 8px;
   background: black;
 }
 
