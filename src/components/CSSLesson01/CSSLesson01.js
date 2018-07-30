@@ -55,7 +55,12 @@ export class CSSLesson01 extends Component {
             <div className="code-container">
               <p className="code">.container &#123;</p>
               <p className="indent code">display: flex;</p>
-              <form className="indent">
+              <form 
+                className="indent"
+                onSubmit={(event) => {
+                  event.preventDefault();
+                }}
+              >
                 <input 
                   type="text"
                   value={this.state.input}
