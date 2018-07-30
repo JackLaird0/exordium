@@ -6,7 +6,8 @@ export class CSSLesson01 extends Component {
     super(props);
     this.state = {
       input: '',
-      answer: 'justify-content: flex-end;'
+      answer: 'justify-content: flex-end;',
+      correct: 'initial'
     }
   }
 
@@ -19,7 +20,7 @@ export class CSSLesson01 extends Component {
     event.preventDefault();
     const {input, answer} = this.state;
     if (input === answer) {
-      alert('woooo')
+      this.setState({ correct: 'correct'})
     } else {
       alert('bahh humbug')
     }
@@ -60,11 +61,14 @@ export class CSSLesson01 extends Component {
           </div>
         </div>
         <div className="game-display">
-          <div className="box">
+          <div className={this.state.correct}>
+            <div className="box">
+            </div>
           </div>
           <div className="target">
           </div>
         </div>
+        
       </div>
     )
   }

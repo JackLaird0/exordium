@@ -25,12 +25,34 @@
   width: 100%;
   height: 600px;
   background: turquoise;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.initial {
+  position: absolute;
+  z-index: 2;
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.correct {
+  position: absolute;
+  z-index: 2;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background: brown;
+  position: absolute;
+  float: right;
 }
 
 .target {
