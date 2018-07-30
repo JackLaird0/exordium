@@ -6,8 +6,8 @@ export class CSSLesson01 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      styles : {
-      }
+      styles : {},
+      nextButton: true,
     }
   }
 
@@ -18,6 +18,22 @@ export class CSSLesson01 extends Component {
     this.setState({ styles : {
       [key]: val
     }})
+  }
+
+  displayErrorMessage = () => {
+    this.setState({ missingSemi: true })
+  }
+
+  toggleNextButton = (event) => {
+    let { value } = event.target;
+    if (
+        value === 'justify-content: flex-end;' ||
+        value === 'justify-content: flex-end'
+      ) {
+      this.setState({ nextButton: false })
+    } else {
+      this.setState({ nextButton: true })
+    }
   }
 
   render() {
@@ -48,10 +64,16 @@ export class CSSLesson01 extends Component {
                   type="text"
                   value={this.state.input}
                   onChange={this.handleInputChange}
+                  onChange={this.toggleNextButton}
                 />
               </form>
               <p className="code">&#125;</p>
-              <button className="next-button" disabled>Next</button>
+              <button 
+                className="next-button" 
+                disabled={this.state.nextButton}
+              >
+              Next
+              </button>
             </div>
           </div>
         </div>
