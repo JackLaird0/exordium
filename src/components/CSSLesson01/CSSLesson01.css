@@ -6,19 +6,48 @@
 .text-editor {
   display: grid;
   width: 100%;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: 35px 1fr;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
 }
 
 .line-numbers {
   background: grey;
   display: grid;
-  grid-template-rows: repeat(10, 42px)
+  grid-template-rows: repeat(10, 42px);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-container {
+  background: rgb(211, 211, 211);
+  display: grid;
+  grid-template-rows: repeat(10, 42px);
+  padding-left: 10px;
 }
 
 .code {
-  background: cornsilk;
-  display: grid;
-  grid-template-rows: repeat(10, 42px)
+  justify-content: flex-start;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+input {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px; 
+  border: none;
+  width: 400px; 
+  margin: 0;
+}
+
+.indent {
+  margin: 0 0 0 20px;
 }
 
 .game-display {
@@ -45,14 +74,14 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  padding: 3px 27px 0 0;
 }
 
 .box {
   width: 50px;
   height: 50px;
   background: brown;
-  position: absolute;
-  float: right;
+  margin: 25px 0 0 25px;
 }
 
 .target {
@@ -60,4 +89,5 @@
   height: 45px;
   border-radius: 75px;
   border: 20px solid #fff;
+  margin: 10px 10px 0 0;
 }

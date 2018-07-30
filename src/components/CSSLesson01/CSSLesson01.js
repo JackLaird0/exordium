@@ -46,17 +46,20 @@ export class CSSLesson01 extends Component {
               <p>9</p>
               <p>10</p>              
             </div>
-            <div className="code">
-              <p>.block &#123;</p>
-              <p>display: flex;</p>
-              <form onSubmit={this.handleSubmit}>
+            <div className="code-container">
+              <p className="code">.block &#123;</p>
+              <p className="indent code">display: flex;</p>
+              <form 
+                className="indent"
+                onSubmit={this.handleSubmit}
+              >
                 <input 
                   type="text"
                   value={this.state.input}
                   onChange={this.handleInputChange}
                 />
               </form>
-              <p>&#125;</p>
+              <p className="code">&#125;</p>
             </div>
           </div>
         </div>
