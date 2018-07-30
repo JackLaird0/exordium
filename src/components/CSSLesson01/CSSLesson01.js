@@ -5,15 +5,18 @@ export class CSSLesson01 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: '',
-      answer: 'justify-content: flex-end;',
-      correct: 'initial'
+      styles : {
+      }
     }
   }
 
   handleInputChange = (event) => {
     const { value } = event.target;
-    this.setState({ input: value })
+    let key = value.split(':')[0]
+    let val = value.split(':')[1]
+    this.setState({ styles : {
+      [key]: val
+    }})
   }
 
   handleSubmit = (event) => {
@@ -47,7 +50,7 @@ export class CSSLesson01 extends Component {
               <p>10</p>              
             </div>
             <div className="code-container">
-              <p className="code">.block &#123;</p>
+              <p className="code">.container &#123;</p>
               <p className="indent code">display: flex;</p>
               <form 
                 className="indent"
@@ -64,14 +67,16 @@ export class CSSLesson01 extends Component {
           </div>
         </div>
         <div className="game-display">
-          <div className={this.state.correct}>
+          <div className="target">
+          </div>
+          <div 
+            className="box-container"
+            style={this.state.styles}
+          >
             <div className="box">
             </div>
           </div>
-          <div className="target">
-          </div>
         </div>
-        
       </div>
     )
   }
