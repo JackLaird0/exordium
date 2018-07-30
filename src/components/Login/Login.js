@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import firebase, { auth, provider } from '../../firebase';
 import './Login.css';
 
 export class Login extends Component {
@@ -9,12 +10,52 @@ export class Login extends Component {
       view: 'hidden',
       name: '',
       username: '',
-      password: ''
+      password: '',
+      user: null
     }
+
+    this.login = this.login.bind(this);
   }
 
+  toggleLogIn = () => {
+    return (
+    <div className="wrapper">
+      <h3 className="title">Sign In With Google</h3>
+      {this.state.user ? 
+        <button className="google-login" onClick={(e) => this.logout(e)}>Log Out</button>
+        :
+        <button className="google-login" onClick={(e) => this.login(e)}>Log In</button>
+      }
+    </div>
+    )
+  }
+
+  login(e) {
+    e.preventDefault();
+    auth.signInWithPopup(provider) 
+    .then((result) => {
+      console.log(result)
+      const user = result.user;
+      this.setState({
+        user
+      });
+    })
+    .catch(error => {
+      console.log(error)
+    })
+  }
+
+  logout = () => {
+    firebase.auth.signOut()
+    .then(() => {
+      this.setState({
+        user: null
+      });
+    });
+  }
+
+
   render() {
-    console.log(this.props)
     return (
       <div className={this.props.loginClass}>
         <div className='delete-button-container'>
@@ -56,7 +97,8 @@ export class Login extends Component {
             type='text'
             placeholder='Password'
           />
-          <button>Submit</button>          
+          <button>Submit</button> 
+          {this.toggleLogIn()}
         </form>
       </div>
     )
