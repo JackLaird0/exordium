@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import './CSSLesson01.css';
 
 export class CSSLesson01 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      input: ''
+    }
+  }
+
+  handleInputChange = (event) => {
+    const { value } = event.target;
+    this.setState({ input: value })
+  }
 
   render() {
     return (
@@ -27,7 +38,11 @@ export class CSSLesson01 extends Component {
               <p>.block &#123;</p>
               <p>display: flex;</p>
               <form>
-                <input type="text"/>
+                <input 
+                  type="text"
+                  value={this.state.input}
+                  onChange={this.handleInputChange}
+                />
               </form>
               <p>&#125;</p>
             </div>
