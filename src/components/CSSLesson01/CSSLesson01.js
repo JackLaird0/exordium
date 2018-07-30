@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import './CSSLesson01.css';
 
 export class CSSLesson01 extends Component {
@@ -17,16 +18,6 @@ export class CSSLesson01 extends Component {
     this.setState({ styles : {
       [key]: val
     }})
-  }
-
-  handleSubmit = (event) => {
-    event.preventDefault();
-    const {input, answer} = this.state;
-    if (input === answer) {
-      this.setState({ correct: 'correct'})
-    } else {
-      alert('bahh humbug')
-    }
   }
 
   render() {
@@ -52,10 +43,7 @@ export class CSSLesson01 extends Component {
             <div className="code-container">
               <p className="code">.container &#123;</p>
               <p className="indent code">display: flex;</p>
-              <form 
-                className="indent"
-                onSubmit={this.handleSubmit}
-              >
+              <form className="indent">
                 <input 
                   type="text"
                   value={this.state.input}
@@ -63,6 +51,7 @@ export class CSSLesson01 extends Component {
                 />
               </form>
               <p className="code">&#125;</p>
+              <button className="next-button" disabled>Next</button>
             </div>
           </div>
         </div>
