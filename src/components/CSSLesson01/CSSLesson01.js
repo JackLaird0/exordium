@@ -20,10 +20,6 @@ export class CSSLesson01 extends Component {
     }})
   }
 
-  displayErrorMessage = () => {
-    this.setState({ missingSemi: true })
-  }
-
   toggleNextButton = (event) => {
     let { value } = event.target;
     if (
@@ -63,17 +59,26 @@ export class CSSLesson01 extends Component {
                 <input 
                   type="text"
                   value={this.state.input}
-                  onChange={this.handleInputChange}
-                  onChange={this.toggleNextButton}
+                  onChange={(event) => {
+                    this.handleInputChange(event);
+                    this.toggleNextButton(event);
+                  }}
                 />
               </form>
               <p className="code">&#125;</p>
-              <button 
-                className="next-button" 
-                disabled={this.state.nextButton}
-              >
-              Next
-              </button>
+              <NavLink to="/lessons_css">
+                <button 
+                  className="next-button" 
+                  disabled={this.state.nextButton}
+                >
+                Next
+                </button>  <button 
+                  className="next-button" 
+                  disabled={this.state.nextButton}
+                >
+                Next
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>
