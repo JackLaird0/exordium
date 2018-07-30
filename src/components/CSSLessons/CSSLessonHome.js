@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import selector from '../../assets/css-rule.png'
+import selector from '../../assets/css-rule.png';
 import './CSSLessonHome.css';
-import { Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export class CSSLessonHome extends Component {
   
@@ -34,7 +34,9 @@ export class CSSLessonHome extends Component {
           <div>Lesson 04: Fonts</div>
         </div>
         <div className="games">
-          <div>Game 01: FlexBox</div>
+          <NavLink to='/lessons_css/01'>
+            <div>Game 01: FlexBox</div>
+          </NavLink>
           <div>Game 02: CSS Grid</div>
           <div>Game 03: Margins</div>
           <div>Game 04: Fonts</div>
