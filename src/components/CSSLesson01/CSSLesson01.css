@@ -2,10 +2,28 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2%;
 }
 
 .game-controls {
   margin: 0 2%;
+}
+
+.instructions {
+  margin-left: 10px;
+}
+
+.game-header {
+  text-align: center;
+}
+
+.game-description {
+  display: block;
+}
+
+span {
+  font-family: 'Source Code Pro', monospace;
+  background: rgb(216, 216, 216)  
 }
 
 .text-editor {

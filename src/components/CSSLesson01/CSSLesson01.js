@@ -36,9 +36,23 @@ export class CSSLesson01 extends Component {
     return (
       <div className="css-lesson-01">
         <div className="game-controls">
-          <h1>Lesson 01: Flex Box</h1>
-          <p>Use your knowledge of flex box to manipulate the box so it is on top of the target.
-          </p>
+          <div className="instructions">
+            <h1 className="game-header">Lesson 01: Flex Box</h1>
+            <p className="game-description">
+              Use your knowledge of flex box to manipulate the box so it is on top of the target.
+              To get started use the <span>justify-content</span> property, which aligns items horizontally.
+            </p>
+            <p className="game-description">
+              The text editor accepts the following values:
+            </p>
+            <ul>
+              <li><span>flex-start</span>: Items align to the left side of the container.</li>
+              <li><span>flex-end</span>: Items align to the right side of the container.</li>
+              <li><span>center</span>: Items align at the center of the container.</li>  
+              <li><span>space-around</span>: Items display with equal spacing between them.</li>
+              <li><span>space-between</span>: Items display with equal spacing around them.</li>          
+            </ul>
+          </div>
           <div className="text-editor">
             <div className="line-numbers">
               <p>1</p>
