@@ -5,13 +5,24 @@ export class CSSLesson01 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: ''
+      input: '',
+      answer: 'justify-content: flex-end;'
     }
   }
 
   handleInputChange = (event) => {
     const { value } = event.target;
     this.setState({ input: value })
+  }
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    const {input, answer} = this.state;
+    if (input === answer) {
+      alert('woooo')
+    } else {
+      alert('bahh humbug')
+    }
   }
 
   render() {
@@ -37,7 +48,7 @@ export class CSSLesson01 extends Component {
             <div className="code">
               <p>.block &#123;</p>
               <p>display: flex;</p>
-              <form>
+              <form onSubmit={this.handleSubmit}>
                 <input 
                   type="text"
                   value={this.state.input}
