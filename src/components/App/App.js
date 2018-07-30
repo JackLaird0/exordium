@@ -7,6 +7,7 @@ import JSLessonHome from '../JSLessons/JSLessonHome';
 import HTMLLessonHome from '../HTMLLessons/HTMLLessonHome';
 import Login from '../Login/Login';
 import { Route } from 'react-router-dom';
+import CSSLesson01 from '../CSSLesson01/CSSLesson01';
 
 
 class App extends Component {
@@ -27,7 +28,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.loginClass)
     return (
       <div className="app">
         <Route path='/' render={() => <Header showLogin={this.showLogin}/>}/>
@@ -35,7 +35,8 @@ class App extends Component {
         <Route exact path='/' component={HomePage} />
         <Route exact path='/lessons_css' component={ CSSLessonHome } />
         <Route exact path='/lessons_js' component={ JSLessonHome } />  
-        <Route exact path='/lessons_html' component={HTMLLessonHome} />       
+        <Route exact path='/lessons_html' component={HTMLLessonHome} /> 
+        <Route exact path='/lessons_css/01' component={ CSSLesson01 } />     
       </div>
     );
   }
