@@ -67,19 +67,24 @@ export class HomePage extends Component {
         <div className="resources">
           <h3 className="resources-header">helpful resources</h3>
           <div className="resources-container">
-            <div className="resource">
-              <img src={turing} alt="Turing logo" className="resource-logo"/>
-              <p className="resource-name">TURING SCHOOL</p>
-            </div>
-            <div className="resource">
-              <img src={mdnLogo} alt="mdn logo" className="resource-logo"/>
-              <p className="resource-name">MDN WEB DOCS</p>
-            </div>
-            <div className="resource">
-              <img src={cssTricksLogo} alt="css tricks logo" className="resource-css-logo"/>
-              <p className="resource-name">CSS-TRICKS</p>
-            </div>
-            <p></p>
+            <a href="http://frontend.turing.io/" className="resource-link" target="_blank">
+              <div className="resource">
+                <img src={turing} alt="Turing logo" className="resource-logo"/>
+                <p className="resource-name">TURING SCHOOL</p>
+              </div>
+            </a>
+            <a href="https://developer.mozilla.org/en-US/" className="resource-link" target="_blank">
+              <div className="resource">
+                <img src={mdnLogo} alt="mdn logo" className="resource-logo"/>
+                <p className="resource-name">MDN WEB DOCS</p>
+              </div>
+            </a>
+            <a href="https://css-tricks.com/" className="resource-link" target="_blank">
+              <div className="resource">
+                <img src={cssTricksLogo} alt="css tricks logo" className="resource-css-logo"/>
+                <p className="resource-name">CSS-TRICKS</p>
+              </div>
+            </a>
           </div>
         </div>
       </main>
