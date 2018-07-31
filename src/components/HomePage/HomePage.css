@@ -131,8 +131,14 @@ main,
   margin-right: 5px;
 }
 
-.resource {
+.resource-link {
   width: 30%;
+  text-decoration: none;
+  color: #0d0d0d
+}
+
+.resource {
+  width: 100%;
   height: 160px;
   box-shadow: 10px 10px 15px rgb(105, 105, 105);
   transition: 0.3s;
