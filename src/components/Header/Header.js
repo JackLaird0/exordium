@@ -8,7 +8,9 @@ export class Header extends Component {
     return (
       <header>
         <div className="title-logo">
-          <img className="logo" src={logo} alt="exordium logo"/>
+          <NavLink to='/'>
+            <img className="logo" src={logo} alt="exordium logo"/>
+          </NavLink>
         </div>
         <div className="signin-container">
           <button className="log-in-button" onClick={this.props.showLogin}>Sign Up/Login</button>
