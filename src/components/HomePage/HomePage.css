@@ -12,7 +12,8 @@ main,
 .hero-image {
   width: 100%;
   height: 600px;
-  background-color: #0000008f;
+  background: url('../../assets/hero.jpg');
+  background-size: contain;
   justify-content: center;
 }
 
