@@ -1,0 +1,2975 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HomePage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="hero-image"
+>
+          <h3
+                    className="main-text"
+          >
+                    learn the basic skills necessary to build your own website
+          </h3>
+          <p
+                    className="sub-text"
+          >
+                    Programming will challenge you to use both creativity and logic
+          </p>
+</div>,
+        <div
+          className="lessons"
+>
+          <h3
+                    className="lessons-header"
+          >
+                    get started
+          </h3>
+          <div
+                    className="lessons-container"
+          >
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              className="nav"
+                              to="/lessons_html"
+                    >
+                              <div
+                                        className="language-container"
+                              >
+                                        <h3
+                                                  className="language-title"
+                                        >
+                                                  HTML
+                                        </h3>
+                                        <div
+                                                  className="lesson-divider"
+                                        />
+                                        <div
+                                                  className="lesson-description"
+                                        >
+                                                  <div
+                                                            className="logo-container"
+                                                  >
+                                                            <img
+                                                                      alt="HTML Logo"
+                                                                      className="lesson-logo"
+                                                                      src="html-logo.svg.png"
+                                                            />
+                                                            <p
+                                                                      className="language-summary"
+                                                            >
+                                                                       THE CONTENT
+                                                            </p>
+                                                  </div>
+                                                  <p>
+                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                  </p>
+                                        </div>
+                              </div>
+                    </NavLink>
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              className="nav"
+                              to="/lessons_CSS"
+                    >
+                              <div
+                                        className="language-container"
+                              >
+                                        <h3
+                                                  className="language-title"
+                                        >
+                                                  CSS
+                                        </h3>
+                                        <div
+                                                  className="lesson-divider"
+                                        >
+                                                   
+                                        </div>
+                                        <div
+                                                  className="lesson-description"
+                                        >
+                                                  <div
+                                                            className="logo-container"
+                                                  >
+                                                            <img
+                                                                      alt="CSS Logo"
+                                                                      className="lesson-logo css-logo"
+                                                                      src="logo-css.svg"
+                                                            />
+                                                            <p
+                                                                      className="language-summary"
+                                                            >
+                                                                       THE STYLE
+                                                            </p>
+                                                  </div>
+                                                  <p>
+                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                  </p>
+                                        </div>
+                              </div>
+                    </NavLink>
+                    <NavLink
+                              activeClassName="active"
+                              aria-current="page"
+                              className="nav"
+                              to="/lessons_JS"
+                    >
+                              <div
+                                        className="language-container"
+                              >
+                                        <h3
+                                                  className="language-title"
+                                        >
+                                                  JAVASCRIPT
+                                        </h3>
+                                        <div
+                                                  className="lesson-divider"
+                                        >
+                                                   
+                                        </div>
+                                        <div
+                                                  className="lesson-description"
+                                        >
+                                                  <div
+                                                            className="logo-container"
+                                                  >
+                                                            <img
+                                                                      alt="JS Shield"
+                                                                      className="lesson-logo"
+                                                                      src="Javascript-shield.png"
+                                                            />
+                                                            <p
+                                                                      className="language-summary"
+                                                            >
+                                                                       THE LOGIC
+                                                            </p>
+                                                  </div>
+                                                  <p>
+                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                  </p>
+                                        </div>
+                              </div>
+                    </NavLink>
+          </div>
+</div>,
+        <div
+          className="resources"
+>
+          <h3
+                    className="resources-header"
+          >
+                    helpful resources
+          </h3>
+          <div
+                    className="resources-container"
+          >
+                    <div
+                              className="resource"
+                    >
+                              <img
+                                        alt="Turing logo"
+                                        className="resource-logo"
+                                        src="turing-logo.png"
+                              />
+                              <p
+                                        className="resource-name"
+                              >
+                                        TURING SCHOOL
+                              </p>
+                    </div>
+                    <div
+                              className="resource"
+                    >
+                              <img
+                                        alt="mdn logo"
+                                        className="resource-logo"
+                                        src="mdn-logo.png"
+                              />
+                              <p
+                                        className="resource-name"
+                              >
+                                        MDN WEB DOCS
+                              </p>
+                    </div>
+                    <div
+                              className="resource"
+                    >
+                              <img
+                                        alt="css tricks logo"
+                                        className="resource-css-logo"
+                                        src="css-tricks-logo.png"
+                              />
+                              <p
+                                        className="resource-name"
+                              >
+                                        CSS-TRICKS
+                              </p>
+                    </div>
+                    <p />
+          </div>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="main-text"
+>
+              learn the basic skills necessary to build your own website
+</h3>,
+            <p
+              className="sub-text"
+>
+              Programming will challenge you to use both creativity and logic
+</p>,
+          ],
+          "className": "hero-image",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "learn the basic skills necessary to build your own website",
+              "className": "main-text",
+            },
+            "ref": null,
+            "rendered": "learn the basic skills necessary to build your own website",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Programming will challenge you to use both creativity and logic",
+              "className": "sub-text",
+            },
+            "ref": null,
+            "rendered": "Programming will challenge you to use both creativity and logic",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="lessons-header"
+>
+              get started
+</h3>,
+            <div
+              className="lessons-container"
+>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="nav"
+                            to="/lessons_html"
+              >
+                            <div
+                                          className="language-container"
+                            >
+                                          <h3
+                                                        className="language-title"
+                                          >
+                                                        HTML
+                                          </h3>
+                                          <div
+                                                        className="lesson-divider"
+                                          />
+                                          <div
+                                                        className="lesson-description"
+                                          >
+                                                        <div
+                                                                      className="logo-container"
+                                                        >
+                                                                      <img
+                                                                                    alt="HTML Logo"
+                                                                                    className="lesson-logo"
+                                                                                    src="html-logo.svg.png"
+                                                                      />
+                                                                      <p
+                                                                                    className="language-summary"
+                                                                      >
+                                                                                     THE CONTENT
+                                                                      </p>
+                                                        </div>
+                                                        <p>
+                                                                       But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                        </p>
+                                          </div>
+                            </div>
+              </NavLink>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="nav"
+                            to="/lessons_CSS"
+              >
+                            <div
+                                          className="language-container"
+                            >
+                                          <h3
+                                                        className="language-title"
+                                          >
+                                                        CSS
+                                          </h3>
+                                          <div
+                                                        className="lesson-divider"
+                                          >
+                                                         
+                                          </div>
+                                          <div
+                                                        className="lesson-description"
+                                          >
+                                                        <div
+                                                                      className="logo-container"
+                                                        >
+                                                                      <img
+                                                                                    alt="CSS Logo"
+                                                                                    className="lesson-logo css-logo"
+                                                                                    src="logo-css.svg"
+                                                                      />
+                                                                      <p
+                                                                                    className="language-summary"
+                                                                      >
+                                                                                     THE STYLE
+                                                                      </p>
+                                                        </div>
+                                                        <p>
+                                                                       But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                        </p>
+                                          </div>
+                            </div>
+              </NavLink>
+              <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="nav"
+                            to="/lessons_JS"
+              >
+                            <div
+                                          className="language-container"
+                            >
+                                          <h3
+                                                        className="language-title"
+                                          >
+                                                        JAVASCRIPT
+                                          </h3>
+                                          <div
+                                                        className="lesson-divider"
+                                          >
+                                                         
+                                          </div>
+                                          <div
+                                                        className="lesson-description"
+                                          >
+                                                        <div
+                                                                      className="logo-container"
+                                                        >
+                                                                      <img
+                                                                                    alt="JS Shield"
+                                                                                    className="lesson-logo"
+                                                                                    src="Javascript-shield.png"
+                                                                      />
+                                                                      <p
+                                                                                    className="language-summary"
+                                                                      >
+                                                                                     THE LOGIC
+                                                                      </p>
+                                                        </div>
+                                                        <p>
+                                                                       But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                        </p>
+                                          </div>
+                            </div>
+              </NavLink>
+</div>,
+          ],
+          "className": "lessons",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "get started",
+              "className": "lessons-header",
+            },
+            "ref": null,
+            "rendered": "get started",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="nav"
+                  to="/lessons_html"
+>
+                  <div
+                                    className="language-container"
+                  >
+                                    <h3
+                                                      className="language-title"
+                                    >
+                                                      HTML
+                                    </h3>
+                                    <div
+                                                      className="lesson-divider"
+                                    />
+                                    <div
+                                                      className="lesson-description"
+                                    >
+                                                      <div
+                                                                        className="logo-container"
+                                                      >
+                                                                        <img
+                                                                                          alt="HTML Logo"
+                                                                                          className="lesson-logo"
+                                                                                          src="html-logo.svg.png"
+                                                                        />
+                                                                        <p
+                                                                                          className="language-summary"
+                                                                        >
+                                                                                           THE CONTENT
+                                                                        </p>
+                                                      </div>
+                                                      <p>
+                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                      </p>
+                                    </div>
+                  </div>
+</NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="nav"
+                  to="/lessons_CSS"
+>
+                  <div
+                                    className="language-container"
+                  >
+                                    <h3
+                                                      className="language-title"
+                                    >
+                                                      CSS
+                                    </h3>
+                                    <div
+                                                      className="lesson-divider"
+                                    >
+                                                       
+                                    </div>
+                                    <div
+                                                      className="lesson-description"
+                                    >
+                                                      <div
+                                                                        className="logo-container"
+                                                      >
+                                                                        <img
+                                                                                          alt="CSS Logo"
+                                                                                          className="lesson-logo css-logo"
+                                                                                          src="logo-css.svg"
+                                                                        />
+                                                                        <p
+                                                                                          className="language-summary"
+                                                                        >
+                                                                                           THE STYLE
+                                                                        </p>
+                                                      </div>
+                                                      <p>
+                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                      </p>
+                                    </div>
+                  </div>
+</NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="nav"
+                  to="/lessons_JS"
+>
+                  <div
+                                    className="language-container"
+                  >
+                                    <h3
+                                                      className="language-title"
+                                    >
+                                                      JAVASCRIPT
+                                    </h3>
+                                    <div
+                                                      className="lesson-divider"
+                                    >
+                                                       
+                                    </div>
+                                    <div
+                                                      className="lesson-description"
+                                    >
+                                                      <div
+                                                                        className="logo-container"
+                                                      >
+                                                                        <img
+                                                                                          alt="JS Shield"
+                                                                                          className="lesson-logo"
+                                                                                          src="Javascript-shield.png"
+                                                                        />
+                                                                        <p
+                                                                                          className="language-summary"
+                                                                        >
+                                                                                           THE LOGIC
+                                                                        </p>
+                                                      </div>
+                                                      <p>
+                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                      </p>
+                                    </div>
+                  </div>
+</NavLink>,
+              ],
+              "className": "lessons-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": <div
+                    className="language-container"
+>
+                    <h3
+                                        className="language-title"
+                    >
+                                        HTML
+                    </h3>
+                    <div
+                                        className="lesson-divider"
+                    />
+                    <div
+                                        className="lesson-description"
+                    >
+                                        <div
+                                                            className="logo-container"
+                                        >
+                                                            <img
+                                                                                alt="HTML Logo"
+                                                                                className="lesson-logo"
+                                                                                src="html-logo.svg.png"
+                                                            />
+                                                            <p
+                                                                                className="language-summary"
+                                                            >
+                                                                                 THE CONTENT
+                                                            </p>
+                                        </div>
+                                        <p>
+                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                        </p>
+                    </div>
+</div>,
+                  "className": "nav",
+                  "to": "/lessons_html",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="language-title"
+>
+                        HTML
+</h3>,
+                      <div
+                        className="lesson-divider"
+/>,
+                      <div
+                        className="lesson-description"
+>
+                        <div
+                                                className="logo-container"
+                        >
+                                                <img
+                                                                        alt="HTML Logo"
+                                                                        className="lesson-logo"
+                                                                        src="html-logo.svg.png"
+                                                />
+                                                <p
+                                                                        className="language-summary"
+                                                >
+                                                                         THE CONTENT
+                                                </p>
+                        </div>
+                        <p>
+                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                        </p>
+</div>,
+                    ],
+                    "className": "language-container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "HTML",
+                        "className": "language-title",
+                      },
+                      "ref": null,
+                      "rendered": "HTML",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "lesson-divider",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="logo-container"
+>
+                            <img
+                                                        alt="HTML Logo"
+                                                        className="lesson-logo"
+                                                        src="html-logo.svg.png"
+                            />
+                            <p
+                                                        className="language-summary"
+                            >
+                                                         THE CONTENT
+                            </p>
+</div>,
+                          <p>
+                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+</p>,
+                        ],
+                        "className": "lesson-description",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <img
+                                alt="HTML Logo"
+                                className="lesson-logo"
+                                src="html-logo.svg.png"
+/>,
+                              <p
+                                className="language-summary"
+>
+                                 THE CONTENT
+</p>,
+                            ],
+                            "className": "logo-container",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "HTML Logo",
+                                "className": "lesson-logo",
+                                "src": "html-logo.svg.png",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " THE CONTENT",
+                                "className": "language-summary",
+                              },
+                              "ref": null,
+                              "rendered": " THE CONTENT",
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          },
+                          "ref": null,
+                          "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": <div
+                    className="language-container"
+>
+                    <h3
+                                        className="language-title"
+                    >
+                                        CSS
+                    </h3>
+                    <div
+                                        className="lesson-divider"
+                    >
+                                         
+                    </div>
+                    <div
+                                        className="lesson-description"
+                    >
+                                        <div
+                                                            className="logo-container"
+                                        >
+                                                            <img
+                                                                                alt="CSS Logo"
+                                                                                className="lesson-logo css-logo"
+                                                                                src="logo-css.svg"
+                                                            />
+                                                            <p
+                                                                                className="language-summary"
+                                                            >
+                                                                                 THE STYLE
+                                                            </p>
+                                        </div>
+                                        <p>
+                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                        </p>
+                    </div>
+</div>,
+                  "className": "nav",
+                  "to": "/lessons_CSS",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="language-title"
+>
+                        CSS
+</h3>,
+                      <div
+                        className="lesson-divider"
+>
+                         
+</div>,
+                      <div
+                        className="lesson-description"
+>
+                        <div
+                                                className="logo-container"
+                        >
+                                                <img
+                                                                        alt="CSS Logo"
+                                                                        className="lesson-logo css-logo"
+                                                                        src="logo-css.svg"
+                                                />
+                                                <p
+                                                                        className="language-summary"
+                                                >
+                                                                         THE STYLE
+                                                </p>
+                        </div>
+                        <p>
+                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                        </p>
+</div>,
+                    ],
+                    "className": "language-container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "CSS",
+                        "className": "language-title",
+                      },
+                      "ref": null,
+                      "rendered": "CSS",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": " ",
+                        "className": "lesson-divider",
+                      },
+                      "ref": null,
+                      "rendered": " ",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="logo-container"
+>
+                            <img
+                                                        alt="CSS Logo"
+                                                        className="lesson-logo css-logo"
+                                                        src="logo-css.svg"
+                            />
+                            <p
+                                                        className="language-summary"
+                            >
+                                                         THE STYLE
+                            </p>
+</div>,
+                          <p>
+                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+</p>,
+                        ],
+                        "className": "lesson-description",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <img
+                                alt="CSS Logo"
+                                className="lesson-logo css-logo"
+                                src="logo-css.svg"
+/>,
+                              <p
+                                className="language-summary"
+>
+                                 THE STYLE
+</p>,
+                            ],
+                            "className": "logo-container",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "CSS Logo",
+                                "className": "lesson-logo css-logo",
+                                "src": "logo-css.svg",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " THE STYLE",
+                                "className": "language-summary",
+                              },
+                              "ref": null,
+                              "rendered": " THE STYLE",
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          },
+                          "ref": null,
+                          "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": <div
+                    className="language-container"
+>
+                    <h3
+                                        className="language-title"
+                    >
+                                        JAVASCRIPT
+                    </h3>
+                    <div
+                                        className="lesson-divider"
+                    >
+                                         
+                    </div>
+                    <div
+                                        className="lesson-description"
+                    >
+                                        <div
+                                                            className="logo-container"
+                                        >
+                                                            <img
+                                                                                alt="JS Shield"
+                                                                                className="lesson-logo"
+                                                                                src="Javascript-shield.png"
+                                                            />
+                                                            <p
+                                                                                className="language-summary"
+                                                            >
+                                                                                 THE LOGIC
+                                                            </p>
+                                        </div>
+                                        <p>
+                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                        </p>
+                    </div>
+</div>,
+                  "className": "nav",
+                  "to": "/lessons_JS",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="language-title"
+>
+                        JAVASCRIPT
+</h3>,
+                      <div
+                        className="lesson-divider"
+>
+                         
+</div>,
+                      <div
+                        className="lesson-description"
+>
+                        <div
+                                                className="logo-container"
+                        >
+                                                <img
+                                                                        alt="JS Shield"
+                                                                        className="lesson-logo"
+                                                                        src="Javascript-shield.png"
+                                                />
+                                                <p
+                                                                        className="language-summary"
+                                                >
+                                                                         THE LOGIC
+                                                </p>
+                        </div>
+                        <p>
+                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                        </p>
+</div>,
+                    ],
+                    "className": "language-container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "JAVASCRIPT",
+                        "className": "language-title",
+                      },
+                      "ref": null,
+                      "rendered": "JAVASCRIPT",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": " ",
+                        "className": "lesson-divider",
+                      },
+                      "ref": null,
+                      "rendered": " ",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="logo-container"
+>
+                            <img
+                                                        alt="JS Shield"
+                                                        className="lesson-logo"
+                                                        src="Javascript-shield.png"
+                            />
+                            <p
+                                                        className="language-summary"
+                            >
+                                                         THE LOGIC
+                            </p>
+</div>,
+                          <p>
+                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+</p>,
+                        ],
+                        "className": "lesson-description",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <img
+                                alt="JS Shield"
+                                className="lesson-logo"
+                                src="Javascript-shield.png"
+/>,
+                              <p
+                                className="language-summary"
+>
+                                 THE LOGIC
+</p>,
+                            ],
+                            "className": "logo-container",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "alt": "JS Shield",
+                                "className": "lesson-logo",
+                                "src": "Javascript-shield.png",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "img",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": " THE LOGIC",
+                                "className": "language-summary",
+                              },
+                              "ref": null,
+                              "rendered": " THE LOGIC",
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          },
+                          "ref": null,
+                          "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="resources-header"
+>
+              helpful resources
+</h3>,
+            <div
+              className="resources-container"
+>
+              <div
+                            className="resource"
+              >
+                            <img
+                                          alt="Turing logo"
+                                          className="resource-logo"
+                                          src="turing-logo.png"
+                            />
+                            <p
+                                          className="resource-name"
+                            >
+                                          TURING SCHOOL
+                            </p>
+              </div>
+              <div
+                            className="resource"
+              >
+                            <img
+                                          alt="mdn logo"
+                                          className="resource-logo"
+                                          src="mdn-logo.png"
+                            />
+                            <p
+                                          className="resource-name"
+                            >
+                                          MDN WEB DOCS
+                            </p>
+              </div>
+              <div
+                            className="resource"
+              >
+                            <img
+                                          alt="css tricks logo"
+                                          className="resource-css-logo"
+                                          src="css-tricks-logo.png"
+                            />
+                            <p
+                                          className="resource-name"
+                            >
+                                          CSS-TRICKS
+                            </p>
+              </div>
+              <p />
+</div>,
+          ],
+          "className": "resources",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "helpful resources",
+              "className": "resources-header",
+            },
+            "ref": null,
+            "rendered": "helpful resources",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="resource"
+>
+                  <img
+                                    alt="Turing logo"
+                                    className="resource-logo"
+                                    src="turing-logo.png"
+                  />
+                  <p
+                                    className="resource-name"
+                  >
+                                    TURING SCHOOL
+                  </p>
+</div>,
+                <div
+                  className="resource"
+>
+                  <img
+                                    alt="mdn logo"
+                                    className="resource-logo"
+                                    src="mdn-logo.png"
+                  />
+                  <p
+                                    className="resource-name"
+                  >
+                                    MDN WEB DOCS
+                  </p>
+</div>,
+                <div
+                  className="resource"
+>
+                  <img
+                                    alt="css tricks logo"
+                                    className="resource-css-logo"
+                                    src="css-tricks-logo.png"
+                  />
+                  <p
+                                    className="resource-name"
+                  >
+                                    CSS-TRICKS
+                  </p>
+</div>,
+                <p />,
+              ],
+              "className": "resources-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Turing logo"
+                      className="resource-logo"
+                      src="turing-logo.png"
+/>,
+                    <p
+                      className="resource-name"
+>
+                      TURING SCHOOL
+</p>,
+                  ],
+                  "className": "resource",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Turing logo",
+                      "className": "resource-logo",
+                      "src": "turing-logo.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "TURING SCHOOL",
+                      "className": "resource-name",
+                    },
+                    "ref": null,
+                    "rendered": "TURING SCHOOL",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="mdn logo"
+                      className="resource-logo"
+                      src="mdn-logo.png"
+/>,
+                    <p
+                      className="resource-name"
+>
+                      MDN WEB DOCS
+</p>,
+                  ],
+                  "className": "resource",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "mdn logo",
+                      "className": "resource-logo",
+                      "src": "mdn-logo.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "MDN WEB DOCS",
+                      "className": "resource-name",
+                    },
+                    "ref": null,
+                    "rendered": "MDN WEB DOCS",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="css tricks logo"
+                      className="resource-css-logo"
+                      src="css-tricks-logo.png"
+/>,
+                    <p
+                      className="resource-name"
+>
+                      CSS-TRICKS
+</p>,
+                  ],
+                  "className": "resource",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "css tricks logo",
+                      "className": "resource-css-logo",
+                      "src": "css-tricks-logo.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "CSS-TRICKS",
+                      "className": "resource-name",
+                    },
+                    "ref": null,
+                    "rendered": "CSS-TRICKS",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "main",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="hero-image"
+>
+            <h3
+                        className="main-text"
+            >
+                        learn the basic skills necessary to build your own website
+            </h3>
+            <p
+                        className="sub-text"
+            >
+                        Programming will challenge you to use both creativity and logic
+            </p>
+</div>,
+          <div
+            className="lessons"
+>
+            <h3
+                        className="lessons-header"
+            >
+                        get started
+            </h3>
+            <div
+                        className="lessons-container"
+            >
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="nav"
+                                    to="/lessons_html"
+                        >
+                                    <div
+                                                className="language-container"
+                                    >
+                                                <h3
+                                                            className="language-title"
+                                                >
+                                                            HTML
+                                                </h3>
+                                                <div
+                                                            className="lesson-divider"
+                                                />
+                                                <div
+                                                            className="lesson-description"
+                                                >
+                                                            <div
+                                                                        className="logo-container"
+                                                            >
+                                                                        <img
+                                                                                    alt="HTML Logo"
+                                                                                    className="lesson-logo"
+                                                                                    src="html-logo.svg.png"
+                                                                        />
+                                                                        <p
+                                                                                    className="language-summary"
+                                                                        >
+                                                                                     THE CONTENT
+                                                                        </p>
+                                                            </div>
+                                                            <p>
+                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            </p>
+                                                </div>
+                                    </div>
+                        </NavLink>
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="nav"
+                                    to="/lessons_CSS"
+                        >
+                                    <div
+                                                className="language-container"
+                                    >
+                                                <h3
+                                                            className="language-title"
+                                                >
+                                                            CSS
+                                                </h3>
+                                                <div
+                                                            className="lesson-divider"
+                                                >
+                                                             
+                                                </div>
+                                                <div
+                                                            className="lesson-description"
+                                                >
+                                                            <div
+                                                                        className="logo-container"
+                                                            >
+                                                                        <img
+                                                                                    alt="CSS Logo"
+                                                                                    className="lesson-logo css-logo"
+                                                                                    src="logo-css.svg"
+                                                                        />
+                                                                        <p
+                                                                                    className="language-summary"
+                                                                        >
+                                                                                     THE STYLE
+                                                                        </p>
+                                                            </div>
+                                                            <p>
+                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            </p>
+                                                </div>
+                                    </div>
+                        </NavLink>
+                        <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    className="nav"
+                                    to="/lessons_JS"
+                        >
+                                    <div
+                                                className="language-container"
+                                    >
+                                                <h3
+                                                            className="language-title"
+                                                >
+                                                            JAVASCRIPT
+                                                </h3>
+                                                <div
+                                                            className="lesson-divider"
+                                                >
+                                                             
+                                                </div>
+                                                <div
+                                                            className="lesson-description"
+                                                >
+                                                            <div
+                                                                        className="logo-container"
+                                                            >
+                                                                        <img
+                                                                                    alt="JS Shield"
+                                                                                    className="lesson-logo"
+                                                                                    src="Javascript-shield.png"
+                                                                        />
+                                                                        <p
+                                                                                    className="language-summary"
+                                                                        >
+                                                                                     THE LOGIC
+                                                                        </p>
+                                                            </div>
+                                                            <p>
+                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            </p>
+                                                </div>
+                                    </div>
+                        </NavLink>
+            </div>
+</div>,
+          <div
+            className="resources"
+>
+            <h3
+                        className="resources-header"
+            >
+                        helpful resources
+            </h3>
+            <div
+                        className="resources-container"
+            >
+                        <div
+                                    className="resource"
+                        >
+                                    <img
+                                                alt="Turing logo"
+                                                className="resource-logo"
+                                                src="turing-logo.png"
+                                    />
+                                    <p
+                                                className="resource-name"
+                                    >
+                                                TURING SCHOOL
+                                    </p>
+                        </div>
+                        <div
+                                    className="resource"
+                        >
+                                    <img
+                                                alt="mdn logo"
+                                                className="resource-logo"
+                                                src="mdn-logo.png"
+                                    />
+                                    <p
+                                                className="resource-name"
+                                    >
+                                                MDN WEB DOCS
+                                    </p>
+                        </div>
+                        <div
+                                    className="resource"
+                        >
+                                    <img
+                                                alt="css tricks logo"
+                                                className="resource-css-logo"
+                                                src="css-tricks-logo.png"
+                                    />
+                                    <p
+                                                className="resource-name"
+                                    >
+                                                CSS-TRICKS
+                                    </p>
+                        </div>
+                        <p />
+            </div>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="main-text"
+>
+                learn the basic skills necessary to build your own website
+</h3>,
+              <p
+                className="sub-text"
+>
+                Programming will challenge you to use both creativity and logic
+</p>,
+            ],
+            "className": "hero-image",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "learn the basic skills necessary to build your own website",
+                "className": "main-text",
+              },
+              "ref": null,
+              "rendered": "learn the basic skills necessary to build your own website",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Programming will challenge you to use both creativity and logic",
+                "className": "sub-text",
+              },
+              "ref": null,
+              "rendered": "Programming will challenge you to use both creativity and logic",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="lessons-header"
+>
+                get started
+</h3>,
+              <div
+                className="lessons-container"
+>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="nav"
+                                to="/lessons_html"
+                >
+                                <div
+                                                className="language-container"
+                                >
+                                                <h3
+                                                                className="language-title"
+                                                >
+                                                                HTML
+                                                </h3>
+                                                <div
+                                                                className="lesson-divider"
+                                                />
+                                                <div
+                                                                className="lesson-description"
+                                                >
+                                                                <div
+                                                                                className="logo-container"
+                                                                >
+                                                                                <img
+                                                                                                alt="HTML Logo"
+                                                                                                className="lesson-logo"
+                                                                                                src="html-logo.svg.png"
+                                                                                />
+                                                                                <p
+                                                                                                className="language-summary"
+                                                                                >
+                                                                                                 THE CONTENT
+                                                                                </p>
+                                                                </div>
+                                                                <p>
+                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                </p>
+                                                </div>
+                                </div>
+                </NavLink>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="nav"
+                                to="/lessons_CSS"
+                >
+                                <div
+                                                className="language-container"
+                                >
+                                                <h3
+                                                                className="language-title"
+                                                >
+                                                                CSS
+                                                </h3>
+                                                <div
+                                                                className="lesson-divider"
+                                                >
+                                                                 
+                                                </div>
+                                                <div
+                                                                className="lesson-description"
+                                                >
+                                                                <div
+                                                                                className="logo-container"
+                                                                >
+                                                                                <img
+                                                                                                alt="CSS Logo"
+                                                                                                className="lesson-logo css-logo"
+                                                                                                src="logo-css.svg"
+                                                                                />
+                                                                                <p
+                                                                                                className="language-summary"
+                                                                                >
+                                                                                                 THE STYLE
+                                                                                </p>
+                                                                </div>
+                                                                <p>
+                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                </p>
+                                                </div>
+                                </div>
+                </NavLink>
+                <NavLink
+                                activeClassName="active"
+                                aria-current="page"
+                                className="nav"
+                                to="/lessons_JS"
+                >
+                                <div
+                                                className="language-container"
+                                >
+                                                <h3
+                                                                className="language-title"
+                                                >
+                                                                JAVASCRIPT
+                                                </h3>
+                                                <div
+                                                                className="lesson-divider"
+                                                >
+                                                                 
+                                                </div>
+                                                <div
+                                                                className="lesson-description"
+                                                >
+                                                                <div
+                                                                                className="logo-container"
+                                                                >
+                                                                                <img
+                                                                                                alt="JS Shield"
+                                                                                                className="lesson-logo"
+                                                                                                src="Javascript-shield.png"
+                                                                                />
+                                                                                <p
+                                                                                                className="language-summary"
+                                                                                >
+                                                                                                 THE LOGIC
+                                                                                </p>
+                                                                </div>
+                                                                <p>
+                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                </p>
+                                                </div>
+                                </div>
+                </NavLink>
+</div>,
+            ],
+            "className": "lessons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "get started",
+                "className": "lessons-header",
+              },
+              "ref": null,
+              "rendered": "get started",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="nav"
+                    to="/lessons_html"
+>
+                    <div
+                                        className="language-container"
+                    >
+                                        <h3
+                                                            className="language-title"
+                                        >
+                                                            HTML
+                                        </h3>
+                                        <div
+                                                            className="lesson-divider"
+                                        />
+                                        <div
+                                                            className="lesson-description"
+                                        >
+                                                            <div
+                                                                                className="logo-container"
+                                                            >
+                                                                                <img
+                                                                                                    alt="HTML Logo"
+                                                                                                    className="lesson-logo"
+                                                                                                    src="html-logo.svg.png"
+                                                                                />
+                                                                                <p
+                                                                                                    className="language-summary"
+                                                                                >
+                                                                                                     THE CONTENT
+                                                                                </p>
+                                                            </div>
+                                                            <p>
+                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            </p>
+                                        </div>
+                    </div>
+</NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="nav"
+                    to="/lessons_CSS"
+>
+                    <div
+                                        className="language-container"
+                    >
+                                        <h3
+                                                            className="language-title"
+                                        >
+                                                            CSS
+                                        </h3>
+                                        <div
+                                                            className="lesson-divider"
+                                        >
+                                                             
+                                        </div>
+                                        <div
+                                                            className="lesson-description"
+                                        >
+                                                            <div
+                                                                                className="logo-container"
+                                                            >
+                                                                                <img
+                                                                                                    alt="CSS Logo"
+                                                                                                    className="lesson-logo css-logo"
+                                                                                                    src="logo-css.svg"
+                                                                                />
+                                                                                <p
+                                                                                                    className="language-summary"
+                                                                                >
+                                                                                                     THE STYLE
+                                                                                </p>
+                                                            </div>
+                                                            <p>
+                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            </p>
+                                        </div>
+                    </div>
+</NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="nav"
+                    to="/lessons_JS"
+>
+                    <div
+                                        className="language-container"
+                    >
+                                        <h3
+                                                            className="language-title"
+                                        >
+                                                            JAVASCRIPT
+                                        </h3>
+                                        <div
+                                                            className="lesson-divider"
+                                        >
+                                                             
+                                        </div>
+                                        <div
+                                                            className="lesson-description"
+                                        >
+                                                            <div
+                                                                                className="logo-container"
+                                                            >
+                                                                                <img
+                                                                                                    alt="JS Shield"
+                                                                                                    className="lesson-logo"
+                                                                                                    src="Javascript-shield.png"
+                                                                                />
+                                                                                <p
+                                                                                                    className="language-summary"
+                                                                                >
+                                                                                                     THE LOGIC
+                                                                                </p>
+                                                            </div>
+                                                            <p>
+                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            </p>
+                                        </div>
+                    </div>
+</NavLink>,
+                ],
+                "className": "lessons-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": <div
+                      className="language-container"
+>
+                      <h3
+                                            className="language-title"
+                      >
+                                            HTML
+                      </h3>
+                      <div
+                                            className="lesson-divider"
+                      />
+                      <div
+                                            className="lesson-description"
+                      >
+                                            <div
+                                                                  className="logo-container"
+                                            >
+                                                                  <img
+                                                                                        alt="HTML Logo"
+                                                                                        className="lesson-logo"
+                                                                                        src="html-logo.svg.png"
+                                                                  />
+                                                                  <p
+                                                                                        className="language-summary"
+                                                                  >
+                                                                                         THE CONTENT
+                                                                  </p>
+                                            </div>
+                                            <p>
+                                                                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                            </p>
+                      </div>
+</div>,
+                    "className": "nav",
+                    "to": "/lessons_html",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="language-title"
+>
+                          HTML
+</h3>,
+                        <div
+                          className="lesson-divider"
+/>,
+                        <div
+                          className="lesson-description"
+>
+                          <div
+                                                    className="logo-container"
+                          >
+                                                    <img
+                                                                              alt="HTML Logo"
+                                                                              className="lesson-logo"
+                                                                              src="html-logo.svg.png"
+                                                    />
+                                                    <p
+                                                                              className="language-summary"
+                                                    >
+                                                                               THE CONTENT
+                                                    </p>
+                          </div>
+                          <p>
+                                                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                          </p>
+</div>,
+                      ],
+                      "className": "language-container",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "HTML",
+                          "className": "language-title",
+                        },
+                        "ref": null,
+                        "rendered": "HTML",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "lesson-divider",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="logo-container"
+>
+                              <img
+                                                            alt="HTML Logo"
+                                                            className="lesson-logo"
+                                                            src="html-logo.svg.png"
+                              />
+                              <p
+                                                            className="language-summary"
+                              >
+                                                             THE CONTENT
+                              </p>
+</div>,
+                            <p>
+                               But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+</p>,
+                          ],
+                          "className": "lesson-description",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <img
+                                  alt="HTML Logo"
+                                  className="lesson-logo"
+                                  src="html-logo.svg.png"
+/>,
+                                <p
+                                  className="language-summary"
+>
+                                   THE CONTENT
+</p>,
+                              ],
+                              "className": "logo-container",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "alt": "HTML Logo",
+                                  "className": "lesson-logo",
+                                  "src": "html-logo.svg.png",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "img",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": " THE CONTENT",
+                                  "className": "language-summary",
+                                },
+                                "ref": null,
+                                "rendered": " THE CONTENT",
+                                "type": "p",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            },
+                            "ref": null,
+                            "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": <div
+                      className="language-container"
+>
+                      <h3
+                                            className="language-title"
+                      >
+                                            CSS
+                      </h3>
+                      <div
+                                            className="lesson-divider"
+                      >
+                                             
+                      </div>
+                      <div
+                                            className="lesson-description"
+                      >
+                                            <div
+                                                                  className="logo-container"
+                                            >
+                                                                  <img
+                                                                                        alt="CSS Logo"
+                                                                                        className="lesson-logo css-logo"
+                                                                                        src="logo-css.svg"
+                                                                  />
+                                                                  <p
+                                                                                        className="language-summary"
+                                                                  >
+                                                                                         THE STYLE
+                                                                  </p>
+                                            </div>
+                                            <p>
+                                                                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                            </p>
+                      </div>
+</div>,
+                    "className": "nav",
+                    "to": "/lessons_CSS",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="language-title"
+>
+                          CSS
+</h3>,
+                        <div
+                          className="lesson-divider"
+>
+                           
+</div>,
+                        <div
+                          className="lesson-description"
+>
+                          <div
+                                                    className="logo-container"
+                          >
+                                                    <img
+                                                                              alt="CSS Logo"
+                                                                              className="lesson-logo css-logo"
+                                                                              src="logo-css.svg"
+                                                    />
+                                                    <p
+                                                                              className="language-summary"
+                                                    >
+                                                                               THE STYLE
+                                                    </p>
+                          </div>
+                          <p>
+                                                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                          </p>
+</div>,
+                      ],
+                      "className": "language-container",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "CSS",
+                          "className": "language-title",
+                        },
+                        "ref": null,
+                        "rendered": "CSS",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": " ",
+                          "className": "lesson-divider",
+                        },
+                        "ref": null,
+                        "rendered": " ",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="logo-container"
+>
+                              <img
+                                                            alt="CSS Logo"
+                                                            className="lesson-logo css-logo"
+                                                            src="logo-css.svg"
+                              />
+                              <p
+                                                            className="language-summary"
+                              >
+                                                             THE STYLE
+                              </p>
+</div>,
+                            <p>
+                               But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+</p>,
+                          ],
+                          "className": "lesson-description",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <img
+                                  alt="CSS Logo"
+                                  className="lesson-logo css-logo"
+                                  src="logo-css.svg"
+/>,
+                                <p
+                                  className="language-summary"
+>
+                                   THE STYLE
+</p>,
+                              ],
+                              "className": "logo-container",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "alt": "CSS Logo",
+                                  "className": "lesson-logo css-logo",
+                                  "src": "logo-css.svg",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "img",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": " THE STYLE",
+                                  "className": "language-summary",
+                                },
+                                "ref": null,
+                                "rendered": " THE STYLE",
+                                "type": "p",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            },
+                            "ref": null,
+                            "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": <div
+                      className="language-container"
+>
+                      <h3
+                                            className="language-title"
+                      >
+                                            JAVASCRIPT
+                      </h3>
+                      <div
+                                            className="lesson-divider"
+                      >
+                                             
+                      </div>
+                      <div
+                                            className="lesson-description"
+                      >
+                                            <div
+                                                                  className="logo-container"
+                                            >
+                                                                  <img
+                                                                                        alt="JS Shield"
+                                                                                        className="lesson-logo"
+                                                                                        src="Javascript-shield.png"
+                                                                  />
+                                                                  <p
+                                                                                        className="language-summary"
+                                                                  >
+                                                                                         THE LOGIC
+                                                                  </p>
+                                            </div>
+                                            <p>
+                                                                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                            </p>
+                      </div>
+</div>,
+                    "className": "nav",
+                    "to": "/lessons_JS",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="language-title"
+>
+                          JAVASCRIPT
+</h3>,
+                        <div
+                          className="lesson-divider"
+>
+                           
+</div>,
+                        <div
+                          className="lesson-description"
+>
+                          <div
+                                                    className="logo-container"
+                          >
+                                                    <img
+                                                                              alt="JS Shield"
+                                                                              className="lesson-logo"
+                                                                              src="Javascript-shield.png"
+                                                    />
+                                                    <p
+                                                                              className="language-summary"
+                                                    >
+                                                                               THE LOGIC
+                                                    </p>
+                          </div>
+                          <p>
+                                                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                          </p>
+</div>,
+                      ],
+                      "className": "language-container",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "JAVASCRIPT",
+                          "className": "language-title",
+                        },
+                        "ref": null,
+                        "rendered": "JAVASCRIPT",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": " ",
+                          "className": "lesson-divider",
+                        },
+                        "ref": null,
+                        "rendered": " ",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="logo-container"
+>
+                              <img
+                                                            alt="JS Shield"
+                                                            className="lesson-logo"
+                                                            src="Javascript-shield.png"
+                              />
+                              <p
+                                                            className="language-summary"
+                              >
+                                                             THE LOGIC
+                              </p>
+</div>,
+                            <p>
+                               But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+</p>,
+                          ],
+                          "className": "lesson-description",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <img
+                                  alt="JS Shield"
+                                  className="lesson-logo"
+                                  src="Javascript-shield.png"
+/>,
+                                <p
+                                  className="language-summary"
+>
+                                   THE LOGIC
+</p>,
+                              ],
+                              "className": "logo-container",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "alt": "JS Shield",
+                                  "className": "lesson-logo",
+                                  "src": "Javascript-shield.png",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "img",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": " THE LOGIC",
+                                  "className": "language-summary",
+                                },
+                                "ref": null,
+                                "rendered": " THE LOGIC",
+                                "type": "p",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            },
+                            "ref": null,
+                            "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="resources-header"
+>
+                helpful resources
+</h3>,
+              <div
+                className="resources-container"
+>
+                <div
+                                className="resource"
+                >
+                                <img
+                                                alt="Turing logo"
+                                                className="resource-logo"
+                                                src="turing-logo.png"
+                                />
+                                <p
+                                                className="resource-name"
+                                >
+                                                TURING SCHOOL
+                                </p>
+                </div>
+                <div
+                                className="resource"
+                >
+                                <img
+                                                alt="mdn logo"
+                                                className="resource-logo"
+                                                src="mdn-logo.png"
+                                />
+                                <p
+                                                className="resource-name"
+                                >
+                                                MDN WEB DOCS
+                                </p>
+                </div>
+                <div
+                                className="resource"
+                >
+                                <img
+                                                alt="css tricks logo"
+                                                className="resource-css-logo"
+                                                src="css-tricks-logo.png"
+                                />
+                                <p
+                                                className="resource-name"
+                                >
+                                                CSS-TRICKS
+                                </p>
+                </div>
+                <p />
+</div>,
+            ],
+            "className": "resources",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "helpful resources",
+                "className": "resources-header",
+              },
+              "ref": null,
+              "rendered": "helpful resources",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="resource"
+>
+                    <img
+                                        alt="Turing logo"
+                                        className="resource-logo"
+                                        src="turing-logo.png"
+                    />
+                    <p
+                                        className="resource-name"
+                    >
+                                        TURING SCHOOL
+                    </p>
+</div>,
+                  <div
+                    className="resource"
+>
+                    <img
+                                        alt="mdn logo"
+                                        className="resource-logo"
+                                        src="mdn-logo.png"
+                    />
+                    <p
+                                        className="resource-name"
+                    >
+                                        MDN WEB DOCS
+                    </p>
+</div>,
+                  <div
+                    className="resource"
+>
+                    <img
+                                        alt="css tricks logo"
+                                        className="resource-css-logo"
+                                        src="css-tricks-logo.png"
+                    />
+                    <p
+                                        className="resource-name"
+                    >
+                                        CSS-TRICKS
+                    </p>
+</div>,
+                  <p />,
+                ],
+                "className": "resources-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="Turing logo"
+                        className="resource-logo"
+                        src="turing-logo.png"
+/>,
+                      <p
+                        className="resource-name"
+>
+                        TURING SCHOOL
+</p>,
+                    ],
+                    "className": "resource",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Turing logo",
+                        "className": "resource-logo",
+                        "src": "turing-logo.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "TURING SCHOOL",
+                        "className": "resource-name",
+                      },
+                      "ref": null,
+                      "rendered": "TURING SCHOOL",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="mdn logo"
+                        className="resource-logo"
+                        src="mdn-logo.png"
+/>,
+                      <p
+                        className="resource-name"
+>
+                        MDN WEB DOCS
+</p>,
+                    ],
+                    "className": "resource",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "mdn logo",
+                        "className": "resource-logo",
+                        "src": "mdn-logo.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "MDN WEB DOCS",
+                        "className": "resource-name",
+                      },
+                      "ref": null,
+                      "rendered": "MDN WEB DOCS",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="css tricks logo"
+                        className="resource-css-logo"
+                        src="css-tricks-logo.png"
+/>,
+                      <p
+                        className="resource-name"
+>
+                        CSS-TRICKS
+</p>,
+                    ],
+                    "className": "resource",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "css tricks logo",
+                        "className": "resource-css-logo",
+                        "src": "css-tricks-logo.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "CSS-TRICKS",
+                        "className": "resource-name",
+                      },
+                      "ref": null,
+                      "rendered": "CSS-TRICKS",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "main",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
