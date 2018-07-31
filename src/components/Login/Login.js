@@ -46,7 +46,7 @@ export class Login extends Component {
   }
 
   logout = () => {
-    firebase.auth.signOut()
+    auth.signOut()
     .then(() => {
       this.setState({
         user: null
