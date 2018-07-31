@@ -13,7 +13,7 @@ export class Header extends Component {
           </NavLink>
         </div>
         <div className="signin-container">
-          <button className="signin-button" onClick={this.props.showLogin}>Sign Up/Login</button>
+          <button className="signin-button" onClick={this.props.showLogin}>Sign Up / Login</button>
         </div>
       </header>
     )
