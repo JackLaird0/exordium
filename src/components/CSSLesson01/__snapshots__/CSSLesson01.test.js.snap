@@ -1,0 +1,2281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CSSLesson01 matches the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CSSLesson01 />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="game-controls"
+>
+          <div
+                    className="instructions"
+          >
+                    <h1
+                              className="game-header"
+                    >
+                              Lesson 01: Flex Box
+                    </h1>
+                    <p
+                              className="game-description"
+                    >
+                              Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the 
+                              <span>
+                                        justify-content
+                              </span>
+                               property, which aligns items horizontally.
+                    </p>
+                    <p
+                              className="game-description"
+                    >
+                              The text editor accepts the following values:
+                    </p>
+                    <ul>
+                              <li>
+                                        <span>
+                                                  flex-start
+                                        </span>
+                                        : Items align to the left side of the container.
+                              </li>
+                              <li>
+                                        <span>
+                                                  flex-end
+                                        </span>
+                                        : Items align to the right side of the container.
+                              </li>
+                              <li>
+                                        <span>
+                                                  center
+                                        </span>
+                                        : Items align at the center of the container.
+                              </li>
+                              <li>
+                                        <span>
+                                                  space-around
+                                        </span>
+                                        : Items display with equal spacing between them.
+                              </li>
+                              <li>
+                                        <span>
+                                                  space-between
+                                        </span>
+                                        : Items display with equal spacing around them.
+                              </li>
+                    </ul>
+          </div>
+          <div
+                    className="text-editor"
+          >
+                    <div
+                              className="line-numbers"
+                    >
+                              <p>
+                                        1
+                              </p>
+                              <p>
+                                        2
+                              </p>
+                              <p>
+                                        3
+                              </p>
+                              <p>
+                                        4
+                              </p>
+                              <p>
+                                        5
+                              </p>
+                              <p>
+                                        6
+                              </p>
+                              <p>
+                                        7
+                              </p>
+                              <p>
+                                        8
+                              </p>
+                              <p>
+                                        9
+                              </p>
+                              <p>
+                                        10
+                              </p>
+                    </div>
+                    <div
+                              className="code-container"
+                    >
+                              <p
+                                        className="code"
+                              >
+                                        .container {
+                              </p>
+                              <p
+                                        className="indent code"
+                              >
+                                        display: flex;
+                              </p>
+                              <form
+                                        className="indent"
+                                        onSubmit={[Function]}
+                              >
+                                        <input
+                                                  onChange={[Function]}
+                                                  type="text"
+                                                  value={undefined}
+                                        />
+                              </form>
+                              <p
+                                        className="code"
+                              >
+                                        }
+                              </p>
+                              <NavLink
+                                        activeClassName="active"
+                                        aria-current="page"
+                                        to="/lessons_css"
+                              >
+                                        <button
+                                                  className="next-button"
+                                                  disabled={true}
+                                        >
+                                                  Next
+                                        </button>
+                                          
+                                        <button
+                                                  className="next-button"
+                                                  disabled={true}
+                                        >
+                                                  Next
+                                        </button>
+                              </NavLink>
+                    </div>
+          </div>
+</div>,
+        <div
+          className="game-display"
+>
+          <div
+                    className="target"
+          />
+          <div
+                    className="box-container"
+                    style={Object {}}
+          >
+                    <div
+                              className="box"
+                    />
+          </div>
+</div>,
+      ],
+      "className": "css-lesson-01",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="instructions"
+>
+              <h1
+                            className="game-header"
+              >
+                            Lesson 01: Flex Box
+              </h1>
+              <p
+                            className="game-description"
+              >
+                            Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the 
+                            <span>
+                                          justify-content
+                            </span>
+                             property, which aligns items horizontally.
+              </p>
+              <p
+                            className="game-description"
+              >
+                            The text editor accepts the following values:
+              </p>
+              <ul>
+                            <li>
+                                          <span>
+                                                        flex-start
+                                          </span>
+                                          : Items align to the left side of the container.
+                            </li>
+                            <li>
+                                          <span>
+                                                        flex-end
+                                          </span>
+                                          : Items align to the right side of the container.
+                            </li>
+                            <li>
+                                          <span>
+                                                        center
+                                          </span>
+                                          : Items align at the center of the container.
+                            </li>
+                            <li>
+                                          <span>
+                                                        space-around
+                                          </span>
+                                          : Items display with equal spacing between them.
+                            </li>
+                            <li>
+                                          <span>
+                                                        space-between
+                                          </span>
+                                          : Items display with equal spacing around them.
+                            </li>
+              </ul>
+</div>,
+            <div
+              className="text-editor"
+>
+              <div
+                            className="line-numbers"
+              >
+                            <p>
+                                          1
+                            </p>
+                            <p>
+                                          2
+                            </p>
+                            <p>
+                                          3
+                            </p>
+                            <p>
+                                          4
+                            </p>
+                            <p>
+                                          5
+                            </p>
+                            <p>
+                                          6
+                            </p>
+                            <p>
+                                          7
+                            </p>
+                            <p>
+                                          8
+                            </p>
+                            <p>
+                                          9
+                            </p>
+                            <p>
+                                          10
+                            </p>
+              </div>
+              <div
+                            className="code-container"
+              >
+                            <p
+                                          className="code"
+                            >
+                                          .container {
+                            </p>
+                            <p
+                                          className="indent code"
+                            >
+                                          display: flex;
+                            </p>
+                            <form
+                                          className="indent"
+                                          onSubmit={[Function]}
+                            >
+                                          <input
+                                                        onChange={[Function]}
+                                                        type="text"
+                                                        value={undefined}
+                                          />
+                            </form>
+                            <p
+                                          className="code"
+                            >
+                                          }
+                            </p>
+                            <NavLink
+                                          activeClassName="active"
+                                          aria-current="page"
+                                          to="/lessons_css"
+                            >
+                                          <button
+                                                        className="next-button"
+                                                        disabled={true}
+                                          >
+                                                        Next
+                                          </button>
+                                            
+                                          <button
+                                                        className="next-button"
+                                                        disabled={true}
+                                          >
+                                                        Next
+                                          </button>
+                            </NavLink>
+              </div>
+</div>,
+          ],
+          "className": "game-controls",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="game-header"
+>
+                  Lesson 01: Flex Box
+</h1>,
+                <p
+                  className="game-description"
+>
+                  Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the 
+                  <span>
+                                    justify-content
+                  </span>
+                   property, which aligns items horizontally.
+</p>,
+                <p
+                  className="game-description"
+>
+                  The text editor accepts the following values:
+</p>,
+                <ul>
+                  <li>
+                                    <span>
+                                                      flex-start
+                                    </span>
+                                    : Items align to the left side of the container.
+                  </li>
+                  <li>
+                                    <span>
+                                                      flex-end
+                                    </span>
+                                    : Items align to the right side of the container.
+                  </li>
+                  <li>
+                                    <span>
+                                                      center
+                                    </span>
+                                    : Items align at the center of the container.
+                  </li>
+                  <li>
+                                    <span>
+                                                      space-around
+                                    </span>
+                                    : Items display with equal spacing between them.
+                  </li>
+                  <li>
+                                    <span>
+                                                      space-between
+                                    </span>
+                                    : Items display with equal spacing around them.
+                  </li>
+</ul>,
+              ],
+              "className": "instructions",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lesson 01: Flex Box",
+                  "className": "game-header",
+                },
+                "ref": null,
+                "rendered": "Lesson 01: Flex Box",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the ",
+                    <span>
+                      justify-content
+</span>,
+                    " property, which aligns items horizontally.",
+                  ],
+                  "className": "game-description",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "justify-content",
+                    },
+                    "ref": null,
+                    "rendered": "justify-content",
+                    "type": "span",
+                  },
+                  " property, which aligns items horizontally.",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "The text editor accepts the following values:",
+                  "className": "game-description",
+                },
+                "ref": null,
+                "rendered": "The text editor accepts the following values:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      <span>
+                                            flex-start
+                      </span>
+                      : Items align to the left side of the container.
+</li>,
+                    <li>
+                      <span>
+                                            flex-end
+                      </span>
+                      : Items align to the right side of the container.
+</li>,
+                    <li>
+                      <span>
+                                            center
+                      </span>
+                      : Items align at the center of the container.
+</li>,
+                    <li>
+                      <span>
+                                            space-around
+                      </span>
+                      : Items display with equal spacing between them.
+</li>,
+                    <li>
+                      <span>
+                                            space-between
+                      </span>
+                      : Items display with equal spacing around them.
+</li>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span>
+                          flex-start
+</span>,
+                        ": Items align to the left side of the container.",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "flex-start",
+                        },
+                        "ref": null,
+                        "rendered": "flex-start",
+                        "type": "span",
+                      },
+                      ": Items align to the left side of the container.",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span>
+                          flex-end
+</span>,
+                        ": Items align to the right side of the container.",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "flex-end",
+                        },
+                        "ref": null,
+                        "rendered": "flex-end",
+                        "type": "span",
+                      },
+                      ": Items align to the right side of the container.",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span>
+                          center
+</span>,
+                        ": Items align at the center of the container.",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "center",
+                        },
+                        "ref": null,
+                        "rendered": "center",
+                        "type": "span",
+                      },
+                      ": Items align at the center of the container.",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span>
+                          space-around
+</span>,
+                        ": Items display with equal spacing between them.",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "space-around",
+                        },
+                        "ref": null,
+                        "rendered": "space-around",
+                        "type": "span",
+                      },
+                      ": Items display with equal spacing between them.",
+                    ],
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span>
+                          space-between
+</span>,
+                        ": Items display with equal spacing around them.",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "space-between",
+                        },
+                        "ref": null,
+                        "rendered": "space-between",
+                        "type": "span",
+                      },
+                      ": Items display with equal spacing around them.",
+                    ],
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="line-numbers"
+>
+                  <p>
+                                    1
+                  </p>
+                  <p>
+                                    2
+                  </p>
+                  <p>
+                                    3
+                  </p>
+                  <p>
+                                    4
+                  </p>
+                  <p>
+                                    5
+                  </p>
+                  <p>
+                                    6
+                  </p>
+                  <p>
+                                    7
+                  </p>
+                  <p>
+                                    8
+                  </p>
+                  <p>
+                                    9
+                  </p>
+                  <p>
+                                    10
+                  </p>
+</div>,
+                <div
+                  className="code-container"
+>
+                  <p
+                                    className="code"
+                  >
+                                    .container {
+                  </p>
+                  <p
+                                    className="indent code"
+                  >
+                                    display: flex;
+                  </p>
+                  <form
+                                    className="indent"
+                                    onSubmit={[Function]}
+                  >
+                                    <input
+                                                      onChange={[Function]}
+                                                      type="text"
+                                                      value={undefined}
+                                    />
+                  </form>
+                  <p
+                                    className="code"
+                  >
+                                    }
+                  </p>
+                  <NavLink
+                                    activeClassName="active"
+                                    aria-current="page"
+                                    to="/lessons_css"
+                  >
+                                    <button
+                                                      className="next-button"
+                                                      disabled={true}
+                                    >
+                                                      Next
+                                    </button>
+                                      
+                                    <button
+                                                      className="next-button"
+                                                      disabled={true}
+                                    >
+                                                      Next
+                                    </button>
+                  </NavLink>
+</div>,
+              ],
+              "className": "text-editor",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p>
+                      1
+</p>,
+                    <p>
+                      2
+</p>,
+                    <p>
+                      3
+</p>,
+                    <p>
+                      4
+</p>,
+                    <p>
+                      5
+</p>,
+                    <p>
+                      6
+</p>,
+                    <p>
+                      7
+</p>,
+                    <p>
+                      8
+</p>,
+                    <p>
+                      9
+</p>,
+                    <p>
+                      10
+</p>,
+                  ],
+                  "className": "line-numbers",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "1",
+                    },
+                    "ref": null,
+                    "rendered": "1",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "2",
+                    },
+                    "ref": null,
+                    "rendered": "2",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "3",
+                    },
+                    "ref": null,
+                    "rendered": "3",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "4",
+                    },
+                    "ref": null,
+                    "rendered": "4",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "5",
+                    },
+                    "ref": null,
+                    "rendered": "5",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "6",
+                    },
+                    "ref": null,
+                    "rendered": "6",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "7",
+                    },
+                    "ref": null,
+                    "rendered": "7",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "8",
+                    },
+                    "ref": null,
+                    "rendered": "8",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "9",
+                    },
+                    "ref": null,
+                    "rendered": "9",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "10",
+                    },
+                    "ref": null,
+                    "rendered": "10",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="code"
+>
+                      .container {
+</p>,
+                    <p
+                      className="indent code"
+>
+                      display: flex;
+</p>,
+                    <form
+                      className="indent"
+                      onSubmit={[Function]}
+>
+                      <input
+                                            onChange={[Function]}
+                                            type="text"
+                                            value={undefined}
+                      />
+</form>,
+                    <p
+                      className="code"
+>
+                      }
+</p>,
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      to="/lessons_css"
+>
+                      <button
+                                            className="next-button"
+                                            disabled={true}
+                      >
+                                            Next
+                      </button>
+                        
+                      <button
+                                            className="next-button"
+                                            disabled={true}
+                      >
+                                            Next
+                      </button>
+</NavLink>,
+                  ],
+                  "className": "code-container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": ".container {",
+                      "className": "code",
+                    },
+                    "ref": null,
+                    "rendered": ".container {",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "display: flex;",
+                      "className": "indent code",
+                    },
+                    "ref": null,
+                    "rendered": "display: flex;",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <input
+                        onChange={[Function]}
+                        type="text"
+                        value={undefined}
+/>,
+                      "className": "indent",
+                      "onSubmit": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "onChange": [Function],
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    "type": "form",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "}",
+                      "className": "code",
+                    },
+                    "ref": null,
+                    "rendered": "}",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "activeClassName": "active",
+                      "aria-current": "page",
+                      "children": Array [
+                        <button
+                          className="next-button"
+                          disabled={true}
+>
+                          Next
+</button>,
+                        "  ",
+                        <button
+                          className="next-button"
+                          disabled={true}
+>
+                          Next
+</button>,
+                      ],
+                      "to": "/lessons_css",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Next",
+                          "className": "next-button",
+                          "disabled": true,
+                        },
+                        "ref": null,
+                        "rendered": "Next",
+                        "type": "button",
+                      },
+                      "  ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Next",
+                          "className": "next-button",
+                          "disabled": true,
+                        },
+                        "ref": null,
+                        "rendered": "Next",
+                        "type": "button",
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="target"
+/>,
+            <div
+              className="box-container"
+              style={Object {}}
+>
+              <div
+                            className="box"
+              />
+</div>,
+          ],
+          "className": "game-display",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "target",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="box"
+/>,
+              "className": "box-container",
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "box",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="game-controls"
+>
+            <div
+                        className="instructions"
+            >
+                        <h1
+                                    className="game-header"
+                        >
+                                    Lesson 01: Flex Box
+                        </h1>
+                        <p
+                                    className="game-description"
+                        >
+                                    Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the 
+                                    <span>
+                                                justify-content
+                                    </span>
+                                     property, which aligns items horizontally.
+                        </p>
+                        <p
+                                    className="game-description"
+                        >
+                                    The text editor accepts the following values:
+                        </p>
+                        <ul>
+                                    <li>
+                                                <span>
+                                                            flex-start
+                                                </span>
+                                                : Items align to the left side of the container.
+                                    </li>
+                                    <li>
+                                                <span>
+                                                            flex-end
+                                                </span>
+                                                : Items align to the right side of the container.
+                                    </li>
+                                    <li>
+                                                <span>
+                                                            center
+                                                </span>
+                                                : Items align at the center of the container.
+                                    </li>
+                                    <li>
+                                                <span>
+                                                            space-around
+                                                </span>
+                                                : Items display with equal spacing between them.
+                                    </li>
+                                    <li>
+                                                <span>
+                                                            space-between
+                                                </span>
+                                                : Items display with equal spacing around them.
+                                    </li>
+                        </ul>
+            </div>
+            <div
+                        className="text-editor"
+            >
+                        <div
+                                    className="line-numbers"
+                        >
+                                    <p>
+                                                1
+                                    </p>
+                                    <p>
+                                                2
+                                    </p>
+                                    <p>
+                                                3
+                                    </p>
+                                    <p>
+                                                4
+                                    </p>
+                                    <p>
+                                                5
+                                    </p>
+                                    <p>
+                                                6
+                                    </p>
+                                    <p>
+                                                7
+                                    </p>
+                                    <p>
+                                                8
+                                    </p>
+                                    <p>
+                                                9
+                                    </p>
+                                    <p>
+                                                10
+                                    </p>
+                        </div>
+                        <div
+                                    className="code-container"
+                        >
+                                    <p
+                                                className="code"
+                                    >
+                                                .container {
+                                    </p>
+                                    <p
+                                                className="indent code"
+                                    >
+                                                display: flex;
+                                    </p>
+                                    <form
+                                                className="indent"
+                                                onSubmit={[Function]}
+                                    >
+                                                <input
+                                                            onChange={[Function]}
+                                                            type="text"
+                                                            value={undefined}
+                                                />
+                                    </form>
+                                    <p
+                                                className="code"
+                                    >
+                                                }
+                                    </p>
+                                    <NavLink
+                                                activeClassName="active"
+                                                aria-current="page"
+                                                to="/lessons_css"
+                                    >
+                                                <button
+                                                            className="next-button"
+                                                            disabled={true}
+                                                >
+                                                            Next
+                                                </button>
+                                                  
+                                                <button
+                                                            className="next-button"
+                                                            disabled={true}
+                                                >
+                                                            Next
+                                                </button>
+                                    </NavLink>
+                        </div>
+            </div>
+</div>,
+          <div
+            className="game-display"
+>
+            <div
+                        className="target"
+            />
+            <div
+                        className="box-container"
+                        style={Object {}}
+            >
+                        <div
+                                    className="box"
+                        />
+            </div>
+</div>,
+        ],
+        "className": "css-lesson-01",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="instructions"
+>
+                <h1
+                                className="game-header"
+                >
+                                Lesson 01: Flex Box
+                </h1>
+                <p
+                                className="game-description"
+                >
+                                Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the 
+                                <span>
+                                                justify-content
+                                </span>
+                                 property, which aligns items horizontally.
+                </p>
+                <p
+                                className="game-description"
+                >
+                                The text editor accepts the following values:
+                </p>
+                <ul>
+                                <li>
+                                                <span>
+                                                                flex-start
+                                                </span>
+                                                : Items align to the left side of the container.
+                                </li>
+                                <li>
+                                                <span>
+                                                                flex-end
+                                                </span>
+                                                : Items align to the right side of the container.
+                                </li>
+                                <li>
+                                                <span>
+                                                                center
+                                                </span>
+                                                : Items align at the center of the container.
+                                </li>
+                                <li>
+                                                <span>
+                                                                space-around
+                                                </span>
+                                                : Items display with equal spacing between them.
+                                </li>
+                                <li>
+                                                <span>
+                                                                space-between
+                                                </span>
+                                                : Items display with equal spacing around them.
+                                </li>
+                </ul>
+</div>,
+              <div
+                className="text-editor"
+>
+                <div
+                                className="line-numbers"
+                >
+                                <p>
+                                                1
+                                </p>
+                                <p>
+                                                2
+                                </p>
+                                <p>
+                                                3
+                                </p>
+                                <p>
+                                                4
+                                </p>
+                                <p>
+                                                5
+                                </p>
+                                <p>
+                                                6
+                                </p>
+                                <p>
+                                                7
+                                </p>
+                                <p>
+                                                8
+                                </p>
+                                <p>
+                                                9
+                                </p>
+                                <p>
+                                                10
+                                </p>
+                </div>
+                <div
+                                className="code-container"
+                >
+                                <p
+                                                className="code"
+                                >
+                                                .container {
+                                </p>
+                                <p
+                                                className="indent code"
+                                >
+                                                display: flex;
+                                </p>
+                                <form
+                                                className="indent"
+                                                onSubmit={[Function]}
+                                >
+                                                <input
+                                                                onChange={[Function]}
+                                                                type="text"
+                                                                value={undefined}
+                                                />
+                                </form>
+                                <p
+                                                className="code"
+                                >
+                                                }
+                                </p>
+                                <NavLink
+                                                activeClassName="active"
+                                                aria-current="page"
+                                                to="/lessons_css"
+                                >
+                                                <button
+                                                                className="next-button"
+                                                                disabled={true}
+                                                >
+                                                                Next
+                                                </button>
+                                                  
+                                                <button
+                                                                className="next-button"
+                                                                disabled={true}
+                                                >
+                                                                Next
+                                                </button>
+                                </NavLink>
+                </div>
+</div>,
+            ],
+            "className": "game-controls",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    className="game-header"
+>
+                    Lesson 01: Flex Box
+</h1>,
+                  <p
+                    className="game-description"
+>
+                    Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the 
+                    <span>
+                                        justify-content
+                    </span>
+                     property, which aligns items horizontally.
+</p>,
+                  <p
+                    className="game-description"
+>
+                    The text editor accepts the following values:
+</p>,
+                  <ul>
+                    <li>
+                                        <span>
+                                                            flex-start
+                                        </span>
+                                        : Items align to the left side of the container.
+                    </li>
+                    <li>
+                                        <span>
+                                                            flex-end
+                                        </span>
+                                        : Items align to the right side of the container.
+                    </li>
+                    <li>
+                                        <span>
+                                                            center
+                                        </span>
+                                        : Items align at the center of the container.
+                    </li>
+                    <li>
+                                        <span>
+                                                            space-around
+                                        </span>
+                                        : Items display with equal spacing between them.
+                    </li>
+                    <li>
+                                        <span>
+                                                            space-between
+                                        </span>
+                                        : Items display with equal spacing around them.
+                    </li>
+</ul>,
+                ],
+                "className": "instructions",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lesson 01: Flex Box",
+                    "className": "game-header",
+                  },
+                  "ref": null,
+                  "rendered": "Lesson 01: Flex Box",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the ",
+                      <span>
+                        justify-content
+</span>,
+                      " property, which aligns items horizontally.",
+                    ],
+                    "className": "game-description",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Use your knowledge of flex box to manipulate the box so it is on top of the target. To get started use the ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "justify-content",
+                      },
+                      "ref": null,
+                      "rendered": "justify-content",
+                      "type": "span",
+                    },
+                    " property, which aligns items horizontally.",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "The text editor accepts the following values:",
+                    "className": "game-description",
+                  },
+                  "ref": null,
+                  "rendered": "The text editor accepts the following values:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        <span>
+                                                flex-start
+                        </span>
+                        : Items align to the left side of the container.
+</li>,
+                      <li>
+                        <span>
+                                                flex-end
+                        </span>
+                        : Items align to the right side of the container.
+</li>,
+                      <li>
+                        <span>
+                                                center
+                        </span>
+                        : Items align at the center of the container.
+</li>,
+                      <li>
+                        <span>
+                                                space-around
+                        </span>
+                        : Items display with equal spacing between them.
+</li>,
+                      <li>
+                        <span>
+                                                space-between
+                        </span>
+                        : Items display with equal spacing around them.
+</li>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span>
+                            flex-start
+</span>,
+                          ": Items align to the left side of the container.",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "flex-start",
+                          },
+                          "ref": null,
+                          "rendered": "flex-start",
+                          "type": "span",
+                        },
+                        ": Items align to the left side of the container.",
+                      ],
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span>
+                            flex-end
+</span>,
+                          ": Items align to the right side of the container.",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "flex-end",
+                          },
+                          "ref": null,
+                          "rendered": "flex-end",
+                          "type": "span",
+                        },
+                        ": Items align to the right side of the container.",
+                      ],
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span>
+                            center
+</span>,
+                          ": Items align at the center of the container.",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "center",
+                          },
+                          "ref": null,
+                          "rendered": "center",
+                          "type": "span",
+                        },
+                        ": Items align at the center of the container.",
+                      ],
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span>
+                            space-around
+</span>,
+                          ": Items display with equal spacing between them.",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "space-around",
+                          },
+                          "ref": null,
+                          "rendered": "space-around",
+                          "type": "span",
+                        },
+                        ": Items display with equal spacing between them.",
+                      ],
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span>
+                            space-between
+</span>,
+                          ": Items display with equal spacing around them.",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "space-between",
+                          },
+                          "ref": null,
+                          "rendered": "space-between",
+                          "type": "span",
+                        },
+                        ": Items display with equal spacing around them.",
+                      ],
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="line-numbers"
+>
+                    <p>
+                                        1
+                    </p>
+                    <p>
+                                        2
+                    </p>
+                    <p>
+                                        3
+                    </p>
+                    <p>
+                                        4
+                    </p>
+                    <p>
+                                        5
+                    </p>
+                    <p>
+                                        6
+                    </p>
+                    <p>
+                                        7
+                    </p>
+                    <p>
+                                        8
+                    </p>
+                    <p>
+                                        9
+                    </p>
+                    <p>
+                                        10
+                    </p>
+</div>,
+                  <div
+                    className="code-container"
+>
+                    <p
+                                        className="code"
+                    >
+                                        .container {
+                    </p>
+                    <p
+                                        className="indent code"
+                    >
+                                        display: flex;
+                    </p>
+                    <form
+                                        className="indent"
+                                        onSubmit={[Function]}
+                    >
+                                        <input
+                                                            onChange={[Function]}
+                                                            type="text"
+                                                            value={undefined}
+                                        />
+                    </form>
+                    <p
+                                        className="code"
+                    >
+                                        }
+                    </p>
+                    <NavLink
+                                        activeClassName="active"
+                                        aria-current="page"
+                                        to="/lessons_css"
+                    >
+                                        <button
+                                                            className="next-button"
+                                                            disabled={true}
+                                        >
+                                                            Next
+                                        </button>
+                                          
+                                        <button
+                                                            className="next-button"
+                                                            disabled={true}
+                                        >
+                                                            Next
+                                        </button>
+                    </NavLink>
+</div>,
+                ],
+                "className": "text-editor",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p>
+                        1
+</p>,
+                      <p>
+                        2
+</p>,
+                      <p>
+                        3
+</p>,
+                      <p>
+                        4
+</p>,
+                      <p>
+                        5
+</p>,
+                      <p>
+                        6
+</p>,
+                      <p>
+                        7
+</p>,
+                      <p>
+                        8
+</p>,
+                      <p>
+                        9
+</p>,
+                      <p>
+                        10
+</p>,
+                    ],
+                    "className": "line-numbers",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "1",
+                      },
+                      "ref": null,
+                      "rendered": "1",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "2",
+                      },
+                      "ref": null,
+                      "rendered": "2",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "3",
+                      },
+                      "ref": null,
+                      "rendered": "3",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "4",
+                      },
+                      "ref": null,
+                      "rendered": "4",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "5",
+                      },
+                      "ref": null,
+                      "rendered": "5",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "6",
+                      },
+                      "ref": null,
+                      "rendered": "6",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "7",
+                      },
+                      "ref": null,
+                      "rendered": "7",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "8",
+                      },
+                      "ref": null,
+                      "rendered": "8",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "9",
+                      },
+                      "ref": null,
+                      "rendered": "9",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "10",
+                      },
+                      "ref": null,
+                      "rendered": "10",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="code"
+>
+                        .container {
+</p>,
+                      <p
+                        className="indent code"
+>
+                        display: flex;
+</p>,
+                      <form
+                        className="indent"
+                        onSubmit={[Function]}
+>
+                        <input
+                                                onChange={[Function]}
+                                                type="text"
+                                                value={undefined}
+                        />
+</form>,
+                      <p
+                        className="code"
+>
+                        }
+</p>,
+                      <NavLink
+                        activeClassName="active"
+                        aria-current="page"
+                        to="/lessons_css"
+>
+                        <button
+                                                className="next-button"
+                                                disabled={true}
+                        >
+                                                Next
+                        </button>
+                          
+                        <button
+                                                className="next-button"
+                                                disabled={true}
+                        >
+                                                Next
+                        </button>
+</NavLink>,
+                    ],
+                    "className": "code-container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": ".container {",
+                        "className": "code",
+                      },
+                      "ref": null,
+                      "rendered": ".container {",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "display: flex;",
+                        "className": "indent code",
+                      },
+                      "ref": null,
+                      "rendered": "display: flex;",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <input
+                          onChange={[Function]}
+                          type="text"
+                          value={undefined}
+/>,
+                        "className": "indent",
+                        "onSubmit": [Function],
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "onChange": [Function],
+                          "type": "text",
+                          "value": undefined,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "type": "form",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "}",
+                        "className": "code",
+                      },
+                      "ref": null,
+                      "rendered": "}",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "activeClassName": "active",
+                        "aria-current": "page",
+                        "children": Array [
+                          <button
+                            className="next-button"
+                            disabled={true}
+>
+                            Next
+</button>,
+                          "  ",
+                          <button
+                            className="next-button"
+                            disabled={true}
+>
+                            Next
+</button>,
+                        ],
+                        "to": "/lessons_css",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Next",
+                            "className": "next-button",
+                            "disabled": true,
+                          },
+                          "ref": null,
+                          "rendered": "Next",
+                          "type": "button",
+                        },
+                        "  ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Next",
+                            "className": "next-button",
+                            "disabled": true,
+                          },
+                          "ref": null,
+                          "rendered": "Next",
+                          "type": "button",
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="target"
+/>,
+              <div
+                className="box-container"
+                style={Object {}}
+>
+                <div
+                                className="box"
+                />
+</div>,
+            ],
+            "className": "game-display",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "target",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="box"
+/>,
+                "className": "box-container",
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "box",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

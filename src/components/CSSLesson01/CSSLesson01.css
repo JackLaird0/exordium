@@ -1,11 +1,33 @@
 .css-lesson-01 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2%;
+}
+
+.game-controls {
+  margin: 0 2%;
+}
+
+.instructions {
+  margin-left: 10px;
+}
+
+.game-header {
+  text-align: center;
+}
+
+.game-description {
+  display: block;
+}
+
+span {
+  font-family: 'Source Code Pro', monospace;
+  background: rgb(216, 216, 216)  
 }
 
 .text-editor {
   display: grid;
-  width: 100%;
   grid-template-columns: 35px 1fr;
   font-family: 'Source Code Pro', monospace;
   font-size: 18px;
@@ -15,6 +37,8 @@
   background: grey;
   display: grid;
   grid-template-rows: repeat(10, 42px);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 p {
@@ -28,6 +52,9 @@ p {
   display: grid;
   grid-template-rows: repeat(10, 42px);
   padding-left: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
 }
 
 .code {
@@ -50,38 +77,52 @@ input {
   margin: 0 0 0 20px;
 }
 
+.next-button {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background: brown;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.next-button:disabled {
+  opacity: 0.1;
+}
+
 .game-display {
-  width: 100%;
-  height: 600px;
+  width: 90%;
   background: turquoise;
-  display: flex;
-  justify-content: flex-end;
+  height: 100%;
+  box-sizing: border-box; 
   position: relative;
+  margin: 0 auto;
+  border-radius: 15px;
 }
 
-.initial {
-  position: absolute;
-  z-index: 2;
-  height: 600px;
+.box-container {
   width: 100%;
+  height: 100%;
   display: flex;
-}
-
-.correct {
-  position: absolute;
-  z-index: 2;
-  height: 600px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  padding: 3px 27px 0 0;
+  padding: 37px;
+  box-sizing: border-box;
 }
 
 .box {
   width: 50px;
   height: 50px;
   background: brown;
-  margin: 25px 0 0 25px;
+  z-index: 1;
+  border-radius: 5px;
+  animation: pulse 1s infinite alternate running;
 }
 
 .target {
@@ -89,5 +130,17 @@ input {
   height: 45px;
   border-radius: 75px;
   border: 20px solid #fff;
-  margin: 10px 10px 0 0;
+  position: absolute;
+  right: 0;
+  margin: 20px 20px 0 0;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1)
+  }
+  100% {
+    transform: scale(1.2)
+  }
+}
+
