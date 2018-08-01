@@ -17,7 +17,7 @@
 }
 
 .content,
-.interface {
+.intstructions {
   box-sizing: border-box;
   padding: 10px 20px;
 }
@@ -33,7 +33,7 @@
   font-size: 18px;
 }
 
-.interface {
+.intstructions {
   margin-bottom: 30px;
 }
 

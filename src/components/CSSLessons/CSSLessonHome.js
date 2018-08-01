@@ -28,7 +28,7 @@ export class CSSLessonHome extends Component {
             </div>
             <p className="text">Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!</p>
           </div>
-          <div className="interface">
+          <div className="instructions">
             <h1 className="lessons-games">Lessons & Games</h1>
             <p className="text">To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!</p>
             <div className="material">
