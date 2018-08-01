@@ -32,7 +32,7 @@ export class HomePage extends Component {
                   <img src={html} alt="HTML Logo" className="lesson-logo"/>
                   <p className="language-summary"> THE CONTENT</p>
                 </div>
-                <p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself </p>
+                  <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. </p>
               </div>
             </div>
           </NavLink>
@@ -45,7 +45,7 @@ export class HomePage extends Component {
                   <img src={css} alt='CSS Logo' className="lesson-logo css-logo"/>
                   <p className="language-summary"> THE STYLE</p>
                 </div>
-                <p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself </p>
+                  <p> It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. </p>
               </div>
             </div>
           </NavLink>
@@ -58,7 +58,7 @@ export class HomePage extends Component {
                   <img src={jsLogo} alt="JS Shield" className="lesson-logo"/>
                   <p className="language-summary"> THE LOGIC</p>
                 </div>
-                <p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself </p>
+                  <p> JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. </p>
               </div>
             </div>
           </NavLink>
