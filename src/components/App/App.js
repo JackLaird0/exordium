@@ -11,32 +11,37 @@ import CSSLesson01 from '../CSSLesson01/CSSLesson01';
 
 
 class App extends Component {
-  
+
   constructor() {
     super();
     this.state = {
       loginClass: 'hidden'
-    }
+    };
   }
 
   showLogin = () => {
-    this.setState({ loginClass: 'show' })
+    this.setState({ loginClass: 'show' });
   }
 
   hideLogin = () => {
-    this.setState({ loginClass: 'hidden' })
+    this.setState({ loginClass: 'hidden' });
   }
 
   render() {
     return (
       <div className="app">
-        <Route path='/' render={() => <Header showLogin={this.showLogin}/>}/>
-        <Route path='/' render={() => <Login hideLogin={this.hideLogin} loginClass={this.state.loginClass}/>} />
+        <Route path='/' render={() => <Header showLogin={this.showLogin} />} />
+        <Route
+          path='/'
+          render={() => <Login
+            hideLogin={this.hideLogin}
+            loginClass={this.state.loginClass}
+          />} />
         <Route exact path='/' component={HomePage} />
-        <Route exact path='/lessons_css' component={ CSSLessonHome } />
-        <Route exact path='/lessons_js' component={ JSLessonHome } />  
-        <Route exact path='/lessons_html' component={HTMLLessonHome} /> 
-        <Route exact path='/lessons_css/01' component={ CSSLesson01 } />     
+        <Route exact path='/lessons_css' component={CSSLessonHome} />
+        <Route exact path='/lessons_js' component={JSLessonHome} />
+        <Route exact path='/lessons_html' component={HTMLLessonHome} />
+        <Route exact path='/lessons_css/01' component={CSSLesson01} />
       </div>
     );
   }
