@@ -35,6 +35,7 @@ export class Login extends Component {
     auth.signInWithPopup(provider) 
     .then((result) => {
       const user = result.user;
+      console.log(user)
       const gamer_tag = user.displayName;
       fetch('https://exordium-backend.herokuapp.com/api/v1/users', {
         method: 'POST',
@@ -42,14 +43,11 @@ export class Login extends Component {
           'Content-type': 'application/json' 
         },
         body: JSON.stringify({user: {gamer_tag, level_id: 1}})
-      }).then(userId => {
-        console.log(userId, 'dfjfkjdfkjdskl')
       }).catch(error => {
         console.log(error)
       })
-      console.log(result)
       this.setState({
-        user
+        user: user.displayName
       });
     })
     .catch(error => {
