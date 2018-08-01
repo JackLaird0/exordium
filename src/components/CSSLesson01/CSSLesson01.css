@@ -41,7 +41,7 @@ span {
   border-bottom-left-radius: 15px;
 }
 
-p {
+.line-number {
   display: flex;
   justify-content: center;
   align-items: center;

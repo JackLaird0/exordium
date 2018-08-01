@@ -55,16 +55,16 @@ export class CSSLesson01 extends Component {
           </div>
           <div className="text-editor">
             <div className="line-numbers">
-              <p>1</p>
-              <p>2</p>
-              <p>3</p>
-              <p>4</p>
-              <p>5</p>
-              <p>6</p>
-              <p>7</p>
-              <p>8</p>
-              <p>9</p>
-              <p>10</p>              
+              <p className="line-number">1</p>
+              <p className="line-number">2</p>
+              <p className="line-number">3</p>
+              <p className="line-number">4</p>
+              <p className="line-number">5</p>
+              <p className="line-number">6</p>
+              <p className="line-number">7</p>
+              <p className="line-number">8</p>
+              <p className="line-number">9</p>
+              <p className="line-number">10</p>      
             </div>
             <div className="code-container">
               <p className="code">.container &#123;</p>
