@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="delete-button-container"
+>
+          <button
+                    className="delete-button"
+                    onClick={undefined}
+          >
+                    X
+          </button>
+</div>,
+        <form
+          className="sign-up"
+>
+          <div
+                    className="wrapper"
+          >
+                    <h3
+                              className="title"
+                    >
+                              Sign In With Google
+                    </h3>
+                    <button
+                              className="google-login"
+                              onClick={[Function]}
+                    >
+                              <img
+                                        alt="google logo"
+                                        className="google-logo"
+                                        src="google-logo.png"
+                              />
+                    </button>
+          </div>
+</form>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="delete-button"
+            onClick={undefined}
+>
+            X
+</button>,
+          "className": "delete-button-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "X",
+            "className": "delete-button",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "X",
+          "type": "button",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="wrapper"
+>
+            <h3
+                        className="title"
+            >
+                        Sign In With Google
+            </h3>
+            <button
+                        className="google-login"
+                        onClick={[Function]}
+            >
+                        <img
+                                    alt="google logo"
+                                    className="google-logo"
+                                    src="google-logo.png"
+                        />
+            </button>
+</div>,
+          "className": "sign-up",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="title"
+>
+                Sign In With Google
+</h3>,
+              <button
+                className="google-login"
+                onClick={[Function]}
+>
+                <img
+                                alt="google logo"
+                                className="google-logo"
+                                src="google-logo.png"
+                />
+</button>,
+            ],
+            "className": "wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign In With Google",
+                "className": "title",
+              },
+              "ref": null,
+              "rendered": "Sign In With Google",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="google logo"
+                  className="google-logo"
+                  src="google-logo.png"
+/>,
+                "className": "google-login",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "google logo",
+                  "className": "google-logo",
+                  "src": "google-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="delete-button-container"
+>
+            <button
+                        className="delete-button"
+                        onClick={undefined}
+            >
+                        X
+            </button>
+</div>,
+          <form
+            className="sign-up"
+>
+            <div
+                        className="wrapper"
+            >
+                        <h3
+                                    className="title"
+                        >
+                                    Sign In With Google
+                        </h3>
+                        <button
+                                    className="google-login"
+                                    onClick={[Function]}
+                        >
+                                    <img
+                                                alt="google logo"
+                                                className="google-logo"
+                                                src="google-logo.png"
+                                    />
+                        </button>
+            </div>
+</form>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="delete-button"
+              onClick={undefined}
+>
+              X
+</button>,
+            "className": "delete-button-container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "X",
+              "className": "delete-button",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "X",
+            "type": "button",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="wrapper"
+>
+              <h3
+                            className="title"
+              >
+                            Sign In With Google
+              </h3>
+              <button
+                            className="google-login"
+                            onClick={[Function]}
+              >
+                            <img
+                                          alt="google logo"
+                                          className="google-logo"
+                                          src="google-logo.png"
+                            />
+              </button>
+</div>,
+            "className": "sign-up",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="title"
+>
+                  Sign In With Google
+</h3>,
+                <button
+                  className="google-login"
+                  onClick={[Function]}
+>
+                  <img
+                                    alt="google logo"
+                                    className="google-logo"
+                                    src="google-logo.png"
+                  />
+</button>,
+              ],
+              "className": "wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sign In With Google",
+                  "className": "title",
+                },
+                "ref": null,
+                "rendered": "Sign In With Google",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="google logo"
+                    className="google-logo"
+                    src="google-logo.png"
+/>,
+                  "className": "google-login",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "google logo",
+                    "className": "google-logo",
+                    "src": "google-logo.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

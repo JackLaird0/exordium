@@ -9,9 +9,6 @@ export class Login extends Component {
 
     this.state = {
       view: 'hidden',
-      name: '',
-      username: '',
-      password: '',
       user: null
     }
 
