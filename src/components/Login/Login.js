@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase, { auth, provider } from '../../firebase';
+import googleLogo from '../../assets/google-logo.png';
 import './Login.css';
 
 export class Login extends Component {
@@ -24,7 +25,9 @@ export class Login extends Component {
       {this.state.user ? 
         <button className="google-login" onClick={(e) => this.logout(e)}>Log Out</button>
         :
-        <button className="google-login" onClick={(e) => this.login(e)}>Log In</button>
+        <button className="google-login" onClick={(e) => this.login(e)}>
+          <img src={googleLogo} alt="google logo" className="google-logo"/>
+        </button>
       }
     </div>
     )
@@ -73,41 +76,10 @@ export class Login extends Component {
             className='delete-button' 
             onClick={this.props.hideLogin}
           >
-          x
+          X
           </button>
         </div>          
         <form className='sign-up'>
-          <h1>Sign Up</h1>
-          <input
-            type='text'
-            placeholder='Name'
-          />
-          <input
-            type='text'
-            placeholder='Username'
-          />
-          <input
-            type='text'
-            placeholder='Password'
-          />
-          <input
-            type='text'
-            placeholder='Password'
-          />
-          <button>Submit</button>
-        </form>
-        <div className='border'></div>
-        <form className='login'>
-          <h1>Login</h1>
-          <input
-            type='text'
-            placeholder='Username'
-          />
-          <input
-            type='text'
-            placeholder='Password'
-          />
-          <button>Submit</button> 
           {this.toggleLogIn()}
         </form>
       </div>
