@@ -41,19 +41,19 @@ ShallowWrapper {
                     <p
                               className="text"
                     >
-                              HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as 
+                              HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
                               <span>
                                         &lt;img /&gt;
                               </span>
-                               and 
+                              and
                               <span>
                                         &lt;input /&gt;
                               </span>
-                               directly introduce content into the page. Other tags such as 
+                              directly introduce content into the page. Other tags such as
                               <span>
                                         &lt;p&gt;
                               </span>
-                               surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                              surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
                     </p>
                     <h1
                               className="key-features"
@@ -61,7 +61,7 @@ ShallowWrapper {
                               Key Features
                     </h1>
                     <li>
-                              Elements: 
+                              Elements:
                               <span>
                                         &lt;element&gt;&lt;/element&gt;
                               </span>
@@ -206,19 +206,19 @@ ShallowWrapper {
               <p
                             className="text"
               >
-                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as 
+                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
                             <span>
                                           &lt;img /&gt;
                             </span>
-                             and 
+                            and
                             <span>
                                           &lt;input /&gt;
                             </span>
-                             directly introduce content into the page. Other tags such as 
+                            directly introduce content into the page. Other tags such as
                             <span>
                                           &lt;p&gt;
                             </span>
-                             surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                            surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
               </p>
               <h1
                             className="key-features"
@@ -226,7 +226,7 @@ ShallowWrapper {
                             Key Features
               </h1>
               <li>
-                            Elements: 
+                            Elements:
                             <span>
                                           &lt;element&gt;&lt;/element&gt;
                             </span>
@@ -341,19 +341,19 @@ ShallowWrapper {
                 <p
                   className="text"
 >
-                  HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as 
+                  HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
                   <span>
                                     &lt;img /&gt;
                   </span>
-                   and 
+                  and
                   <span>
                                     &lt;input /&gt;
                   </span>
-                   directly introduce content into the page. Other tags such as 
+                  directly introduce content into the page. Other tags such as
                   <span>
                                     &lt;p&gt;
                   </span>
-                   surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                  surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
 </p>,
                 <h1
                   className="key-features"
@@ -361,7 +361,7 @@ ShallowWrapper {
                   Key Features
 </h1>,
                 <li>
-                  Elements: 
+                  Elements:
                   <span>
                                     &lt;element&gt;&lt;/element&gt;
                   </span>
@@ -413,25 +413,25 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as ",
+                    "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as",
                     <span>
                       &lt;img /&gt;
 </span>,
-                    " and ",
+                    "and",
                     <span>
                       &lt;input /&gt;
 </span>,
-                    " directly introduce content into the page. Other tags such as ",
+                    "directly introduce content into the page. Other tags such as",
                     <span>
                       &lt;p&gt;
 </span>,
-                    " surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
+                    "surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
                   ],
                   "className": "text",
                 },
                 "ref": null,
                 "rendered": Array [
-                  "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as ",
+                  "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as",
                   Object {
                     "instance": null,
                     "key": undefined,
@@ -443,7 +443,7 @@ ShallowWrapper {
                     "rendered": "<img />",
                     "type": "span",
                   },
-                  " and ",
+                  "and",
                   Object {
                     "instance": null,
                     "key": undefined,
@@ -455,7 +455,7 @@ ShallowWrapper {
                     "rendered": "<input />",
                     "type": "span",
                   },
-                  " directly introduce content into the page. Other tags such as ",
+                  "directly introduce content into the page. Other tags such as",
                   Object {
                     "instance": null,
                     "key": undefined,
@@ -467,7 +467,7 @@ ShallowWrapper {
                     "rendered": "<p>",
                     "type": "span",
                   },
-                  " surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
+                  "surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
                 ],
                 "type": "p",
               },
@@ -489,7 +489,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "Elements: ",
+                    "Elements:",
                     <span>
                       &lt;element&gt;&lt;/element&gt;
 </span>,
@@ -497,7 +497,7 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": Array [
-                  "Elements: ",
+                  "Elements:",
                   Object {
                     "instance": null,
                     "key": undefined,
@@ -974,19 +974,19 @@ ShallowWrapper {
                         <p
                                     className="text"
                         >
-                                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as 
+                                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
                                     <span>
                                                 &lt;img /&gt;
                                     </span>
-                                     and 
+                                    and
                                     <span>
                                                 &lt;input /&gt;
                                     </span>
-                                     directly introduce content into the page. Other tags such as 
+                                    directly introduce content into the page. Other tags such as
                                     <span>
                                                 &lt;p&gt;
                                     </span>
-                                     surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                                    surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
                         </p>
                         <h1
                                     className="key-features"
@@ -994,7 +994,7 @@ ShallowWrapper {
                                     Key Features
                         </h1>
                         <li>
-                                    Elements: 
+                                    Elements:
                                     <span>
                                                 &lt;element&gt;&lt;/element&gt;
                                     </span>
@@ -1139,19 +1139,19 @@ ShallowWrapper {
                 <p
                                 className="text"
                 >
-                                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as 
+                                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
                                 <span>
                                                 &lt;img /&gt;
                                 </span>
-                                 and 
+                                and
                                 <span>
                                                 &lt;input /&gt;
                                 </span>
-                                 directly introduce content into the page. Other tags such as 
+                                directly introduce content into the page. Other tags such as
                                 <span>
                                                 &lt;p&gt;
                                 </span>
-                                 surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                                surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
                 </p>
                 <h1
                                 className="key-features"
@@ -1159,7 +1159,7 @@ ShallowWrapper {
                                 Key Features
                 </h1>
                 <li>
-                                Elements: 
+                                Elements:
                                 <span>
                                                 &lt;element&gt;&lt;/element&gt;
                                 </span>
@@ -1274,19 +1274,19 @@ ShallowWrapper {
                   <p
                     className="text"
 >
-                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as 
+                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
                     <span>
                                         &lt;img /&gt;
                     </span>
-                     and 
+                    and
                     <span>
                                         &lt;input /&gt;
                     </span>
-                     directly introduce content into the page. Other tags such as 
+                    directly introduce content into the page. Other tags such as
                     <span>
                                         &lt;p&gt;
                     </span>
-                     surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+                    surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
 </p>,
                   <h1
                     className="key-features"
@@ -1294,7 +1294,7 @@ ShallowWrapper {
                     Key Features
 </h1>,
                   <li>
-                    Elements: 
+                    Elements:
                     <span>
                                         &lt;element&gt;&lt;/element&gt;
                     </span>
@@ -1346,25 +1346,25 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as ",
+                      "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as",
                       <span>
                         &lt;img /&gt;
 </span>,
-                      " and ",
+                      "and",
                       <span>
                         &lt;input /&gt;
 </span>,
-                      " directly introduce content into the page. Other tags such as ",
+                      "directly introduce content into the page. Other tags such as",
                       <span>
                         &lt;p&gt;
 </span>,
-                      " surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
+                      "surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
                     ],
                     "className": "text",
                   },
                   "ref": null,
                   "rendered": Array [
-                    "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as ",
+                    "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as",
                     Object {
                       "instance": null,
                       "key": undefined,
@@ -1376,7 +1376,7 @@ ShallowWrapper {
                       "rendered": "<img />",
                       "type": "span",
                     },
-                    " and ",
+                    "and",
                     Object {
                       "instance": null,
                       "key": undefined,
@@ -1388,7 +1388,7 @@ ShallowWrapper {
                       "rendered": "<input />",
                       "type": "span",
                     },
-                    " directly introduce content into the page. Other tags such as ",
+                    "directly introduce content into the page. Other tags such as",
                     Object {
                       "instance": null,
                       "key": undefined,
@@ -1400,7 +1400,7 @@ ShallowWrapper {
                       "rendered": "<p>",
                       "type": "span",
                     },
-                    " surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
+                    "surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.",
                   ],
                   "type": "p",
                 },
@@ -1422,7 +1422,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "Elements: ",
+                      "Elements:",
                       <span>
                         &lt;element&gt;&lt;/element&gt;
 </span>,
@@ -1430,7 +1430,7 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": Array [
-                    "Elements: ",
+                    "Elements:",
                     Object {
                       "instance": null,
                       "key": undefined,
