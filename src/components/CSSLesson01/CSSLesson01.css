@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 2%;
+  margin: 2%;
 }
 
 .game-controls {
@@ -58,7 +58,9 @@ span {
 }
 
 .code {
+  display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 form {
