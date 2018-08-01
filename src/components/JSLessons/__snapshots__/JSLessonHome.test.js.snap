@@ -18,82 +18,134 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <header>
-          <h1>
+        <header
+          className="title-container"
+>
+          <h1
+                    className="title"
+          >
                     Welcome to Javascript!
           </h1>
 </header>,
         <div
-          className="basics"
+          className="body-container"
 >
-          <h1>
-                    Before you start, please read this brief overview
-          </h1>
-          <p>
-                    JavaScript allows us to manipulate our application using conditional logic
-          </p>
-          <p>
-                    The key features of JavaScript include:
-          </p>
-          <li>
-                    Variables
-          </li>
-          <li>
-                    Functions
-          </li>
-          <li>
-                    Data Types
-          </li>
-          <li>
-                    Conditionals
-          </li>
-          <p>
-                    Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
-          </p>
-          <p>
-                    Let's get started!
-          </p>
-</div>,
-        <div
-          className="instructions"
->
-          <p>
-                    To get started, choose one of the lessons below
-          </p>
-          <p>
-                    After you have completed the lesson, play the game to test your knowledge!
-          </p>
-</div>,
-        <div
-          className="lessons"
->
-          <div>
-                    Lesson 01: Variables
+          <div
+                    className="content"
+          >
+                    <h1
+                              className="overview"
+                    >
+                              Overview
+                    </h1>
+                    <p
+                              className="text"
+                    >
+                              JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
+                    </p>
+                    <h1
+                              className="key-features"
+                    >
+                              Key Features
+                    </h1>
+                    <p
+                              className="text"
+                    >
+                              Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
+                    </p>
+                    <li>
+                              Variables
+                    </li>
+                    <li>
+                              Functions
+                    </li>
+                    <li>
+                              Data Types
+                    </li>
+                    <li>
+                              Conditionals
+                    </li>
+                    <p
+                              className="text"
+                    >
+                              Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.
+                    </p>
           </div>
-          <div>
-                    Lesson 02: Declaring Functions
-          </div>
-          <div>
-                    Lesson 03: Loops
-          </div>
-          <div>
-                    Lesson 04: Data Types
-          </div>
-</div>,
-        <div
-          className="games"
->
-          <div>
-                    Game 01: Variables
-          </div>
-          <div>
-                    Game 02: Declaring Functions
-          </div>
-          <div>
-                    Game 03: Loops
-          </div>
-          <div>
-                    Game 04: Data Types
+          <div
+                    className="instructions"
+          >
+                    <h1
+                              className="lessons-games"
+                    >
+                              Lessons & Games
+                    </h1>
+                    <p
+                              className="text"
+                    >
+                              To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+                    </p>
+                    <div
+                              className="material"
+                    >
+                              <div
+                                        className="material-box"
+                              >
+                                        <h3
+                                                  className="material-title"
+                                        >
+                                                  Lessons
+                                        </h3>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Variables
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Declaring Functions
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Loops
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Data Types
+                                        </div>
+                              </div>
+                              <div
+                                        className="games"
+                              >
+                                        <h3
+                                                  className="material-title"
+                                        >
+                                                  Games
+                                        </h3>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Variables
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Declaring Functions
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Loops
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Data Types
+                                        </div>
+                              </div>
+                    </div>
           </div>
 </div>,
       ],
@@ -105,9 +157,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1>
+          "children": <h1
+            className="title"
+>
             Welcome to Javascript!
 </h1>,
+          "className": "title-container",
         },
         "ref": null,
         "rendered": Object {
@@ -116,6 +171,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Welcome to Javascript!",
+            "className": "title",
           },
           "ref": null,
           "rendered": "Welcome to Javascript!",
@@ -129,317 +185,661 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h1>
-              Before you start, please read this brief overview
+            <div
+              className="content"
+>
+              <h1
+                            className="overview"
+              >
+                            Overview
+              </h1>
+              <p
+                            className="text"
+              >
+                            JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
+              </p>
+              <h1
+                            className="key-features"
+              >
+                            Key Features
+              </h1>
+              <p
+                            className="text"
+              >
+                            Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
+              </p>
+              <li>
+                            Variables
+              </li>
+              <li>
+                            Functions
+              </li>
+              <li>
+                            Data Types
+              </li>
+              <li>
+                            Conditionals
+              </li>
+              <p
+                            className="text"
+              >
+                            Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.
+              </p>
+</div>,
+            <div
+              className="instructions"
+>
+              <h1
+                            className="lessons-games"
+              >
+                            Lessons & Games
+              </h1>
+              <p
+                            className="text"
+              >
+                            To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+              </p>
+              <div
+                            className="material"
+              >
+                            <div
+                                          className="material-box"
+                            >
+                                          <h3
+                                                        className="material-title"
+                                          >
+                                                        Lessons
+                                          </h3>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Variables
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Declaring Functions
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Loops
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Data Types
+                                          </div>
+                            </div>
+                            <div
+                                          className="games"
+                            >
+                                          <h3
+                                                        className="material-title"
+                                          >
+                                                        Games
+                                          </h3>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Variables
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Declaring Functions
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Loops
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Data Types
+                                          </div>
+                            </div>
+              </div>
+</div>,
+          ],
+          "className": "body-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="overview"
+>
+                  Overview
 </h1>,
-            <p>
-              JavaScript allows us to manipulate our application using conditional logic
+                <p
+                  className="text"
+>
+                  JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
 </p>,
-            <p>
-              The key features of JavaScript include:
+                <h1
+                  className="key-features"
+>
+                  Key Features
+</h1>,
+                <p
+                  className="text"
+>
+                  Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
 </p>,
-            <li>
-              Variables
+                <li>
+                  Variables
 </li>,
-            <li>
-              Functions
+                <li>
+                  Functions
 </li>,
-            <li>
-              Data Types
+                <li>
+                  Data Types
 </li>,
-            <li>
-              Conditionals
+                <li>
+                  Conditionals
 </li>,
-            <p>
-              Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
+                <p
+                  className="text"
+>
+                  Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.
 </p>,
-            <p>
-              Let's get started!
+              ],
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Overview",
+                  "className": "overview",
+                },
+                "ref": null,
+                "rendered": "Overview",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Key Features",
+                  "className": "key-features",
+                },
+                "ref": null,
+                "rendered": "Key Features",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Variables",
+                },
+                "ref": null,
+                "rendered": "Variables",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Functions",
+                },
+                "ref": null,
+                "rendered": "Functions",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Data Types",
+                },
+                "ref": null,
+                "rendered": "Data Types",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Conditionals",
+                },
+                "ref": null,
+                "rendered": "Conditionals",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="lessons-games"
+>
+                  Lessons & Games
+</h1>,
+                <p
+                  className="text"
+>
+                  To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
 </p>,
-          ],
-          "className": "basics",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Before you start, please read this brief overview",
-            },
-            "ref": null,
-            "rendered": "Before you start, please read this brief overview",
-            "type": "h1",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "JavaScript allows us to manipulate our application using conditional logic",
-            },
-            "ref": null,
-            "rendered": "JavaScript allows us to manipulate our application using conditional logic",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "The key features of JavaScript include:",
-            },
-            "ref": null,
-            "rendered": "The key features of JavaScript include:",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Variables",
-            },
-            "ref": null,
-            "rendered": "Variables",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Functions",
-            },
-            "ref": null,
-            "rendered": "Functions",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Data Types",
-            },
-            "ref": null,
-            "rendered": "Data Types",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Conditionals",
-            },
-            "ref": null,
-            "rendered": "Conditionals",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
-            },
-            "ref": null,
-            "rendered": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Let's get started!",
-            },
-            "ref": null,
-            "rendered": "Let's get started!",
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <p>
-              To get started, choose one of the lessons below
-</p>,
-            <p>
-              After you have completed the lesson, play the game to test your knowledge!
-</p>,
-          ],
-          "className": "instructions",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "To get started, choose one of the lessons below",
-            },
-            "ref": null,
-            "rendered": "To get started, choose one of the lessons below",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "After you have completed the lesson, play the game to test your knowledge!",
-            },
-            "ref": null,
-            "rendered": "After you have completed the lesson, play the game to test your knowledge!",
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <div>
-              Lesson 01: Variables
+                <div
+                  className="material"
+>
+                  <div
+                                    className="material-box"
+                  >
+                                    <h3
+                                                      className="material-title"
+                                    >
+                                                      Lessons
+                                    </h3>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Variables
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Declaring Functions
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Loops
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Data Types
+                                    </div>
+                  </div>
+                  <div
+                                    className="games"
+                  >
+                                    <h3
+                                                      className="material-title"
+                                    >
+                                                      Games
+                                    </h3>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Variables
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Declaring Functions
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Loops
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Data Types
+                                    </div>
+                  </div>
 </div>,
-            <div>
-              Lesson 02: Declaring Functions
+              ],
+              "className": "instructions",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lessons & Games",
+                  "className": "lessons-games",
+                },
+                "ref": null,
+                "rendered": "Lessons & Games",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="material-box"
+>
+                      <h3
+                                            className="material-title"
+                      >
+                                            Lessons
+                      </h3>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Variables
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Declaring Functions
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Loops
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Data Types
+                      </div>
 </div>,
-            <div>
-              Lesson 03: Loops
+                    <div
+                      className="games"
+>
+                      <h3
+                                            className="material-title"
+                      >
+                                            Games
+                      </h3>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Variables
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Declaring Functions
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Loops
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Data Types
+                      </div>
 </div>,
-            <div>
-              Lesson 04: Data Types
+                  ],
+                  "className": "material",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="material-title"
+>
+                          Lessons
+</h3>,
+                        <div
+                          className="lesson-element"
+>
+                          Variables
 </div>,
-          ],
-          "className": "lessons",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 01: Variables",
-            },
-            "ref": null,
-            "rendered": "Lesson 01: Variables",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 02: Declaring Functions",
-            },
-            "ref": null,
-            "rendered": "Lesson 02: Declaring Functions",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 03: Loops",
-            },
-            "ref": null,
-            "rendered": "Lesson 03: Loops",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 04: Data Types",
-            },
-            "ref": null,
-            "rendered": "Lesson 04: Data Types",
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <div>
-              Game 01: Variables
+                        <div
+                          className="lesson-element"
+>
+                          Declaring Functions
 </div>,
-            <div>
-              Game 02: Declaring Functions
+                        <div
+                          className="lesson-element"
+>
+                          Loops
 </div>,
-            <div>
-              Game 03: Loops
+                        <div
+                          className="lesson-element"
+>
+                          Data Types
 </div>,
-            <div>
-              Game 04: Data Types
+                      ],
+                      "className": "material-box",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Lessons",
+                          "className": "material-title",
+                        },
+                        "ref": null,
+                        "rendered": "Lessons",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Variables",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Variables",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Declaring Functions",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Declaring Functions",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Loops",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Loops",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Data Types",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Data Types",
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="material-title"
+>
+                          Games
+</h3>,
+                        <div
+                          className="lesson-element"
+>
+                          Variables
 </div>,
-          ],
-          "className": "games",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Game 01: Variables",
-            },
-            "ref": null,
-            "rendered": "Game 01: Variables",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Game 02: Declaring Functions",
-            },
-            "ref": null,
-            "rendered": "Game 02: Declaring Functions",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Game 03: Loops",
-            },
-            "ref": null,
-            "rendered": "Game 03: Loops",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Game 04: Data Types",
-            },
-            "ref": null,
-            "rendered": "Game 04: Data Types",
+                        <div
+                          className="lesson-element"
+>
+                          Declaring Functions
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          Loops
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          Data Types
+</div>,
+                      ],
+                      "className": "games",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Games",
+                          "className": "material-title",
+                        },
+                        "ref": null,
+                        "rendered": "Games",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Variables",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Variables",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Declaring Functions",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Declaring Functions",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Loops",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Loops",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Data Types",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Data Types",
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
             "type": "div",
           },
         ],
@@ -455,82 +855,134 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <header>
-            <h1>
+          <header
+            className="title-container"
+>
+            <h1
+                        className="title"
+            >
                         Welcome to Javascript!
             </h1>
 </header>,
           <div
-            className="basics"
+            className="body-container"
 >
-            <h1>
-                        Before you start, please read this brief overview
-            </h1>
-            <p>
-                        JavaScript allows us to manipulate our application using conditional logic
-            </p>
-            <p>
-                        The key features of JavaScript include:
-            </p>
-            <li>
-                        Variables
-            </li>
-            <li>
-                        Functions
-            </li>
-            <li>
-                        Data Types
-            </li>
-            <li>
-                        Conditionals
-            </li>
-            <p>
-                        Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
-            </p>
-            <p>
-                        Let's get started!
-            </p>
-</div>,
-          <div
-            className="instructions"
->
-            <p>
-                        To get started, choose one of the lessons below
-            </p>
-            <p>
-                        After you have completed the lesson, play the game to test your knowledge!
-            </p>
-</div>,
-          <div
-            className="lessons"
->
-            <div>
-                        Lesson 01: Variables
+            <div
+                        className="content"
+            >
+                        <h1
+                                    className="overview"
+                        >
+                                    Overview
+                        </h1>
+                        <p
+                                    className="text"
+                        >
+                                    JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
+                        </p>
+                        <h1
+                                    className="key-features"
+                        >
+                                    Key Features
+                        </h1>
+                        <p
+                                    className="text"
+                        >
+                                    Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
+                        </p>
+                        <li>
+                                    Variables
+                        </li>
+                        <li>
+                                    Functions
+                        </li>
+                        <li>
+                                    Data Types
+                        </li>
+                        <li>
+                                    Conditionals
+                        </li>
+                        <p
+                                    className="text"
+                        >
+                                    Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.
+                        </p>
             </div>
-            <div>
-                        Lesson 02: Declaring Functions
-            </div>
-            <div>
-                        Lesson 03: Loops
-            </div>
-            <div>
-                        Lesson 04: Data Types
-            </div>
-</div>,
-          <div
-            className="games"
->
-            <div>
-                        Game 01: Variables
-            </div>
-            <div>
-                        Game 02: Declaring Functions
-            </div>
-            <div>
-                        Game 03: Loops
-            </div>
-            <div>
-                        Game 04: Data Types
+            <div
+                        className="instructions"
+            >
+                        <h1
+                                    className="lessons-games"
+                        >
+                                    Lessons & Games
+                        </h1>
+                        <p
+                                    className="text"
+                        >
+                                    To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+                        </p>
+                        <div
+                                    className="material"
+                        >
+                                    <div
+                                                className="material-box"
+                                    >
+                                                <h3
+                                                            className="material-title"
+                                                >
+                                                            Lessons
+                                                </h3>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Variables
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Declaring Functions
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Loops
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Data Types
+                                                </div>
+                                    </div>
+                                    <div
+                                                className="games"
+                                    >
+                                                <h3
+                                                            className="material-title"
+                                                >
+                                                            Games
+                                                </h3>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Variables
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Declaring Functions
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Loops
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Data Types
+                                                </div>
+                                    </div>
+                        </div>
             </div>
 </div>,
         ],
@@ -542,9 +994,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
+            "children": <h1
+              className="title"
+>
               Welcome to Javascript!
 </h1>,
+            "className": "title-container",
           },
           "ref": null,
           "rendered": Object {
@@ -553,6 +1008,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Welcome to Javascript!",
+              "className": "title",
             },
             "ref": null,
             "rendered": "Welcome to Javascript!",
@@ -566,317 +1022,661 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h1>
-                Before you start, please read this brief overview
+              <div
+                className="content"
+>
+                <h1
+                                className="overview"
+                >
+                                Overview
+                </h1>
+                <p
+                                className="text"
+                >
+                                JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
+                </p>
+                <h1
+                                className="key-features"
+                >
+                                Key Features
+                </h1>
+                <p
+                                className="text"
+                >
+                                Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
+                </p>
+                <li>
+                                Variables
+                </li>
+                <li>
+                                Functions
+                </li>
+                <li>
+                                Data Types
+                </li>
+                <li>
+                                Conditionals
+                </li>
+                <p
+                                className="text"
+                >
+                                Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.
+                </p>
+</div>,
+              <div
+                className="instructions"
+>
+                <h1
+                                className="lessons-games"
+                >
+                                Lessons & Games
+                </h1>
+                <p
+                                className="text"
+                >
+                                To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+                </p>
+                <div
+                                className="material"
+                >
+                                <div
+                                                className="material-box"
+                                >
+                                                <h3
+                                                                className="material-title"
+                                                >
+                                                                Lessons
+                                                </h3>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Variables
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Declaring Functions
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Loops
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Data Types
+                                                </div>
+                                </div>
+                                <div
+                                                className="games"
+                                >
+                                                <h3
+                                                                className="material-title"
+                                                >
+                                                                Games
+                                                </h3>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Variables
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Declaring Functions
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Loops
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Data Types
+                                                </div>
+                                </div>
+                </div>
+</div>,
+            ],
+            "className": "body-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    className="overview"
+>
+                    Overview
 </h1>,
-              <p>
-                JavaScript allows us to manipulate our application using conditional logic
+                  <p
+                    className="text"
+>
+                    JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.
 </p>,
-              <p>
-                The key features of JavaScript include:
+                  <h1
+                    className="key-features"
+>
+                    Key Features
+</h1>,
+                  <p
+                    className="text"
+>
+                    Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
 </p>,
-              <li>
-                Variables
+                  <li>
+                    Variables
 </li>,
-              <li>
-                Functions
+                  <li>
+                    Functions
 </li>,
-              <li>
-                Data Types
+                  <li>
+                    Data Types
 </li>,
-              <li>
-                Conditionals
+                  <li>
+                    Conditionals
 </li>,
-              <p>
-                Understanding these four features will allow you to build dynamic applications with a high degree of interactivity
+                  <p
+                    className="text"
+>
+                    Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.
 </p>,
-              <p>
-                Let's get started!
+                ],
+                "className": "content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Overview",
+                    "className": "overview",
+                  },
+                  "ref": null,
+                  "rendered": "Overview",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Key Features",
+                    "className": "key-features",
+                  },
+                  "ref": null,
+                  "rendered": "Key Features",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Variables",
+                  },
+                  "ref": null,
+                  "rendered": "Variables",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Functions",
+                  },
+                  "ref": null,
+                  "rendered": "Functions",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Data Types",
+                  },
+                  "ref": null,
+                  "rendered": "Data Types",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Conditionals",
+                  },
+                  "ref": null,
+                  "rendered": "Conditionals",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "Variables, functions, data types, and conditionals, are essential to understanding Javascript.  Understanding these core concepts allows for dynamic websites with a high level of user interactivity.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    className="lessons-games"
+>
+                    Lessons & Games
+</h1>,
+                  <p
+                    className="text"
+>
+                    To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
 </p>,
-            ],
-            "className": "basics",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Before you start, please read this brief overview",
-              },
-              "ref": null,
-              "rendered": "Before you start, please read this brief overview",
-              "type": "h1",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "JavaScript allows us to manipulate our application using conditional logic",
-              },
-              "ref": null,
-              "rendered": "JavaScript allows us to manipulate our application using conditional logic",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "The key features of JavaScript include:",
-              },
-              "ref": null,
-              "rendered": "The key features of JavaScript include:",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Variables",
-              },
-              "ref": null,
-              "rendered": "Variables",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Functions",
-              },
-              "ref": null,
-              "rendered": "Functions",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Data Types",
-              },
-              "ref": null,
-              "rendered": "Data Types",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Conditionals",
-              },
-              "ref": null,
-              "rendered": "Conditionals",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
-              },
-              "ref": null,
-              "rendered": "Understanding these four features will allow you to build dynamic applications with a high degree of interactivity",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Let's get started!",
-              },
-              "ref": null,
-              "rendered": "Let's get started!",
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <p>
-                To get started, choose one of the lessons below
-</p>,
-              <p>
-                After you have completed the lesson, play the game to test your knowledge!
-</p>,
-            ],
-            "className": "instructions",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "To get started, choose one of the lessons below",
-              },
-              "ref": null,
-              "rendered": "To get started, choose one of the lessons below",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "After you have completed the lesson, play the game to test your knowledge!",
-              },
-              "ref": null,
-              "rendered": "After you have completed the lesson, play the game to test your knowledge!",
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div>
-                Lesson 01: Variables
+                  <div
+                    className="material"
+>
+                    <div
+                                        className="material-box"
+                    >
+                                        <h3
+                                                            className="material-title"
+                                        >
+                                                            Lessons
+                                        </h3>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Variables
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Declaring Functions
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Loops
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Data Types
+                                        </div>
+                    </div>
+                    <div
+                                        className="games"
+                    >
+                                        <h3
+                                                            className="material-title"
+                                        >
+                                                            Games
+                                        </h3>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Variables
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Declaring Functions
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Loops
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Data Types
+                                        </div>
+                    </div>
 </div>,
-              <div>
-                Lesson 02: Declaring Functions
+                ],
+                "className": "instructions",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lessons & Games",
+                    "className": "lessons-games",
+                  },
+                  "ref": null,
+                  "rendered": "Lessons & Games",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="material-box"
+>
+                        <h3
+                                                className="material-title"
+                        >
+                                                Lessons
+                        </h3>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Variables
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Declaring Functions
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Loops
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Data Types
+                        </div>
 </div>,
-              <div>
-                Lesson 03: Loops
+                      <div
+                        className="games"
+>
+                        <h3
+                                                className="material-title"
+                        >
+                                                Games
+                        </h3>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Variables
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Declaring Functions
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Loops
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Data Types
+                        </div>
 </div>,
-              <div>
-                Lesson 04: Data Types
+                    ],
+                    "className": "material",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3
+                            className="material-title"
+>
+                            Lessons
+</h3>,
+                          <div
+                            className="lesson-element"
+>
+                            Variables
 </div>,
-            ],
-            "className": "lessons",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 01: Variables",
-              },
-              "ref": null,
-              "rendered": "Lesson 01: Variables",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 02: Declaring Functions",
-              },
-              "ref": null,
-              "rendered": "Lesson 02: Declaring Functions",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 03: Loops",
-              },
-              "ref": null,
-              "rendered": "Lesson 03: Loops",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 04: Data Types",
-              },
-              "ref": null,
-              "rendered": "Lesson 04: Data Types",
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div>
-                Game 01: Variables
+                          <div
+                            className="lesson-element"
+>
+                            Declaring Functions
 </div>,
-              <div>
-                Game 02: Declaring Functions
+                          <div
+                            className="lesson-element"
+>
+                            Loops
 </div>,
-              <div>
-                Game 03: Loops
+                          <div
+                            className="lesson-element"
+>
+                            Data Types
 </div>,
-              <div>
-                Game 04: Data Types
+                        ],
+                        "className": "material-box",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Lessons",
+                            "className": "material-title",
+                          },
+                          "ref": null,
+                          "rendered": "Lessons",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Variables",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Variables",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Declaring Functions",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Declaring Functions",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Loops",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Loops",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Data Types",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Data Types",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3
+                            className="material-title"
+>
+                            Games
+</h3>,
+                          <div
+                            className="lesson-element"
+>
+                            Variables
 </div>,
-            ],
-            "className": "games",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 01: Variables",
-              },
-              "ref": null,
-              "rendered": "Game 01: Variables",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 02: Declaring Functions",
-              },
-              "ref": null,
-              "rendered": "Game 02: Declaring Functions",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 03: Loops",
-              },
-              "ref": null,
-              "rendered": "Game 03: Loops",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 04: Data Types",
-              },
-              "ref": null,
-              "rendered": "Game 04: Data Types",
+                          <div
+                            className="lesson-element"
+>
+                            Declaring Functions
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            Loops
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            Data Types
+</div>,
+                        ],
+                        "className": "games",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Games",
+                            "className": "material-title",
+                          },
+                          "ref": null,
+                          "rendered": "Games",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Variables",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Variables",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Declaring Functions",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Declaring Functions",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Loops",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Loops",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Data Types",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Data Types",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
               "type": "div",
             },
           ],

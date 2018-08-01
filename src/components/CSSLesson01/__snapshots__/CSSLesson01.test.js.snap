@@ -82,34 +82,54 @@ ShallowWrapper {
                     <div
                               className="line-numbers"
                     >
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         1
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         2
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         3
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         4
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         5
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         6
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         7
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         8
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         9
                               </p>
-                              <p>
+                              <p
+                                        className="line-number"
+                              >
                                         10
                               </p>
                     </div>
@@ -250,34 +270,54 @@ ShallowWrapper {
               <div
                             className="line-numbers"
               >
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           1
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           2
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           3
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           4
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           5
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           6
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           7
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           8
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           9
                             </p>
-                            <p>
+                            <p
+                                          className="line-number"
+                            >
                                           10
                             </p>
               </div>
@@ -653,34 +693,54 @@ ShallowWrapper {
                 <div
                   className="line-numbers"
 >
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     1
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     2
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     3
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     4
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     5
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     6
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     7
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     8
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     9
                   </p>
-                  <p>
+                  <p
+                                    className="line-number"
+                  >
                                     10
                   </p>
 </div>,
@@ -743,34 +803,54 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    <p>
+                    <p
+                      className="line-number"
+>
                       1
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       2
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       3
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       4
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       5
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       6
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       7
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       8
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       9
 </p>,
-                    <p>
+                    <p
+                      className="line-number"
+>
                       10
 </p>,
                   ],
@@ -784,6 +864,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "1",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "1",
@@ -795,6 +876,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "2",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "2",
@@ -806,6 +888,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "3",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "3",
@@ -817,6 +900,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "4",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "4",
@@ -828,6 +912,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "5",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "5",
@@ -839,6 +924,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "6",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "6",
@@ -850,6 +936,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "7",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "7",
@@ -861,6 +948,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "8",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "8",
@@ -872,6 +960,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "9",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "9",
@@ -883,6 +972,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "10",
+                      "className": "line-number",
                     },
                     "ref": null,
                     "rendered": "10",
@@ -1211,34 +1301,54 @@ ShallowWrapper {
                         <div
                                     className="line-numbers"
                         >
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 1
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 2
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 3
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 4
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 5
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 6
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 7
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 8
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 9
                                     </p>
-                                    <p>
+                                    <p
+                                                className="line-number"
+                                    >
                                                 10
                                     </p>
                         </div>
@@ -1379,34 +1489,54 @@ ShallowWrapper {
                 <div
                                 className="line-numbers"
                 >
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 1
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 2
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 3
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 4
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 5
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 6
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 7
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 8
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 9
                                 </p>
-                                <p>
+                                <p
+                                                className="line-number"
+                                >
                                                 10
                                 </p>
                 </div>
@@ -1782,34 +1912,54 @@ ShallowWrapper {
                   <div
                     className="line-numbers"
 >
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         1
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         2
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         3
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         4
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         5
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         6
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         7
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         8
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         9
                     </p>
-                    <p>
+                    <p
+                                        className="line-number"
+                    >
                                         10
                     </p>
 </div>,
@@ -1872,34 +2022,54 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      <p>
+                      <p
+                        className="line-number"
+>
                         1
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         2
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         3
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         4
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         5
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         6
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         7
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         8
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         9
 </p>,
-                      <p>
+                      <p
+                        className="line-number"
+>
                         10
 </p>,
                     ],
@@ -1913,6 +2083,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "1",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "1",
@@ -1924,6 +2095,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "2",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "2",
@@ -1935,6 +2107,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "3",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "3",
@@ -1946,6 +2119,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "4",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "4",
@@ -1957,6 +2131,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "5",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "5",
@@ -1968,6 +2143,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "6",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "6",
@@ -1979,6 +2155,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "7",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "7",
@@ -1990,6 +2167,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "8",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "8",
@@ -2001,6 +2179,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "9",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "9",
@@ -2012,6 +2191,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": "10",
+                        "className": "line-number",
                       },
                       "ref": null,
                       "rendered": "10",

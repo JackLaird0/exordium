@@ -18,92 +18,154 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <header>
-          <h1>
+        <header
+          className="title-container"
+>
+          <h1
+                    className="title"
+          >
                     Welcome to CSS!
           </h1>
 </header>,
         <div
-          className="basics"
+          className="body-container"
 >
-          <h1>
-                    Before you start, please read this brief overview
-          </h1>
-          <p>
-                    In order for CSS to work with your HTML, we need to use selectors
-          </p>
-          <p>
-                    CSS selectors allow us to "select" an HTML element by its:
-          </p>
-          <li>
-                    Element Type
-          </li>
-          <li>
-                    Class Name
-          </li>
-          <li>
-                    Id
-          </li>
-          <p>
-                    Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page
-          </p>
-          <p>
-                    Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
-          </p>
-          <img
-                    alt="CSS Selector Anatomy"
-                    src="css-rule.png"
-          />
-          <p>
-                    Now that we know how to properly select elements, let's get started!
-          </p>
-</div>,
-        <div
-          className="instructions"
->
-          <p>
-                    To get started, choose one of the lessons below
-          </p>
-          <p>
-                    After you have completed the lesson, play the game to test your knowledge!
-          </p>
-</div>,
-        <div
-          className="lessons"
->
-          <div>
-                    Lesson 01: FlexBox
-          </div>
-          <div>
-                    Lesson 02: CSS Grid
-          </div>
-          <div>
-                    Lesson 03: Margins
-          </div>
-          <div>
-                    Lesson 04: Fonts
-          </div>
-</div>,
-        <div
-          className="games"
->
-          <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    to="/lessons_css/01"
+          <div
+                    className="content"
           >
-                    <div>
-                              Game 01: FlexBox
+                    <h1
+                              className="overview"
+                    >
+                              Overview
+                    </h1>
+                    <p
+                              className="text"
+                    >
+                              It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+                    </p>
+                    <h1
+                              className="selectors"
+                    >
+                              CSS Selectors
+                    </h1>
+                    <p
+                              className="text"
+                    >
+                              In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to "select" an HTML element by its:
+                    </p>
+                    <div
+                              className="selectors-container"
+                    >
+                              <li>
+                                        Element Type: "element"
+                              </li>
+                              <li>
+                                        Class Name: ".class-name"
+                              </li>
+                              <li>
+                                        Id: "#id"
+                              </li>
                     </div>
-          </NavLink>
-          <div>
-                    Game 02: CSS Grid
+                    <p
+                              className="text"
+                    >
+                              Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
+                    </p>
+                    <div
+                              className="image-container"
+                    >
+                              <img
+                                        alt="CSS Selector Anatomy"
+                                        className="css-image"
+                                        src="css-rule.png"
+                              />
+                    </div>
+                    <p
+                              className="text"
+                    >
+                              Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!
+                    </p>
           </div>
-          <div>
-                    Game 03: Margins
-          </div>
-          <div>
-                    Game 04: Fonts
+          <div
+                    className="instructions"
+          >
+                    <h1
+                              className="lessons-games"
+                    >
+                              Lessons & Games
+                    </h1>
+                    <p
+                              className="text"
+                    >
+                              To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+                    </p>
+                    <div
+                              className="material"
+                    >
+                              <div
+                                        className="material-box"
+                              >
+                                        <h3
+                                                  className="material-title"
+                                        >
+                                                  Lessons
+                                        </h3>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  FlexBox
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  CSS Grid
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Margins
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Fonts
+                                        </div>
+                              </div>
+                              <div
+                                        className="games"
+                              >
+                                        <h3
+                                                  className="material-title"
+                                        >
+                                                  Games
+                                        </h3>
+                                        <NavLink
+                                                  activeClassName="active"
+                                                  aria-current="page"
+                                                  className="lesson-element"
+                                                  to="/lessons_css/01"
+                                        >
+                                                  <div>
+                                                            FlexBox
+                                                  </div>
+                                        </NavLink>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  CSS Grid
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Margins
+                                        </div>
+                                        <div
+                                                  className="lesson-element"
+                                        >
+                                                  Fonts
+                                        </div>
+                              </div>
+                    </div>
           </div>
 </div>,
       ],
@@ -115,9 +177,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <h1>
+          "children": <h1
+            className="title"
+>
             Welcome to CSS!
 </h1>,
+          "className": "title-container",
         },
         "ref": null,
         "rendered": Object {
@@ -126,6 +191,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Welcome to CSS!",
+            "className": "title",
           },
           "ref": null,
           "rendered": "Welcome to CSS!",
@@ -139,332 +205,368 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <h1>
-              Before you start, please read this brief overview
-</h1>,
-            <p>
-              In order for CSS to work with your HTML, we need to use selectors
-</p>,
-            <p>
-              CSS selectors allow us to "select" an HTML element by its:
-</p>,
-            <li>
-              Element Type
-</li>,
-            <li>
-              Class Name
-</li>,
-            <li>
-              Id
-</li>,
-            <p>
-              Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page
-</p>,
-            <p>
-              Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
-</p>,
-            <img
-              alt="CSS Selector Anatomy"
-              src="css-rule.png"
-/>,
-            <p>
-              Now that we know how to properly select elements, let's get started!
-</p>,
-          ],
-          "className": "basics",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Before you start, please read this brief overview",
-            },
-            "ref": null,
-            "rendered": "Before you start, please read this brief overview",
-            "type": "h1",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "In order for CSS to work with your HTML, we need to use selectors",
-            },
-            "ref": null,
-            "rendered": "In order for CSS to work with your HTML, we need to use selectors",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "CSS selectors allow us to \\"select\\" an HTML element by its:",
-            },
-            "ref": null,
-            "rendered": "CSS selectors allow us to \\"select\\" an HTML element by its:",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Element Type",
-            },
-            "ref": null,
-            "rendered": "Element Type",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Class Name",
-            },
-            "ref": null,
-            "rendered": "Class Name",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Id",
-            },
-            "ref": null,
-            "rendered": "Id",
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page",
-            },
-            "ref": null,
-            "rendered": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
-            },
-            "ref": null,
-            "rendered": "Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "CSS Selector Anatomy",
-              "src": "css-rule.png",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Now that we know how to properly select elements, let's get started!",
-            },
-            "ref": null,
-            "rendered": "Now that we know how to properly select elements, let's get started!",
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <p>
-              To get started, choose one of the lessons below
-</p>,
-            <p>
-              After you have completed the lesson, play the game to test your knowledge!
-</p>,
-          ],
-          "className": "instructions",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "To get started, choose one of the lessons below",
-            },
-            "ref": null,
-            "rendered": "To get started, choose one of the lessons below",
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "After you have completed the lesson, play the game to test your knowledge!",
-            },
-            "ref": null,
-            "rendered": "After you have completed the lesson, play the game to test your knowledge!",
-            "type": "p",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <div>
-              Lesson 01: FlexBox
-</div>,
-            <div>
-              Lesson 02: CSS Grid
-</div>,
-            <div>
-              Lesson 03: Margins
-</div>,
-            <div>
-              Lesson 04: Fonts
-</div>,
-          ],
-          "className": "lessons",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 01: FlexBox",
-            },
-            "ref": null,
-            "rendered": "Lesson 01: FlexBox",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 02: CSS Grid",
-            },
-            "ref": null,
-            "rendered": "Lesson 02: CSS Grid",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 03: Margins",
-            },
-            "ref": null,
-            "rendered": "Lesson 03: Margins",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lesson 04: Fonts",
-            },
-            "ref": null,
-            "rendered": "Lesson 04: Fonts",
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <NavLink
-              activeClassName="active"
-              aria-current="page"
-              to="/lessons_css/01"
+            <div
+              className="content"
 >
-              <div>
-                            Game 01: FlexBox
+              <h1
+                            className="overview"
+              >
+                            Overview
+              </h1>
+              <p
+                            className="text"
+              >
+                            It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+              </p>
+              <h1
+                            className="selectors"
+              >
+                            CSS Selectors
+              </h1>
+              <p
+                            className="text"
+              >
+                            In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to "select" an HTML element by its:
+              </p>
+              <div
+                            className="selectors-container"
+              >
+                            <li>
+                                          Element Type: "element"
+                            </li>
+                            <li>
+                                          Class Name: ".class-name"
+                            </li>
+                            <li>
+                                          Id: "#id"
+                            </li>
               </div>
-</NavLink>,
-            <div>
-              Game 02: CSS Grid
+              <p
+                            className="text"
+              >
+                            Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
+              </p>
+              <div
+                            className="image-container"
+              >
+                            <img
+                                          alt="CSS Selector Anatomy"
+                                          className="css-image"
+                                          src="css-rule.png"
+                            />
+              </div>
+              <p
+                            className="text"
+              >
+                            Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!
+              </p>
 </div>,
-            <div>
-              Game 03: Margins
-</div>,
-            <div>
-              Game 04: Fonts
+            <div
+              className="instructions"
+>
+              <h1
+                            className="lessons-games"
+              >
+                            Lessons & Games
+              </h1>
+              <p
+                            className="text"
+              >
+                            To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+              </p>
+              <div
+                            className="material"
+              >
+                            <div
+                                          className="material-box"
+                            >
+                                          <h3
+                                                        className="material-title"
+                                          >
+                                                        Lessons
+                                          </h3>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        FlexBox
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        CSS Grid
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Margins
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Fonts
+                                          </div>
+                            </div>
+                            <div
+                                          className="games"
+                            >
+                                          <h3
+                                                        className="material-title"
+                                          >
+                                                        Games
+                                          </h3>
+                                          <NavLink
+                                                        activeClassName="active"
+                                                        aria-current="page"
+                                                        className="lesson-element"
+                                                        to="/lessons_css/01"
+                                          >
+                                                        <div>
+                                                                      FlexBox
+                                                        </div>
+                                          </NavLink>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        CSS Grid
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Margins
+                                          </div>
+                                          <div
+                                                        className="lesson-element"
+                                          >
+                                                        Fonts
+                                          </div>
+                            </div>
+              </div>
 </div>,
           ],
-          "className": "games",
+          "className": "body-container",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "host",
             "props": Object {
-              "activeClassName": "active",
-              "aria-current": "page",
-              "children": <div>
-                Game 01: FlexBox
+              "children": Array [
+                <h1
+                  className="overview"
+>
+                  Overview
+</h1>,
+                <p
+                  className="text"
+>
+                  It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+</p>,
+                <h1
+                  className="selectors"
+>
+                  CSS Selectors
+</h1>,
+                <p
+                  className="text"
+>
+                  In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to "select" an HTML element by its:
+</p>,
+                <div
+                  className="selectors-container"
+>
+                  <li>
+                                    Element Type: "element"
+                  </li>
+                  <li>
+                                    Class Name: ".class-name"
+                  </li>
+                  <li>
+                                    Id: "#id"
+                  </li>
 </div>,
-              "to": "/lessons_css/01",
+                <p
+                  className="text"
+>
+                  Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
+</p>,
+                <div
+                  className="image-container"
+>
+                  <img
+                                    alt="CSS Selector Anatomy"
+                                    className="css-image"
+                                    src="css-rule.png"
+                  />
+</div>,
+                <p
+                  className="text"
+>
+                  Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!
+</p>,
+              ],
+              "className": "content",
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 01: FlexBox",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Overview",
+                  "className": "overview",
+                },
+                "ref": null,
+                "rendered": "Overview",
+                "type": "h1",
               },
-              "ref": null,
-              "rendered": "Game 01: FlexBox",
-              "type": "div",
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Game 02: CSS Grid",
-            },
-            "ref": null,
-            "rendered": "Game 02: CSS Grid",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "CSS Selectors",
+                  "className": "selectors",
+                },
+                "ref": null,
+                "rendered": "CSS Selectors",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to \\"select\\" an HTML element by its:",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to \\"select\\" an HTML element by its:",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      Element Type: "element"
+</li>,
+                    <li>
+                      Class Name: ".class-name"
+</li>,
+                    <li>
+                      Id: "#id"
+</li>,
+                  ],
+                  "className": "selectors-container",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Element Type: \\"element\\"",
+                    },
+                    "ref": null,
+                    "rendered": "Element Type: \\"element\\"",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Class Name: \\".class-name\\"",
+                    },
+                    "ref": null,
+                    "rendered": "Class Name: \\".class-name\\"",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Id: \\"#id\\"",
+                    },
+                    "ref": null,
+                    "rendered": "Id: \\"#id\\"",
+                    "type": "li",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="CSS Selector Anatomy"
+                    className="css-image"
+                    src="css-rule.png"
+/>,
+                  "className": "image-container",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "CSS Selector Anatomy",
+                    "className": "css-image",
+                    "src": "css-rule.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!",
+                "type": "p",
+              },
+            ],
             "type": "div",
           },
           Object {
@@ -472,21 +574,409 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Game 03: Margins",
+              "children": Array [
+                <h1
+                  className="lessons-games"
+>
+                  Lessons & Games
+</h1>,
+                <p
+                  className="text"
+>
+                  To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+</p>,
+                <div
+                  className="material"
+>
+                  <div
+                                    className="material-box"
+                  >
+                                    <h3
+                                                      className="material-title"
+                                    >
+                                                      Lessons
+                                    </h3>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      FlexBox
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      CSS Grid
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Margins
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Fonts
+                                    </div>
+                  </div>
+                  <div
+                                    className="games"
+                  >
+                                    <h3
+                                                      className="material-title"
+                                    >
+                                                      Games
+                                    </h3>
+                                    <NavLink
+                                                      activeClassName="active"
+                                                      aria-current="page"
+                                                      className="lesson-element"
+                                                      to="/lessons_css/01"
+                                    >
+                                                      <div>
+                                                                        FlexBox
+                                                      </div>
+                                    </NavLink>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      CSS Grid
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Margins
+                                    </div>
+                                    <div
+                                                      className="lesson-element"
+                                    >
+                                                      Fonts
+                                    </div>
+                  </div>
+</div>,
+              ],
+              "className": "instructions",
             },
             "ref": null,
-            "rendered": "Game 03: Margins",
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Game 04: Fonts",
-            },
-            "ref": null,
-            "rendered": "Game 04: Fonts",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lessons & Games",
+                  "className": "lessons-games",
+                },
+                "ref": null,
+                "rendered": "Lessons & Games",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                  "className": "text",
+                },
+                "ref": null,
+                "rendered": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="material-box"
+>
+                      <h3
+                                            className="material-title"
+                      >
+                                            Lessons
+                      </h3>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            FlexBox
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            CSS Grid
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Margins
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Fonts
+                      </div>
+</div>,
+                    <div
+                      className="games"
+>
+                      <h3
+                                            className="material-title"
+                      >
+                                            Games
+                      </h3>
+                      <NavLink
+                                            activeClassName="active"
+                                            aria-current="page"
+                                            className="lesson-element"
+                                            to="/lessons_css/01"
+                      >
+                                            <div>
+                                                                  FlexBox
+                                            </div>
+                      </NavLink>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            CSS Grid
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Margins
+                      </div>
+                      <div
+                                            className="lesson-element"
+                      >
+                                            Fonts
+                      </div>
+</div>,
+                  ],
+                  "className": "material",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="material-title"
+>
+                          Lessons
+</h3>,
+                        <div
+                          className="lesson-element"
+>
+                          FlexBox
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          CSS Grid
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          Margins
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          Fonts
+</div>,
+                      ],
+                      "className": "material-box",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Lessons",
+                          "className": "material-title",
+                        },
+                        "ref": null,
+                        "rendered": "Lessons",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "FlexBox",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "FlexBox",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "CSS Grid",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "CSS Grid",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Margins",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Margins",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Fonts",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Fonts",
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="material-title"
+>
+                          Games
+</h3>,
+                        <NavLink
+                          activeClassName="active"
+                          aria-current="page"
+                          className="lesson-element"
+                          to="/lessons_css/01"
+>
+                          <div>
+                                                    FlexBox
+                          </div>
+</NavLink>,
+                        <div
+                          className="lesson-element"
+>
+                          CSS Grid
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          Margins
+</div>,
+                        <div
+                          className="lesson-element"
+>
+                          Fonts
+</div>,
+                      ],
+                      "className": "games",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Games",
+                          "className": "material-title",
+                        },
+                        "ref": null,
+                        "rendered": "Games",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "activeClassName": "active",
+                          "aria-current": "page",
+                          "children": <div>
+                            FlexBox
+</div>,
+                          "className": "lesson-element",
+                          "to": "/lessons_css/01",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "FlexBox",
+                          },
+                          "ref": null,
+                          "rendered": "FlexBox",
+                          "type": "div",
+                        },
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "CSS Grid",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "CSS Grid",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Margins",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Margins",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Fonts",
+                          "className": "lesson-element",
+                        },
+                        "ref": null,
+                        "rendered": "Fonts",
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
             "type": "div",
           },
         ],
@@ -502,92 +992,154 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <header>
-            <h1>
+          <header
+            className="title-container"
+>
+            <h1
+                        className="title"
+            >
                         Welcome to CSS!
             </h1>
 </header>,
           <div
-            className="basics"
+            className="body-container"
 >
-            <h1>
-                        Before you start, please read this brief overview
-            </h1>
-            <p>
-                        In order for CSS to work with your HTML, we need to use selectors
-            </p>
-            <p>
-                        CSS selectors allow us to "select" an HTML element by its:
-            </p>
-            <li>
-                        Element Type
-            </li>
-            <li>
-                        Class Name
-            </li>
-            <li>
-                        Id
-            </li>
-            <p>
-                        Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page
-            </p>
-            <p>
-                        Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
-            </p>
-            <img
-                        alt="CSS Selector Anatomy"
-                        src="css-rule.png"
-            />
-            <p>
-                        Now that we know how to properly select elements, let's get started!
-            </p>
-</div>,
-          <div
-            className="instructions"
->
-            <p>
-                        To get started, choose one of the lessons below
-            </p>
-            <p>
-                        After you have completed the lesson, play the game to test your knowledge!
-            </p>
-</div>,
-          <div
-            className="lessons"
->
-            <div>
-                        Lesson 01: FlexBox
-            </div>
-            <div>
-                        Lesson 02: CSS Grid
-            </div>
-            <div>
-                        Lesson 03: Margins
-            </div>
-            <div>
-                        Lesson 04: Fonts
-            </div>
-</div>,
-          <div
-            className="games"
->
-            <NavLink
-                        activeClassName="active"
-                        aria-current="page"
-                        to="/lessons_css/01"
+            <div
+                        className="content"
             >
-                        <div>
-                                    Game 01: FlexBox
+                        <h1
+                                    className="overview"
+                        >
+                                    Overview
+                        </h1>
+                        <p
+                                    className="text"
+                        >
+                                    It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+                        </p>
+                        <h1
+                                    className="selectors"
+                        >
+                                    CSS Selectors
+                        </h1>
+                        <p
+                                    className="text"
+                        >
+                                    In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to "select" an HTML element by its:
+                        </p>
+                        <div
+                                    className="selectors-container"
+                        >
+                                    <li>
+                                                Element Type: "element"
+                                    </li>
+                                    <li>
+                                                Class Name: ".class-name"
+                                    </li>
+                                    <li>
+                                                Id: "#id"
+                                    </li>
                         </div>
-            </NavLink>
-            <div>
-                        Game 02: CSS Grid
+                        <p
+                                    className="text"
+                        >
+                                    Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
+                        </p>
+                        <div
+                                    className="image-container"
+                        >
+                                    <img
+                                                alt="CSS Selector Anatomy"
+                                                className="css-image"
+                                                src="css-rule.png"
+                                    />
+                        </div>
+                        <p
+                                    className="text"
+                        >
+                                    Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!
+                        </p>
             </div>
-            <div>
-                        Game 03: Margins
-            </div>
-            <div>
-                        Game 04: Fonts
+            <div
+                        className="instructions"
+            >
+                        <h1
+                                    className="lessons-games"
+                        >
+                                    Lessons & Games
+                        </h1>
+                        <p
+                                    className="text"
+                        >
+                                    To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+                        </p>
+                        <div
+                                    className="material"
+                        >
+                                    <div
+                                                className="material-box"
+                                    >
+                                                <h3
+                                                            className="material-title"
+                                                >
+                                                            Lessons
+                                                </h3>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            FlexBox
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            CSS Grid
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Margins
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Fonts
+                                                </div>
+                                    </div>
+                                    <div
+                                                className="games"
+                                    >
+                                                <h3
+                                                            className="material-title"
+                                                >
+                                                            Games
+                                                </h3>
+                                                <NavLink
+                                                            activeClassName="active"
+                                                            aria-current="page"
+                                                            className="lesson-element"
+                                                            to="/lessons_css/01"
+                                                >
+                                                            <div>
+                                                                        FlexBox
+                                                            </div>
+                                                </NavLink>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            CSS Grid
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Margins
+                                                </div>
+                                                <div
+                                                            className="lesson-element"
+                                                >
+                                                            Fonts
+                                                </div>
+                                    </div>
+                        </div>
             </div>
 </div>,
         ],
@@ -599,9 +1151,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <h1>
+            "children": <h1
+              className="title"
+>
               Welcome to CSS!
 </h1>,
+            "className": "title-container",
           },
           "ref": null,
           "rendered": Object {
@@ -610,6 +1165,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Welcome to CSS!",
+              "className": "title",
             },
             "ref": null,
             "rendered": "Welcome to CSS!",
@@ -623,332 +1179,368 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h1>
-                Before you start, please read this brief overview
-</h1>,
-              <p>
-                In order for CSS to work with your HTML, we need to use selectors
-</p>,
-              <p>
-                CSS selectors allow us to "select" an HTML element by its:
-</p>,
-              <li>
-                Element Type
-</li>,
-              <li>
-                Class Name
-</li>,
-              <li>
-                Id
-</li>,
-              <p>
-                Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page
-</p>,
-              <p>
-                Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
-</p>,
-              <img
-                alt="CSS Selector Anatomy"
-                src="css-rule.png"
-/>,
-              <p>
-                Now that we know how to properly select elements, let's get started!
-</p>,
-            ],
-            "className": "basics",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Before you start, please read this brief overview",
-              },
-              "ref": null,
-              "rendered": "Before you start, please read this brief overview",
-              "type": "h1",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "In order for CSS to work with your HTML, we need to use selectors",
-              },
-              "ref": null,
-              "rendered": "In order for CSS to work with your HTML, we need to use selectors",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "CSS selectors allow us to \\"select\\" an HTML element by its:",
-              },
-              "ref": null,
-              "rendered": "CSS selectors allow us to \\"select\\" an HTML element by its:",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Element Type",
-              },
-              "ref": null,
-              "rendered": "Element Type",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Class Name",
-              },
-              "ref": null,
-              "rendered": "Class Name",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Id",
-              },
-              "ref": null,
-              "rendered": "Id",
-              "type": "li",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page",
-              },
-              "ref": null,
-              "rendered": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
-              },
-              "ref": null,
-              "rendered": "Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "CSS Selector Anatomy",
-                "src": "css-rule.png",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Now that we know how to properly select elements, let's get started!",
-              },
-              "ref": null,
-              "rendered": "Now that we know how to properly select elements, let's get started!",
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <p>
-                To get started, choose one of the lessons below
-</p>,
-              <p>
-                After you have completed the lesson, play the game to test your knowledge!
-</p>,
-            ],
-            "className": "instructions",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "To get started, choose one of the lessons below",
-              },
-              "ref": null,
-              "rendered": "To get started, choose one of the lessons below",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "After you have completed the lesson, play the game to test your knowledge!",
-              },
-              "ref": null,
-              "rendered": "After you have completed the lesson, play the game to test your knowledge!",
-              "type": "p",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div>
-                Lesson 01: FlexBox
-</div>,
-              <div>
-                Lesson 02: CSS Grid
-</div>,
-              <div>
-                Lesson 03: Margins
-</div>,
-              <div>
-                Lesson 04: Fonts
-</div>,
-            ],
-            "className": "lessons",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 01: FlexBox",
-              },
-              "ref": null,
-              "rendered": "Lesson 01: FlexBox",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 02: CSS Grid",
-              },
-              "ref": null,
-              "rendered": "Lesson 02: CSS Grid",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 03: Margins",
-              },
-              "ref": null,
-              "rendered": "Lesson 03: Margins",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Lesson 04: Fonts",
-              },
-              "ref": null,
-              "rendered": "Lesson 04: Fonts",
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <NavLink
-                activeClassName="active"
-                aria-current="page"
-                to="/lessons_css/01"
+              <div
+                className="content"
 >
-                <div>
-                                Game 01: FlexBox
+                <h1
+                                className="overview"
+                >
+                                Overview
+                </h1>
+                <p
+                                className="text"
+                >
+                                It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+                </p>
+                <h1
+                                className="selectors"
+                >
+                                CSS Selectors
+                </h1>
+                <p
+                                className="text"
+                >
+                                In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to "select" an HTML element by its:
+                </p>
+                <div
+                                className="selectors-container"
+                >
+                                <li>
+                                                Element Type: "element"
+                                </li>
+                                <li>
+                                                Class Name: ".class-name"
+                                </li>
+                                <li>
+                                                Id: "#id"
+                                </li>
                 </div>
-</NavLink>,
-              <div>
-                Game 02: CSS Grid
+                <p
+                                className="text"
+                >
+                                Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
+                </p>
+                <div
+                                className="image-container"
+                >
+                                <img
+                                                alt="CSS Selector Anatomy"
+                                                className="css-image"
+                                                src="css-rule.png"
+                                />
+                </div>
+                <p
+                                className="text"
+                >
+                                Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!
+                </p>
 </div>,
-              <div>
-                Game 03: Margins
-</div>,
-              <div>
-                Game 04: Fonts
+              <div
+                className="instructions"
+>
+                <h1
+                                className="lessons-games"
+                >
+                                Lessons & Games
+                </h1>
+                <p
+                                className="text"
+                >
+                                To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+                </p>
+                <div
+                                className="material"
+                >
+                                <div
+                                                className="material-box"
+                                >
+                                                <h3
+                                                                className="material-title"
+                                                >
+                                                                Lessons
+                                                </h3>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                FlexBox
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                CSS Grid
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Margins
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Fonts
+                                                </div>
+                                </div>
+                                <div
+                                                className="games"
+                                >
+                                                <h3
+                                                                className="material-title"
+                                                >
+                                                                Games
+                                                </h3>
+                                                <NavLink
+                                                                activeClassName="active"
+                                                                aria-current="page"
+                                                                className="lesson-element"
+                                                                to="/lessons_css/01"
+                                                >
+                                                                <div>
+                                                                                FlexBox
+                                                                </div>
+                                                </NavLink>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                CSS Grid
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Margins
+                                                </div>
+                                                <div
+                                                                className="lesson-element"
+                                                >
+                                                                Fonts
+                                                </div>
+                                </div>
+                </div>
 </div>,
             ],
-            "className": "games",
+            "className": "body-container",
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
+              "nodeType": "host",
               "props": Object {
-                "activeClassName": "active",
-                "aria-current": "page",
-                "children": <div>
-                  Game 01: FlexBox
+                "children": Array [
+                  <h1
+                    className="overview"
+>
+                    Overview
+</h1>,
+                  <p
+                    className="text"
+>
+                    It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.
+</p>,
+                  <h1
+                    className="selectors"
+>
+                    CSS Selectors
+</h1>,
+                  <p
+                    className="text"
+>
+                    In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to "select" an HTML element by its:
+</p>,
+                  <div
+                    className="selectors-container"
+>
+                    <li>
+                                        Element Type: "element"
+                    </li>
+                    <li>
+                                        Class Name: ".class-name"
+                    </li>
+                    <li>
+                                        Id: "#id"
+                    </li>
 </div>,
-                "to": "/lessons_css/01",
+                  <p
+                    className="text"
+>
+                    Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!
+</p>,
+                  <div
+                    className="image-container"
+>
+                    <img
+                                        alt="CSS Selector Anatomy"
+                                        className="css-image"
+                                        src="css-rule.png"
+                    />
+</div>,
+                  <p
+                    className="text"
+>
+                    Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!
+</p>,
+                ],
+                "className": "content",
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Game 01: FlexBox",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Overview",
+                    "className": "overview",
+                  },
+                  "ref": null,
+                  "rendered": "Overview",
+                  "type": "h1",
                 },
-                "ref": null,
-                "rendered": "Game 01: FlexBox",
-                "type": "div",
-              },
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 02: CSS Grid",
-              },
-              "ref": null,
-              "rendered": "Game 02: CSS Grid",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. In addition to the plain old tag names themselves, these attributes allow you to create “targets” for both your css and javascript. They are hooks so that you can manipulate the look and behavior of your HTML elements.",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CSS Selectors",
+                    "className": "selectors",
+                  },
+                  "ref": null,
+                  "rendered": "CSS Selectors",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to \\"select\\" an HTML element by its:",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "In order for CSS to work with your HTML, we need to use selectors. CSS selectors allow us to \\"select\\" an HTML element by its:",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        Element Type: "element"
+</li>,
+                      <li>
+                        Class Name: ".class-name"
+</li>,
+                      <li>
+                        Id: "#id"
+</li>,
+                    ],
+                    "className": "selectors-container",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Element Type: \\"element\\"",
+                      },
+                      "ref": null,
+                      "rendered": "Element Type: \\"element\\"",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Class Name: \\".class-name\\"",
+                      },
+                      "ref": null,
+                      "rendered": "Class Name: \\".class-name\\"",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Id: \\"#id\\"",
+                      },
+                      "ref": null,
+                      "rendered": "Id: \\"#id\\"",
+                      "type": "li",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "Once selected, we can use CSS to manipulate our selected element, changing it's apperance and position on the page. Here is a sample CSS selector.  Notice its structure and syntax.  This will be important moving forward!",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="CSS Selector Anatomy"
+                      className="css-image"
+                      src="css-rule.png"
+/>,
+                    "className": "image-container",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "CSS Selector Anatomy",
+                      "className": "css-image",
+                      "src": "css-rule.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "Selecting HTML elements provides us with the power to create beautiful web applications. Now that we know how to properly select elements, let's get started!",
+                  "type": "p",
+                },
+              ],
               "type": "div",
             },
             Object {
@@ -956,21 +1548,409 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Game 03: Margins",
+                "children": Array [
+                  <h1
+                    className="lessons-games"
+>
+                    Lessons & Games
+</h1>,
+                  <p
+                    className="text"
+>
+                    To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!
+</p>,
+                  <div
+                    className="material"
+>
+                    <div
+                                        className="material-box"
+                    >
+                                        <h3
+                                                            className="material-title"
+                                        >
+                                                            Lessons
+                                        </h3>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            FlexBox
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            CSS Grid
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Margins
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Fonts
+                                        </div>
+                    </div>
+                    <div
+                                        className="games"
+                    >
+                                        <h3
+                                                            className="material-title"
+                                        >
+                                                            Games
+                                        </h3>
+                                        <NavLink
+                                                            activeClassName="active"
+                                                            aria-current="page"
+                                                            className="lesson-element"
+                                                            to="/lessons_css/01"
+                                        >
+                                                            <div>
+                                                                                FlexBox
+                                                            </div>
+                                        </NavLink>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            CSS Grid
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Margins
+                                        </div>
+                                        <div
+                                                            className="lesson-element"
+                                        >
+                                                            Fonts
+                                        </div>
+                    </div>
+</div>,
+                ],
+                "className": "instructions",
               },
               "ref": null,
-              "rendered": "Game 03: Margins",
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Game 04: Fonts",
-              },
-              "ref": null,
-              "rendered": "Game 04: Fonts",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Lessons & Games",
+                    "className": "lessons-games",
+                  },
+                  "ref": null,
+                  "rendered": "Lessons & Games",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                    "className": "text",
+                  },
+                  "ref": null,
+                  "rendered": "To get started, choose one of the lessons below. After you have completed the lesson, play the game to test your knowledge!",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="material-box"
+>
+                        <h3
+                                                className="material-title"
+                        >
+                                                Lessons
+                        </h3>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                FlexBox
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                CSS Grid
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Margins
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Fonts
+                        </div>
+</div>,
+                      <div
+                        className="games"
+>
+                        <h3
+                                                className="material-title"
+                        >
+                                                Games
+                        </h3>
+                        <NavLink
+                                                activeClassName="active"
+                                                aria-current="page"
+                                                className="lesson-element"
+                                                to="/lessons_css/01"
+                        >
+                                                <div>
+                                                                        FlexBox
+                                                </div>
+                        </NavLink>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                CSS Grid
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Margins
+                        </div>
+                        <div
+                                                className="lesson-element"
+                        >
+                                                Fonts
+                        </div>
+</div>,
+                    ],
+                    "className": "material",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3
+                            className="material-title"
+>
+                            Lessons
+</h3>,
+                          <div
+                            className="lesson-element"
+>
+                            FlexBox
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            CSS Grid
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            Margins
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            Fonts
+</div>,
+                        ],
+                        "className": "material-box",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Lessons",
+                            "className": "material-title",
+                          },
+                          "ref": null,
+                          "rendered": "Lessons",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "FlexBox",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "FlexBox",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "CSS Grid",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "CSS Grid",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Margins",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Margins",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Fonts",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Fonts",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <h3
+                            className="material-title"
+>
+                            Games
+</h3>,
+                          <NavLink
+                            activeClassName="active"
+                            aria-current="page"
+                            className="lesson-element"
+                            to="/lessons_css/01"
+>
+                            <div>
+                                                        FlexBox
+                            </div>
+</NavLink>,
+                          <div
+                            className="lesson-element"
+>
+                            CSS Grid
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            Margins
+</div>,
+                          <div
+                            className="lesson-element"
+>
+                            Fonts
+</div>,
+                        ],
+                        "className": "games",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Games",
+                            "className": "material-title",
+                          },
+                          "ref": null,
+                          "rendered": "Games",
+                          "type": "h3",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "activeClassName": "active",
+                            "aria-current": "page",
+                            "children": <div>
+                              FlexBox
+</div>,
+                            "className": "lesson-element",
+                            "to": "/lessons_css/01",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "FlexBox",
+                            },
+                            "ref": null,
+                            "rendered": "FlexBox",
+                            "type": "div",
+                          },
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "CSS Grid",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "CSS Grid",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Margins",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Margins",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Fonts",
+                            "className": "lesson-element",
+                          },
+                          "ref": null,
+                          "rendered": "Fonts",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
               "type": "div",
             },
           ],

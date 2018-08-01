@@ -78,7 +78,7 @@ ShallowWrapper {
                                                             </p>
                                                   </div>
                                                   <p>
-                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                                   </p>
                                         </div>
                               </div>
@@ -120,7 +120,7 @@ ShallowWrapper {
                                                             </p>
                                                   </div>
                                                   <p>
-                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                             It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                                   </p>
                                         </div>
                               </div>
@@ -162,7 +162,7 @@ ShallowWrapper {
                                                             </p>
                                                   </div>
                                                   <p>
-                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                             JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                                   </p>
                                         </div>
                               </div>
@@ -180,49 +180,66 @@ ShallowWrapper {
           <div
                     className="resources-container"
           >
-                    <div
-                              className="resource"
+                    <a
+                              className="resource-link"
+                              href="http://frontend.turing.io/"
+                              target="_blank"
                     >
-                              <img
-                                        alt="Turing logo"
-                                        className="resource-logo"
-                                        src="turing-logo.png"
-                              />
-                              <p
-                                        className="resource-name"
+                              <div
+                                        className="resource"
                               >
-                                        TURING SCHOOL
-                              </p>
-                    </div>
-                    <div
-                              className="resource"
+                                        <img
+                                                  alt="Turing logo"
+                                                  className="resource-logo"
+                                                  src="turing-logo.png"
+                                        />
+                                        <p
+                                                  className="resource-name"
+                                        >
+                                                  TURING SCHOOL
+                                        </p>
+                              </div>
+                    </a>
+                    <a
+                              className="resource-link"
+                              href="https://developer.mozilla.org/en-US/"
+                              target="_blank"
                     >
-                              <img
-                                        alt="mdn logo"
-                                        className="resource-logo"
-                                        src="mdn-logo.png"
-                              />
-                              <p
-                                        className="resource-name"
+                              <div
+                                        className="resource"
                               >
-                                        MDN WEB DOCS
-                              </p>
-                    </div>
-                    <div
-                              className="resource"
+                                        <img
+                                                  alt="mdn logo"
+                                                  className="resource-logo"
+                                                  src="mdn-logo.png"
+                                        />
+                                        <p
+                                                  className="resource-name"
+                                        >
+                                                  MDN WEB DOCS
+                                        </p>
+                              </div>
+                    </a>
+                    <a
+                              className="resource-link"
+                              href="https://css-tricks.com/"
+                              target="_blank"
                     >
-                              <img
-                                        alt="css tricks logo"
-                                        className="resource-css-logo"
-                                        src="css-tricks-logo.png"
-                              />
-                              <p
-                                        className="resource-name"
+                              <div
+                                        className="resource"
                               >
-                                        CSS-TRICKS
-                              </p>
-                    </div>
-                    <p />
+                                        <img
+                                                  alt="css tricks logo"
+                                                  className="resource-css-logo"
+                                                  src="css-tricks-logo.png"
+                                        />
+                                        <p
+                                                  className="resource-name"
+                                        >
+                                                  CSS-TRICKS
+                                        </p>
+                              </div>
+                    </a>
           </div>
 </div>,
       ],
@@ -326,7 +343,7 @@ ShallowWrapper {
                                                                       </p>
                                                         </div>
                                                         <p>
-                                                                       But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                      HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                                         </p>
                                           </div>
                             </div>
@@ -368,7 +385,7 @@ ShallowWrapper {
                                                                       </p>
                                                         </div>
                                                         <p>
-                                                                       But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                       It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                                         </p>
                                           </div>
                             </div>
@@ -410,7 +427,7 @@ ShallowWrapper {
                                                                       </p>
                                                         </div>
                                                         <p>
-                                                                       But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                       JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                                         </p>
                                           </div>
                             </div>
@@ -474,7 +491,7 @@ ShallowWrapper {
                                                                         </p>
                                                       </div>
                                                       <p>
-                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                                       </p>
                                     </div>
                   </div>
@@ -516,7 +533,7 @@ ShallowWrapper {
                                                                         </p>
                                                       </div>
                                                       <p>
-                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                         It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                                       </p>
                                     </div>
                   </div>
@@ -558,7 +575,7 @@ ShallowWrapper {
                                                                         </p>
                                                       </div>
                                                       <p>
-                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                         JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                                       </p>
                                     </div>
                   </div>
@@ -604,7 +621,7 @@ ShallowWrapper {
                                                             </p>
                                         </div>
                                         <p>
-                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                         </p>
                     </div>
 </div>,
@@ -644,7 +661,7 @@ ShallowWrapper {
                                                 </p>
                         </div>
                         <p>
-                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                         </p>
 </div>,
                     ],
@@ -696,7 +713,7 @@ ShallowWrapper {
                             </p>
 </div>,
                           <p>
-                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
 </p>,
                         ],
                         "className": "lesson-description",
@@ -757,10 +774,10 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "children": "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. ",
                           },
                           "ref": null,
-                          "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          "rendered": "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. ",
                           "type": "p",
                         },
                       ],
@@ -809,7 +826,7 @@ ShallowWrapper {
                                                             </p>
                                         </div>
                                         <p>
-                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                             It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                         </p>
                     </div>
 </div>,
@@ -851,7 +868,7 @@ ShallowWrapper {
                                                 </p>
                         </div>
                         <p>
-                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                 It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                         </p>
 </div>,
                     ],
@@ -904,7 +921,7 @@ ShallowWrapper {
                             </p>
 </div>,
                           <p>
-                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                             It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
 </p>,
                         ],
                         "className": "lesson-description",
@@ -965,10 +982,10 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "children": " It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. ",
                           },
                           "ref": null,
-                          "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          "rendered": " It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. ",
                           "type": "p",
                         },
                       ],
@@ -1017,7 +1034,7 @@ ShallowWrapper {
                                                             </p>
                                         </div>
                                         <p>
-                                                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                             JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                         </p>
                     </div>
 </div>,
@@ -1059,7 +1076,7 @@ ShallowWrapper {
                                                 </p>
                         </div>
                         <p>
-                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                 JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                         </p>
 </div>,
                     ],
@@ -1112,7 +1129,7 @@ ShallowWrapper {
                             </p>
 </div>,
                           <p>
-                             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                             JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
 </p>,
                         ],
                         "className": "lesson-description",
@@ -1173,10 +1190,10 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "children": " JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. ",
                           },
                           "ref": null,
-                          "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                          "rendered": " JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. ",
                           "type": "p",
                         },
                       ],
@@ -1207,49 +1224,66 @@ ShallowWrapper {
             <div
               className="resources-container"
 >
-              <div
-                            className="resource"
+              <a
+                            className="resource-link"
+                            href="http://frontend.turing.io/"
+                            target="_blank"
               >
-                            <img
-                                          alt="Turing logo"
-                                          className="resource-logo"
-                                          src="turing-logo.png"
-                            />
-                            <p
-                                          className="resource-name"
+                            <div
+                                          className="resource"
                             >
-                                          TURING SCHOOL
-                            </p>
-              </div>
-              <div
-                            className="resource"
+                                          <img
+                                                        alt="Turing logo"
+                                                        className="resource-logo"
+                                                        src="turing-logo.png"
+                                          />
+                                          <p
+                                                        className="resource-name"
+                                          >
+                                                        TURING SCHOOL
+                                          </p>
+                            </div>
+              </a>
+              <a
+                            className="resource-link"
+                            href="https://developer.mozilla.org/en-US/"
+                            target="_blank"
               >
-                            <img
-                                          alt="mdn logo"
-                                          className="resource-logo"
-                                          src="mdn-logo.png"
-                            />
-                            <p
-                                          className="resource-name"
+                            <div
+                                          className="resource"
                             >
-                                          MDN WEB DOCS
-                            </p>
-              </div>
-              <div
-                            className="resource"
+                                          <img
+                                                        alt="mdn logo"
+                                                        className="resource-logo"
+                                                        src="mdn-logo.png"
+                                          />
+                                          <p
+                                                        className="resource-name"
+                                          >
+                                                        MDN WEB DOCS
+                                          </p>
+                            </div>
+              </a>
+              <a
+                            className="resource-link"
+                            href="https://css-tricks.com/"
+                            target="_blank"
               >
-                            <img
-                                          alt="css tricks logo"
-                                          className="resource-css-logo"
-                                          src="css-tricks-logo.png"
-                            />
-                            <p
-                                          className="resource-name"
+                            <div
+                                          className="resource"
                             >
-                                          CSS-TRICKS
-                            </p>
-              </div>
-              <p />
+                                          <img
+                                                        alt="css tricks logo"
+                                                        className="resource-css-logo"
+                                                        src="css-tricks-logo.png"
+                                          />
+                                          <p
+                                                        className="resource-name"
+                                          >
+                                                        CSS-TRICKS
+                                          </p>
+                            </div>
+              </a>
 </div>,
           ],
           "className": "resources",
@@ -1274,49 +1308,66 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <div
-                  className="resource"
+                <a
+                  className="resource-link"
+                  href="http://frontend.turing.io/"
+                  target="_blank"
 >
-                  <img
-                                    alt="Turing logo"
-                                    className="resource-logo"
-                                    src="turing-logo.png"
-                  />
-                  <p
-                                    className="resource-name"
+                  <div
+                                    className="resource"
                   >
-                                    TURING SCHOOL
-                  </p>
-</div>,
-                <div
-                  className="resource"
+                                    <img
+                                                      alt="Turing logo"
+                                                      className="resource-logo"
+                                                      src="turing-logo.png"
+                                    />
+                                    <p
+                                                      className="resource-name"
+                                    >
+                                                      TURING SCHOOL
+                                    </p>
+                  </div>
+</a>,
+                <a
+                  className="resource-link"
+                  href="https://developer.mozilla.org/en-US/"
+                  target="_blank"
 >
-                  <img
-                                    alt="mdn logo"
-                                    className="resource-logo"
-                                    src="mdn-logo.png"
-                  />
-                  <p
-                                    className="resource-name"
+                  <div
+                                    className="resource"
                   >
-                                    MDN WEB DOCS
-                  </p>
-</div>,
-                <div
-                  className="resource"
+                                    <img
+                                                      alt="mdn logo"
+                                                      className="resource-logo"
+                                                      src="mdn-logo.png"
+                                    />
+                                    <p
+                                                      className="resource-name"
+                                    >
+                                                      MDN WEB DOCS
+                                    </p>
+                  </div>
+</a>,
+                <a
+                  className="resource-link"
+                  href="https://css-tricks.com/"
+                  target="_blank"
 >
-                  <img
-                                    alt="css tricks logo"
-                                    className="resource-css-logo"
-                                    src="css-tricks-logo.png"
-                  />
-                  <p
-                                    className="resource-name"
+                  <div
+                                    className="resource"
                   >
-                                    CSS-TRICKS
-                  </p>
-</div>,
-                <p />,
+                                    <img
+                                                      alt="css tricks logo"
+                                                      className="resource-css-logo"
+                                                      src="css-tricks-logo.png"
+                                    />
+                                    <p
+                                                      className="resource-name"
+                                    >
+                                                      CSS-TRICKS
+                                    </p>
+                  </div>
+</a>,
               ],
               "className": "resources-container",
             },
@@ -1327,156 +1378,225 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": Array [
-                    <img
-                      alt="Turing logo"
-                      className="resource-logo"
-                      src="turing-logo.png"
-/>,
-                    <p
-                      className="resource-name"
+                  "children": <div
+                    className="resource"
 >
-                      TURING SCHOOL
-</p>,
-                  ],
-                  "className": "resource",
+                    <img
+                                        alt="Turing logo"
+                                        className="resource-logo"
+                                        src="turing-logo.png"
+                    />
+                    <p
+                                        className="resource-name"
+                    >
+                                        TURING SCHOOL
+                    </p>
+</div>,
+                  "className": "resource-link",
+                  "href": "http://frontend.turing.io/",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "Turing logo",
-                      "className": "resource-logo",
-                      "src": "turing-logo.png",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="Turing logo"
+                        className="resource-logo"
+                        src="turing-logo.png"
+/>,
+                      <p
+                        className="resource-name"
+>
+                        TURING SCHOOL
+</p>,
+                    ],
+                    "className": "resource",
                   },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "TURING SCHOOL",
-                      "className": "resource-name",
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Turing logo",
+                        "className": "resource-logo",
+                        "src": "turing-logo.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
                     },
-                    "ref": null,
-                    "rendered": "TURING SCHOOL",
-                    "type": "p",
-                  },
-                ],
-                "type": "div",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "TURING SCHOOL",
+                        "className": "resource-name",
+                      },
+                      "ref": null,
+                      "rendered": "TURING SCHOOL",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "a",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": Array [
-                    <img
-                      alt="mdn logo"
-                      className="resource-logo"
-                      src="mdn-logo.png"
-/>,
-                    <p
-                      className="resource-name"
+                  "children": <div
+                    className="resource"
 >
-                      MDN WEB DOCS
-</p>,
-                  ],
-                  "className": "resource",
+                    <img
+                                        alt="mdn logo"
+                                        className="resource-logo"
+                                        src="mdn-logo.png"
+                    />
+                    <p
+                                        className="resource-name"
+                    >
+                                        MDN WEB DOCS
+                    </p>
+</div>,
+                  "className": "resource-link",
+                  "href": "https://developer.mozilla.org/en-US/",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "mdn logo",
-                      "className": "resource-logo",
-                      "src": "mdn-logo.png",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="mdn logo"
+                        className="resource-logo"
+                        src="mdn-logo.png"
+/>,
+                      <p
+                        className="resource-name"
+>
+                        MDN WEB DOCS
+</p>,
+                    ],
+                    "className": "resource",
                   },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "MDN WEB DOCS",
-                      "className": "resource-name",
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "mdn logo",
+                        "className": "resource-logo",
+                        "src": "mdn-logo.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
                     },
-                    "ref": null,
-                    "rendered": "MDN WEB DOCS",
-                    "type": "p",
-                  },
-                ],
-                "type": "div",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "MDN WEB DOCS",
+                        "className": "resource-name",
+                      },
+                      "ref": null,
+                      "rendered": "MDN WEB DOCS",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "a",
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": Array [
-                    <img
-                      alt="css tricks logo"
-                      className="resource-css-logo"
-                      src="css-tricks-logo.png"
-/>,
-                    <p
-                      className="resource-name"
+                  "children": <div
+                    className="resource"
 >
-                      CSS-TRICKS
-</p>,
-                  ],
-                  "className": "resource",
+                    <img
+                                        alt="css tricks logo"
+                                        className="resource-css-logo"
+                                        src="css-tricks-logo.png"
+                    />
+                    <p
+                                        className="resource-name"
+                    >
+                                        CSS-TRICKS
+                    </p>
+</div>,
+                  "className": "resource-link",
+                  "href": "https://css-tricks.com/",
+                  "target": "_blank",
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "alt": "css tricks logo",
-                      "className": "resource-css-logo",
-                      "src": "css-tricks-logo.png",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "img",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <img
+                        alt="css tricks logo"
+                        className="resource-css-logo"
+                        src="css-tricks-logo.png"
+/>,
+                      <p
+                        className="resource-name"
+>
+                        CSS-TRICKS
+</p>,
+                    ],
+                    "className": "resource",
                   },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": "CSS-TRICKS",
-                      "className": "resource-name",
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "css tricks logo",
+                        "className": "resource-css-logo",
+                        "src": "css-tricks-logo.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
                     },
-                    "ref": null,
-                    "rendered": "CSS-TRICKS",
-                    "type": "p",
-                  },
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {},
-                "ref": null,
-                "rendered": null,
-                "type": "p",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "CSS-TRICKS",
+                        "className": "resource-name",
+                      },
+                      "ref": null,
+                      "rendered": "CSS-TRICKS",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "a",
               },
             ],
             "type": "div",
@@ -1554,7 +1674,7 @@ ShallowWrapper {
                                                                         </p>
                                                             </div>
                                                             <p>
-                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                                             </p>
                                                 </div>
                                     </div>
@@ -1596,7 +1716,7 @@ ShallowWrapper {
                                                                         </p>
                                                             </div>
                                                             <p>
-                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                         It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                                             </p>
                                                 </div>
                                     </div>
@@ -1638,7 +1758,7 @@ ShallowWrapper {
                                                                         </p>
                                                             </div>
                                                             <p>
-                                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                         JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                                             </p>
                                                 </div>
                                     </div>
@@ -1656,49 +1776,66 @@ ShallowWrapper {
             <div
                         className="resources-container"
             >
-                        <div
-                                    className="resource"
+                        <a
+                                    className="resource-link"
+                                    href="http://frontend.turing.io/"
+                                    target="_blank"
                         >
-                                    <img
-                                                alt="Turing logo"
-                                                className="resource-logo"
-                                                src="turing-logo.png"
-                                    />
-                                    <p
-                                                className="resource-name"
+                                    <div
+                                                className="resource"
                                     >
-                                                TURING SCHOOL
-                                    </p>
-                        </div>
-                        <div
-                                    className="resource"
+                                                <img
+                                                            alt="Turing logo"
+                                                            className="resource-logo"
+                                                            src="turing-logo.png"
+                                                />
+                                                <p
+                                                            className="resource-name"
+                                                >
+                                                            TURING SCHOOL
+                                                </p>
+                                    </div>
+                        </a>
+                        <a
+                                    className="resource-link"
+                                    href="https://developer.mozilla.org/en-US/"
+                                    target="_blank"
                         >
-                                    <img
-                                                alt="mdn logo"
-                                                className="resource-logo"
-                                                src="mdn-logo.png"
-                                    />
-                                    <p
-                                                className="resource-name"
+                                    <div
+                                                className="resource"
                                     >
-                                                MDN WEB DOCS
-                                    </p>
-                        </div>
-                        <div
-                                    className="resource"
+                                                <img
+                                                            alt="mdn logo"
+                                                            className="resource-logo"
+                                                            src="mdn-logo.png"
+                                                />
+                                                <p
+                                                            className="resource-name"
+                                                >
+                                                            MDN WEB DOCS
+                                                </p>
+                                    </div>
+                        </a>
+                        <a
+                                    className="resource-link"
+                                    href="https://css-tricks.com/"
+                                    target="_blank"
                         >
-                                    <img
-                                                alt="css tricks logo"
-                                                className="resource-css-logo"
-                                                src="css-tricks-logo.png"
-                                    />
-                                    <p
-                                                className="resource-name"
+                                    <div
+                                                className="resource"
                                     >
-                                                CSS-TRICKS
-                                    </p>
-                        </div>
-                        <p />
+                                                <img
+                                                            alt="css tricks logo"
+                                                            className="resource-css-logo"
+                                                            src="css-tricks-logo.png"
+                                                />
+                                                <p
+                                                            className="resource-name"
+                                                >
+                                                            CSS-TRICKS
+                                                </p>
+                                    </div>
+                        </a>
             </div>
 </div>,
         ],
@@ -1802,7 +1939,7 @@ ShallowWrapper {
                                                                                 </p>
                                                                 </div>
                                                                 <p>
-                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                                                 </p>
                                                 </div>
                                 </div>
@@ -1844,7 +1981,7 @@ ShallowWrapper {
                                                                                 </p>
                                                                 </div>
                                                                 <p>
-                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                                 It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                                                 </p>
                                                 </div>
                                 </div>
@@ -1886,7 +2023,7 @@ ShallowWrapper {
                                                                                 </p>
                                                                 </div>
                                                                 <p>
-                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                                 JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                                                 </p>
                                                 </div>
                                 </div>
@@ -1950,7 +2087,7 @@ ShallowWrapper {
                                                                                 </p>
                                                             </div>
                                                             <p>
-                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                                             </p>
                                         </div>
                     </div>
@@ -1992,7 +2129,7 @@ ShallowWrapper {
                                                                                 </p>
                                                             </div>
                                                             <p>
-                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                                 It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                                             </p>
                                         </div>
                     </div>
@@ -2034,7 +2171,7 @@ ShallowWrapper {
                                                                                 </p>
                                                             </div>
                                                             <p>
-                                                                                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                                 JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                                             </p>
                                         </div>
                     </div>
@@ -2080,7 +2217,7 @@ ShallowWrapper {
                                                                   </p>
                                             </div>
                                             <p>
-                                                                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                  HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                                             </p>
                       </div>
 </div>,
@@ -2120,7 +2257,7 @@ ShallowWrapper {
                                                     </p>
                           </div>
                           <p>
-                                                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
                           </p>
 </div>,
                       ],
@@ -2172,7 +2309,7 @@ ShallowWrapper {
                               </p>
 </div>,
                             <p>
-                               But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                              HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. 
 </p>,
                           ],
                           "className": "lesson-description",
@@ -2233,10 +2370,10 @@ ShallowWrapper {
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
-                              "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                              "children": "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. ",
                             },
                             "ref": null,
-                            "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "rendered": "HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings and paragraphs. HTML elements are delineated by tags, written using angle brackets. ",
                             "type": "p",
                           },
                         ],
@@ -2285,7 +2422,7 @@ ShallowWrapper {
                                                                   </p>
                                             </div>
                                             <p>
-                                                                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                   It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                                             </p>
                       </div>
 </div>,
@@ -2327,7 +2464,7 @@ ShallowWrapper {
                                                     </p>
                           </div>
                           <p>
-                                                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                     It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
                           </p>
 </div>,
                       ],
@@ -2380,7 +2517,7 @@ ShallowWrapper {
                               </p>
 </div>,
                             <p>
-                               But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                               It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. 
 </p>,
                           ],
                           "className": "lesson-description",
@@ -2441,10 +2578,10 @@ ShallowWrapper {
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
-                              "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                              "children": " It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. ",
                             },
                             "ref": null,
-                            "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "rendered": " It’s a “style sheet language” that lets you style the HTML elements on your page. CSS works with HTML, but isn’t HTML. CSS controls the positioning, sizing, colors, and specific fonts on your page. There is a class and id attribute available to use on every html element. These attributes allow you to create “targets” for both your css and javascript. ",
                             "type": "p",
                           },
                         ],
@@ -2493,7 +2630,7 @@ ShallowWrapper {
                                                                   </p>
                                             </div>
                                             <p>
-                                                                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                                   JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                                             </p>
                       </div>
 </div>,
@@ -2535,7 +2672,7 @@ ShallowWrapper {
                                                     </p>
                           </div>
                           <p>
-                                                     But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                                                     JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
                           </p>
 </div>,
                       ],
@@ -2588,7 +2725,7 @@ ShallowWrapper {
                               </p>
 </div>,
                             <p>
-                               But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself 
+                               JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. 
 </p>,
                           ],
                           "className": "lesson-description",
@@ -2649,10 +2786,10 @@ ShallowWrapper {
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
-                              "children": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                              "children": " JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. ",
                             },
                             "ref": null,
-                            "rendered": " But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself ",
+                            "rendered": " JavaScript was created to make the web more dynamic. It is an object-oriented scripting language made to run inside a host environment like a web browser and provide programatic control over the objects of that environment. For example, when you click a button and you want something about the webpage to change, you will use JavaScript. ",
                             "type": "p",
                           },
                         ],
@@ -2683,49 +2820,66 @@ ShallowWrapper {
               <div
                 className="resources-container"
 >
-                <div
-                                className="resource"
+                <a
+                                className="resource-link"
+                                href="http://frontend.turing.io/"
+                                target="_blank"
                 >
-                                <img
-                                                alt="Turing logo"
-                                                className="resource-logo"
-                                                src="turing-logo.png"
-                                />
-                                <p
-                                                className="resource-name"
+                                <div
+                                                className="resource"
                                 >
-                                                TURING SCHOOL
-                                </p>
-                </div>
-                <div
-                                className="resource"
+                                                <img
+                                                                alt="Turing logo"
+                                                                className="resource-logo"
+                                                                src="turing-logo.png"
+                                                />
+                                                <p
+                                                                className="resource-name"
+                                                >
+                                                                TURING SCHOOL
+                                                </p>
+                                </div>
+                </a>
+                <a
+                                className="resource-link"
+                                href="https://developer.mozilla.org/en-US/"
+                                target="_blank"
                 >
-                                <img
-                                                alt="mdn logo"
-                                                className="resource-logo"
-                                                src="mdn-logo.png"
-                                />
-                                <p
-                                                className="resource-name"
+                                <div
+                                                className="resource"
                                 >
-                                                MDN WEB DOCS
-                                </p>
-                </div>
-                <div
-                                className="resource"
+                                                <img
+                                                                alt="mdn logo"
+                                                                className="resource-logo"
+                                                                src="mdn-logo.png"
+                                                />
+                                                <p
+                                                                className="resource-name"
+                                                >
+                                                                MDN WEB DOCS
+                                                </p>
+                                </div>
+                </a>
+                <a
+                                className="resource-link"
+                                href="https://css-tricks.com/"
+                                target="_blank"
                 >
-                                <img
-                                                alt="css tricks logo"
-                                                className="resource-css-logo"
-                                                src="css-tricks-logo.png"
-                                />
-                                <p
-                                                className="resource-name"
+                                <div
+                                                className="resource"
                                 >
-                                                CSS-TRICKS
-                                </p>
-                </div>
-                <p />
+                                                <img
+                                                                alt="css tricks logo"
+                                                                className="resource-css-logo"
+                                                                src="css-tricks-logo.png"
+                                                />
+                                                <p
+                                                                className="resource-name"
+                                                >
+                                                                CSS-TRICKS
+                                                </p>
+                                </div>
+                </a>
 </div>,
             ],
             "className": "resources",
@@ -2750,49 +2904,66 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <div
-                    className="resource"
+                  <a
+                    className="resource-link"
+                    href="http://frontend.turing.io/"
+                    target="_blank"
 >
-                    <img
-                                        alt="Turing logo"
-                                        className="resource-logo"
-                                        src="turing-logo.png"
-                    />
-                    <p
-                                        className="resource-name"
+                    <div
+                                        className="resource"
                     >
-                                        TURING SCHOOL
-                    </p>
-</div>,
-                  <div
-                    className="resource"
+                                        <img
+                                                            alt="Turing logo"
+                                                            className="resource-logo"
+                                                            src="turing-logo.png"
+                                        />
+                                        <p
+                                                            className="resource-name"
+                                        >
+                                                            TURING SCHOOL
+                                        </p>
+                    </div>
+</a>,
+                  <a
+                    className="resource-link"
+                    href="https://developer.mozilla.org/en-US/"
+                    target="_blank"
 >
-                    <img
-                                        alt="mdn logo"
-                                        className="resource-logo"
-                                        src="mdn-logo.png"
-                    />
-                    <p
-                                        className="resource-name"
+                    <div
+                                        className="resource"
                     >
-                                        MDN WEB DOCS
-                    </p>
-</div>,
-                  <div
-                    className="resource"
+                                        <img
+                                                            alt="mdn logo"
+                                                            className="resource-logo"
+                                                            src="mdn-logo.png"
+                                        />
+                                        <p
+                                                            className="resource-name"
+                                        >
+                                                            MDN WEB DOCS
+                                        </p>
+                    </div>
+</a>,
+                  <a
+                    className="resource-link"
+                    href="https://css-tricks.com/"
+                    target="_blank"
 >
-                    <img
-                                        alt="css tricks logo"
-                                        className="resource-css-logo"
-                                        src="css-tricks-logo.png"
-                    />
-                    <p
-                                        className="resource-name"
+                    <div
+                                        className="resource"
                     >
-                                        CSS-TRICKS
-                    </p>
-</div>,
-                  <p />,
+                                        <img
+                                                            alt="css tricks logo"
+                                                            className="resource-css-logo"
+                                                            src="css-tricks-logo.png"
+                                        />
+                                        <p
+                                                            className="resource-name"
+                                        >
+                                                            CSS-TRICKS
+                                        </p>
+                    </div>
+</a>,
                 ],
                 "className": "resources-container",
               },
@@ -2803,156 +2974,225 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": Array [
-                      <img
-                        alt="Turing logo"
-                        className="resource-logo"
-                        src="turing-logo.png"
-/>,
-                      <p
-                        className="resource-name"
+                    "children": <div
+                      className="resource"
 >
-                        TURING SCHOOL
-</p>,
-                    ],
-                    "className": "resource",
+                      <img
+                                            alt="Turing logo"
+                                            className="resource-logo"
+                                            src="turing-logo.png"
+                      />
+                      <p
+                                            className="resource-name"
+                      >
+                                            TURING SCHOOL
+                      </p>
+</div>,
+                    "className": "resource-link",
+                    "href": "http://frontend.turing.io/",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "alt": "Turing logo",
-                        "className": "resource-logo",
-                        "src": "turing-logo.png",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "img",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="Turing logo"
+                          className="resource-logo"
+                          src="turing-logo.png"
+/>,
+                        <p
+                          className="resource-name"
+>
+                          TURING SCHOOL
+</p>,
+                      ],
+                      "className": "resource",
                     },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "TURING SCHOOL",
-                        "className": "resource-name",
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Turing logo",
+                          "className": "resource-logo",
+                          "src": "turing-logo.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
                       },
-                      "ref": null,
-                      "rendered": "TURING SCHOOL",
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "TURING SCHOOL",
+                          "className": "resource-name",
+                        },
+                        "ref": null,
+                        "rendered": "TURING SCHOOL",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "a",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": Array [
-                      <img
-                        alt="mdn logo"
-                        className="resource-logo"
-                        src="mdn-logo.png"
-/>,
-                      <p
-                        className="resource-name"
+                    "children": <div
+                      className="resource"
 >
-                        MDN WEB DOCS
-</p>,
-                    ],
-                    "className": "resource",
+                      <img
+                                            alt="mdn logo"
+                                            className="resource-logo"
+                                            src="mdn-logo.png"
+                      />
+                      <p
+                                            className="resource-name"
+                      >
+                                            MDN WEB DOCS
+                      </p>
+</div>,
+                    "className": "resource-link",
+                    "href": "https://developer.mozilla.org/en-US/",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "alt": "mdn logo",
-                        "className": "resource-logo",
-                        "src": "mdn-logo.png",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "img",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="mdn logo"
+                          className="resource-logo"
+                          src="mdn-logo.png"
+/>,
+                        <p
+                          className="resource-name"
+>
+                          MDN WEB DOCS
+</p>,
+                      ],
+                      "className": "resource",
                     },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "MDN WEB DOCS",
-                        "className": "resource-name",
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "mdn logo",
+                          "className": "resource-logo",
+                          "src": "mdn-logo.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
                       },
-                      "ref": null,
-                      "rendered": "MDN WEB DOCS",
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "MDN WEB DOCS",
+                          "className": "resource-name",
+                        },
+                        "ref": null,
+                        "rendered": "MDN WEB DOCS",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "a",
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": Array [
-                      <img
-                        alt="css tricks logo"
-                        className="resource-css-logo"
-                        src="css-tricks-logo.png"
-/>,
-                      <p
-                        className="resource-name"
+                    "children": <div
+                      className="resource"
 >
-                        CSS-TRICKS
-</p>,
-                    ],
-                    "className": "resource",
+                      <img
+                                            alt="css tricks logo"
+                                            className="resource-css-logo"
+                                            src="css-tricks-logo.png"
+                      />
+                      <p
+                                            className="resource-name"
+                      >
+                                            CSS-TRICKS
+                      </p>
+</div>,
+                    "className": "resource-link",
+                    "href": "https://css-tricks.com/",
+                    "target": "_blank",
                   },
                   "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "alt": "css tricks logo",
-                        "className": "resource-css-logo",
-                        "src": "css-tricks-logo.png",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "img",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <img
+                          alt="css tricks logo"
+                          className="resource-css-logo"
+                          src="css-tricks-logo.png"
+/>,
+                        <p
+                          className="resource-name"
+>
+                          CSS-TRICKS
+</p>,
+                      ],
+                      "className": "resource",
                     },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "CSS-TRICKS",
-                        "className": "resource-name",
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "css tricks logo",
+                          "className": "resource-css-logo",
+                          "src": "css-tricks-logo.png",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
                       },
-                      "ref": null,
-                      "rendered": "CSS-TRICKS",
-                      "type": "p",
-                    },
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {},
-                  "ref": null,
-                  "rendered": null,
-                  "type": "p",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "CSS-TRICKS",
+                          "className": "resource-name",
+                        },
+                        "ref": null,
+                        "rendered": "CSS-TRICKS",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "a",
                 },
               ],
               "type": "div",
